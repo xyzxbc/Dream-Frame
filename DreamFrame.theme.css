@@ -1,6 +1,6 @@
 /*//META{"name":"Dream Frame","description":"Dream Frame is a clean theme for Discord. It allows customization like accent colors, custom fonts, color change, and more to come in the future. Support Server for Dream Frame: https://discord.gg/Sr4RzS8.","author":"Korbs#0001","version":"AutoUpdate"}*//*/
 /* Please keep !important by each option, this helps override the fallback system */
-@import url("https://korbsstudio.com/DreamFrame/raw/raw.css");
+@import url("https://raw.githack.com/dream-frame/Dream-Frame/master/Raw/raw.css");
 :root {
     /* Background */
     --custombackground: url(https://source.unsplash.com/random); /* Change the background */
