@@ -75,3 +75,25 @@
 	background-position: 0 0;
 	filter: brightness(.8)
 }
+
+
+/* relative badge */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="346676896794279937"]::after {
+	background-image: url(https://loading.io/spinners/recycle/lg.recycle-spinner.gif);
+	transform: scale(1.47);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="346676896794279937"]::after {
+	content: '';
+	position: absolute;
+	height: calc(100% + 4px);
+	width: calc(100% + 4px);
+	top: -2px;
+	left: -2px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	pointer-events: none;
+	border-radius: var(--roundness);
+	z-index: -1;
+}
