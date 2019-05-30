@@ -97,3 +97,12 @@
 	border-radius: var(--roundness);
 	z-index: -1;
 }
+
+/* nice one man lol */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style]::before,.large-3ChYtB:not(.wrapper-2F3Zv8)[style]::after {
+	content: "";
+	position: absolute !important;
+	opacity: 1!important;
+	visibility: visible !important;
+}
+
