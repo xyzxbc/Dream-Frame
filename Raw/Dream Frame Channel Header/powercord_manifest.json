@@ -1,0 +1,9 @@
+{
+    "name": "Dream Frame",
+    "description": "Dream Frame offers many options like changing colors, icons, sizes, and so on. There are more options are come, more advanced options to come as well if you're into that. This theme is the best translucent look to Discord, nothing can beat it!",
+    "version": "1.0",
+    "author": "Korbs#0001",
+    "license": "MIT",
+    "theme": "ChannelHeader.css",
+    "consent": "false"
+  }

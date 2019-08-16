@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-Dream_Frame_White_with_no_bg">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="Dream_Frame_White_with_no_bg" data-name="Dream Frame White with no bg" clip-path="url(#clip-Dream_Frame_White_with_no_bg)">
+    <rect width="1000" height="1000" fill="rgba(255,255,255,0)"/>
+    <path id="Union_1" data-name="Union 1" d="M621.76,673.572H0V0H673.572V673.572Zm0-51.813V51.813H51.813V621.76Z" transform="translate(500 23.712) rotate(45)" fill="#fff"/>
+  </g>
+</svg>

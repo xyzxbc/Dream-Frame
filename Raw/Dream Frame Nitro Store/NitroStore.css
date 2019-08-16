@@ -1,0 +1,73 @@
+/* - Front Page of Nitro Store - */
+/* Featured Nitro Games */
+.theme-dark .itemBackground-2vEldQ {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none !important;
+}
+.theme-dark .itemBackground-2vEldQ:before {
+    background: none;
+}
+/* Lists */
+.theme-dark .categoryHeader-1D7Tqy, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+    border-color: #4f545c00;
+}
+.theme-dark .searchBox-3Y2Vi7 {
+    background-color: rgba(0, 0, 0, 0.50);
+    box-shadow: none;
+}
+.theme-dark .sortFilterBar-3hePOV {
+    border-color: transparent;
+}
+/* Cards on Front Page */
+.theme-dark .tile-QA_yMc {
+    background-color: rgba(0, 0, 0, 0.50);
+    box-shadow: none;
+}
+.theme-dark .tileMedia-1q3guD:hover {
+    background-color: rgba(0, 0, 0, 0.50);
+    box-shadow: none;
+}
+/* Footer */
+.theme-dark .footer-3oZnEF {
+    background: none;
+}
+.footer-3oZnEF {
+    height: 100px;
+}
+/* Game Page */
+.theme-dark .root-1bFE0x {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.theme-dark .section-7tu4tu {
+    border-bottom-color: transparent;
+}
+.theme-dark .divider-21LyPb {
+    border-color: transparent;
+}
+.theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP {
+    background-color: rgba(0, 0, 0, 0.50);
+    border-top-color: transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.section-foaVwT:first-child {
+    border-radius: 5px;
+}
+.theme-dark .yellow-2DRjXu, .theme-light .yellow-2DRjXu {
+    border-color: transparent;
+}
+.warning-n1YvYR {
+    padding: 0px;
+    border: 0px solid;
+}
+.theme-dark .content-35aVm0 {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.theme-dark .card-NB61oR {
+    background-color: rgba(0, 0, 0, 0.50);
+    color: white;
+}
+.theme-dark .row-1bU71H {
+    background-color: rgba(0, 0, 0, 0.50);
+    color: white;
+}

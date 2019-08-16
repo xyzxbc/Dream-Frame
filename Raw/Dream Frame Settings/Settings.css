@@ -1,0 +1,221 @@
+.keybind-KpFkfr.da-keybind {
+    visibility: hidden;
+  }
+  .side-8zPYf6 .separator-gCa7yv {
+    height: 0px;
+  }
+  /* Backgrounds */
+  .theme-dark .contentRegion-3nDuYy, .theme-dark .sidebarRegion-VFTUkN, .theme-dark .standardSidebarView-3F1I7i {
+    background: transparent;
+  }
+  /* My Account */
+  .theme-dark .cardPrimary-1Hv-to {
+    background: rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+  }
+  .theme-dark .cardPrimaryEditable-3KtE4g {
+    background: rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+  }
+  .theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD {
+    color: white;
+  }
+  /* Privacy & Safety */
+  .lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    border-color: transparent;
+  }
+  /* Authorized Apps */
+  .theme-dark .cardPrimaryOutline-29Ujqw {
+    border-color: transparent;
+    background: rgba(0,0,0,0.25);
+  }
+  .theme-dark .faded-3bns_w {
+    color: white;
+  }
+  /* Connections */
+  .theme-dark .accountBtnInner-sj5jLs {
+    background-color: rgba(0,0,0,0.25);
+    border-color: transparent;
+    border-radius: 50px;
+  }
+  .connectionHeader-2MDqhu {
+    background: rgba(0,0,0,.1);
+    border-bottom: none;
+  }
+  .theme-dark .elevationLow-2lY09M {
+    box-shadow: none;
+  }
+  .connectionDelete-2Odoln {
+    border: transparent;
+  }
+  /* Billing */
+  .theme-dark .paymentRow-2e7VM6 {
+    border-bottom: none;
+  }
+  .theme-dark .paymentPane-3bwJ6A {
+    background-color: transparent;
+    color: white;
+  }
+  .theme-dark .paginator-166-09 {
+    background: transparent;
+  }
+  .theme-dark .paginator-2CA79G {
+    color: white;
+  }
+  .theme-dark .payment-xT17Mq {
+    background-color: transparent;
+    color: white;
+  }
+  .theme-dark .hoverablePayment-Yc6mK7:hover {
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 5px;
+  }
+  .theme-dark .pageButtonNext-V2kUq0, .theme-dark .pageButtonPrev-1Y-47D {
+    border-color: transparent;
+  }
+  .theme-dark .pageIndicator-1gAbyA {
+    border-color: transparent;
+    color: white;
+  }
+  .theme-dark .codeRedemptionRedirect-1wVR4b {
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+  }
+  .lookOutlined-3sRXeN.colorRed-1TFJan:disabled {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .theme-dark .select-2TCrqx .Select-control {
+    background: rgba(0,0,0,.1);
+  }
+  /* Discord Nitro */
+  .theme-dark .guildSubscriptionSection-122NwR, .theme-dark .subscriptionDetails-16jcwU {
+    border-color: transparent;
+}
+.theme-dark .container-2Zlzt0 {
+    background-color: rgba(0, 0, 0, 0.25);
+    margin-top: -2px;
+}
+.theme-dark .header-Qk7iwL {
+    color: #fff;
+    background: linear-gradient(90deg, rgba(169,125,234,1) 27%, rgba(205,145,181,1) 100%);
+}
+.theme-dark .info-3NKfPL {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.theme-dark .background-3N1V7e {
+    background-image: none;
+}
+  /* HypeSquad */
+  .theme-dark .featureBorder-7j4v58 {
+    border-color: transparent;
+  }
+  .membershipDialogSwitchHouses-1K8L1U {
+    border-top: none;
+  }
+  .leaveActionWrapper-34XGz6 {
+    border-top: none;
+  }
+  
+  /* Voice & Video */
+  
+  /* Overlay */
+  .theme-dark .checkbox-1ix_J3 {
+    border-color: transparent;
+  }
+  .theme-dark .container-1nZlH6 {
+    background-color: rgba(0,0,0,.1);
+    border-color: transparent;
+  }
+  .option-n0icdO {
+    height: 32%;
+    width: 14%;
+  }
+  .selected-mKYnfr.option-n0icdO {
+    background-color: var(--accentcolor);
+  }
+  /* Notifications */
+  .theme-dark .notificationsSound-27jFSh {
+    box-shadow: none;
+  }
+  .theme-dark .select-2TCrqx .Select-control {
+    border: none;
+  }
+  
+  
+  .notice-2FJMB4 {
+    border-radius: 5px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    padding: 10px 40px 10px 10px;
+  }
+  .dismiss-SCAH9H.pc-dismiss {
+    margin-top: 9px;
+    margin-right: 5px;
+  }
+  
+  
+  
+  /* Keybinds */
+  .theme-dark .card-FDVird:before {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .theme-dark .row-2okwlC {
+    box-shadow: none;
+  }
+  .container-CpszHS:not(.disabled-29eJ21):hover {
+    border-color: transparent;
+    background-color: rgba(255, 0, 0, 0.25);
+  }
+  
+  /* Game Activity */
+  .theme-dark .installationPath-24giJj {
+    box-shadow: none;
+  }
+  /* Game Library */
+  
+  /* Text & Images */
+  
+  /* Appearance */
+  .grabber-3mFHz2 {
+    height: 12px;
+    top: 65%;
+    width: 12px;
+    border-radius: 50px;
+  }
+  .theme-dark .markDash-3hAolZ {
+    background: transparent;
+  }
+  /* Streamer Mode */
+  
+  /* Language */
+  .theme-dark .item-3eFBNF {
+    box-shadow: none;
+  }
+  /* - Powercord - */
+  /* General Settings */
+  .theme-dark .powercord-account {
+    background: rgba(0, 0, 0, 0.50);
+    border: none;
+}
+.theme-dark .input-cIJ7To {
+  color: #f6f6f7;
+  background-color: rgba(0,0,0,.50);
+  border-color: transparent;
+}
+/* Plugins */
+.theme-dark .powercord-plugin {
+  background: rgba(0, 0, 0, 0.50);
+  border: none;
+}
+.theme-dark .powercord-plugin-permissions, .theme-dark .powercord-plugin-footer {
+  border-top: none;
+}
+.powercord-plugins-wip {
+  position: static;
+  border-radius: 5px;
+  background-color: #b70000;
+}
