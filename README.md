@@ -1,6 +1,11 @@
 # Dream Frame
 ![image](https://imgur.com/3LM3nUX.png)
 Dream Frame offers few options to customize like custom background and colors. This theme is the best translucent look to Discord, nothing can beat it!
+## Wiki
+ - [Changelog](https://github.com/dream-frame/Dream-Frame/wiki/Changelog)
+ - [FAQ](https://github.com/dream-frame/Dream-Frame/wiki/FAQ)
+ - [Requirements](https://github.com/dream-frame/Dream-Frame/wiki/Requirements)
+
 ## Requirements
  - [Powercord](https://github.com/dream-frame/Dream-Frame/wiki/Requirements#powercord)
  - [Hardware Acceleration](https://github.com/dream-frame/Dream-Frame/wiki/Requirements#hardware-acceleration)
