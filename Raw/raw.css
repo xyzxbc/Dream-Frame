@@ -2,7 +2,7 @@
     /* - */
 
     --backdrop: blur(10px) brightness(0.8);
-    --br: 7px !important;
+    --br: 7px;
 
     /* - */
 }
@@ -70,6 +70,7 @@
 .theme-light .membersGroup-v9BXpm.pc-membersGroup.container-2ax-kl.pc-container {
     color: black;
 }
+
 /* - Powercord has an update. */
 .powercord-toast {
     border-radius: var(--br);
@@ -152,10 +153,7 @@ svg.circleIcon-LvPL6c {
     border-radius: var(--br);
 }
 .menu-Sp6bN1 {
-    border-radius: 4px;
-    width: 220px;
-    -webkit-box-shadow: var(--elevation-high);
-    box-shadow: var(--elevation-high);
+    box-shadow: none;
     background: transparent;
     padding: 6px 4px;
     backdrop-filter: var(--backdrop);
@@ -195,6 +193,7 @@ svg.circleIcon-LvPL6c {
     position: absolute;
     left: 7px;
 }
+
 /* Tips */
 .channelNotice-1-XFjC.quickswitcher-35bYg4 {
     display: none;
@@ -264,14 +263,13 @@ div#popout_244 {
 }
 .theme-dark .wrapper-29NfPK {
     background-color: transparent;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 0%;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 0%;
     backdrop-filter: var(--backdrop);
-    border-radius: 30px;
+    right: 0%;
+    border-radius: 0px 0px 0px 10px;
 }
 .theme-dark .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, .theme-dark .video-1FfuMD.normal-1jW0uq .videoTop-eOkSPq {
     background-image: none;
@@ -563,7 +561,7 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
 /* - Context Menu - */
 /* Background */
 .contextMenu-HLZMGh {
-    border-radius: var(--br);
+    border-radius: var(--br) !important;
     background-color: transparent;
     box-shadow: none;
     backdrop-filter: var(--backdrop);
@@ -941,6 +939,7 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.item-2yFVoY {
     color: white !important;
 }
 /* - Settings - */
+
 .sidebarRegion-VFTUkN {
     background: transparent;
 }
@@ -957,6 +956,12 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.item-2yFVoY {
     border-color: transparent;
     backdrop-filter: var(--backdrop);
     border-radius: var(--br);
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.headerDefault-1wrJcN.header-GwIGlr {
+    border-color: transparent;
+    backdrop-filter: var(--backdrop);
+    border-radius: var(--br);
+    background-color: transparent;
 }
 .cardPrimary-1Hv-to {
     background: transparent;
@@ -1224,6 +1229,21 @@ form.authBox-hW6HRx.theme-dark {
 .topSectionNormal-2-vo2m {
     background-color: var(--accentcolor);
 }
+.theme-dark .headerNormal-T_seeN {
+    background-color: transparent;
+}
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
+    background-color: transparent;
+}
+.activity-11LB_k {
+    background-color: transparent;
+}
+.headerSpotify-zpWxgT {
+    background: transparent;
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: transparent;
+}
 /* Bottom / Socials */
 .userInfoSection-2acyCx+.userInfoSection-2acyCx {
     border-top: none;
@@ -1238,6 +1258,27 @@ form.authBox-hW6HRx.theme-dark {
 }
 .backdrop-1wrmKB, .backdropWithLayer-3_uhz4, .modal-3c3bKg {
     position: absolute;
+}
+/* Headers */
+.tabBarContainer-1s1u-z {
+    border-top: none;
+    padding-left: 20px;
+}
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
+    border-bottom-color: none;
+    border: 2px white solid;
+    padding: 10px 30px;
+    height: 10px;
+    font-weight: 700;
+    border-radius: var(--br);
+}
+.tabBarItem-1b8RUP.item-PXvHYJ.themed-OHr7kt {
+    font-weight: 700;
+    border: 2px rgba(255, 255, 255, 0.50) solid;
+    padding: 10px 30px;
+    height: 10px;
+    color: white;
+    border-radius: var(--br);
 }
 /* - Other Pop Out Modals - */
 .theme-dark .message-2qRu38 {
