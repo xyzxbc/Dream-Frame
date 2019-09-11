@@ -1,14 +1,51 @@
 :root {
     /* - */
 
-    --backdrop: blur(10px) brightness(0.8);
+    --backdrop: brightness(0.2);
     --br: 7px;
+    --backdrop-bg: rgba(0,0,0,0.5);
 
     /* - */
 }
-
+/* - Discord's Varibles */
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: white;
+    --text-muted: white;
+    --text-link: var(--accentcolor);
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-accent: transparent;
+    --background-floating: var(--backdrop-bg);
+    --background-modifier-hover: transparent;
+    --background-modifier-active: var(--backdrop-bg);
+    --background-modifier-selected: var(--backdrop-bg);
+    --background-modifier-accent: var(--backdrop-bg);
+    --elevation-low: none;
+    --elevation-high: none;
+    --guild-header-text-shadow: none;
+    --channeltextarea-background: transparent;
+    --activity-card-background: transparent;
+    --deprecated-panel-background: transparent;
+    --deprecated-card-bg: transparent;
+    --deprecated-card-editable-bg: transparent;
+    --deprecated-store-bg: transparent;
+    --deprecated-quickswitcher-input-background: transparent;
+    --deprecated-quickswitcher-input-placeholder: transparent;
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: transparent;
+    --deprecated-text-input-border-hover: transparent;
+    --deprecated-text-input-border-disabled: transparent;
+    --deprecated-text-input-prefix: #dcddde;
+}
 /* - CUSTOM BACKGROUND - */
-
 .appMount-3lHmkl::before {
     content: "";
     position: fixed;
@@ -30,47 +67,6 @@
 .app-2rEoOp {
     background-color: transparent;
 }
-/* - White Theme in Discord */ /* Please don't use this ._. */
-.theme-light .app-19_DXt.pc-app {
-    background-color: #ffffffa6 !important;
-}
-.theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--colorbar);
-    border-color: transparent;
-}
-.theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: transparent;
-    border: transparent;
-    border-radius: 7px;
-}
-.theme-light .childWrapper-anI2G9.pc-childWrapper {
-    background: rgba(255, 255, 255, 0.25);
-}
-.theme-light .name-3_Dsmg.pc-name {
-    color: black;
-}
-.theme-light .name-IbjUBS.container-2ax-kl.pc-name.pc-container {
-    color: black;
-}
-.theme-light .item-1GzJrl.itemBase-1Qj4z6.pc-item.pc-itemBase {
-    color: white;
-}
-.theme-light .attachPopoutRow-KrE-f6.pc-attachPopoutRow {
-    color: black;
-}
-.theme-light .item-1Yvehc.itemBase-tz5SeC.pc-item.pc-itemBase.clickable-11uBi-.pc-clickable {
-    color: black;
-}
-.theme-light svg.icon-22AiRD.pc-icon {
-    color: black;
-}
-.theme-light svg.icon-3cZ1F_.pc-icon {
-    color: black;
-}
-.theme-light .membersGroup-v9BXpm.pc-membersGroup.container-2ax-kl.pc-container {
-    color: black;
-}
-
 /* - Powercord has an update. */
 .powercord-toast {
     border-radius: var(--br);
@@ -136,29 +132,7 @@ svg.circleIcon-LvPL6c {
 }
 /* - Channel List - */
 /* Background */
-.container-PNkimc {
-    background-color: transparent;
-}
-.panels-j1Uci_ {
-    background-color: transparent;
-}
-.clickable-2ap7je .header-2o-2hj:hover, .selected-WP3kCM .header-2o-2hj {
-    background-color: transparent;
-}
-.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
-    backdrop-filter: var(--backdrop);
-    border-radius: var(--br);
-}
-.content-3at_AU {
-    border-radius: var(--br);
-}
-.menu-Sp6bN1 {
-    box-shadow: none;
-    background: transparent;
-    padding: 6px 4px;
-    backdrop-filter: var(--backdrop);
-    border-radius: var(--br);
-}
+
 /* Server Name */
 .header-2o-2hj {
     height: 72px;
@@ -204,18 +178,6 @@ svg.circleIcon-LvPL6c {
 }
 /* Channels */
 svg.icon-1_QxNX {
-    display: none;
-}
-.name-3_Dsmg {
-    transition: margin-left 0.3s;
-    padding: 7px;
-    color: white;
-}
-.name-3_Dsmg:hover {
-    margin-left: 10px;
-    transition: margin-left 0.3s;
-}
-.children-Bmpf2Q {
     display: none;
 }
 /* Unread Dot */
@@ -562,7 +524,7 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
 /* Background */
 .contextMenu-HLZMGh {
     border-radius: var(--br) !important;
-    background-color: transparent;
+    background-color: var(--backdrop-bg);
     box-shadow: none;
     backdrop-filter: var(--backdrop);
 }
@@ -1226,6 +1188,12 @@ form.authBox-hW6HRx.theme-dark {
 }
 /* - Profile Modal - */
 /* Background */
+.userPopout-3XzG_A {
+    box-shadow: none;
+    background-color: var(--backdrop-bg);
+    backdrop-filter: var(--backdrop);
+    border-radius: var(--br);
+}
 .topSectionNormal-2-vo2m {
     background-color: var(--accentcolor);
 }
@@ -1258,6 +1226,9 @@ form.authBox-hW6HRx.theme-dark {
 }
 .backdrop-1wrmKB, .backdropWithLayer-3_uhz4, .modal-3c3bKg {
     position: absolute;
+}
+.body-3ND3kc {
+    background-color: rgb(46, 46, 46);
 }
 /* Headers */
 .tabBarContainer-1s1u-z {
