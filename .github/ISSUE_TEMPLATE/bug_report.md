@@ -8,6 +8,9 @@ assignees: ''
 ---
 NOTE: Discord Source is not trusted. Website dev can no longer update site, so yes download link is broken there.
 
+**Dream Frame Edition**
+Dream Frame or Dream Frame Lite?
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
@@ -18,7 +21,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Discord Edition**
-Discord Stable, Discord PTB, or Discord Canary
+Discord Stable, Discord PTB, or Discord Canary?
 
 **Mod**
 Powercord, BBD, etc...
