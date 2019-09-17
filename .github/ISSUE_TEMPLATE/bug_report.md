@@ -6,6 +6,7 @@ labels: ''
 assignees: ''
 
 ---
+NOTE: Discord Source is not trusted. Website dev can no longer update site, so yes download link is broken there.
 
 **Describe the bug**
 A clear and concise description of what the bug is.
@@ -20,4 +21,4 @@ If applicable, add screenshots to help explain your problem.
 Discord Stable, Discord PTB, or Discord Canary
 
 **Mod**
-Powercord, BBD, etc...(Note: Dream Frame only supports Powercord mainly)
+Powercord, BBD, etc...
