@@ -6,6 +6,23 @@
 
     /* - */
 }
+/** Discord's Variables **/
+.theme-dark {
+    --text-normal: white;
+    --text-muted: white;
+    --text-link: var(--accentcolor);
+    --channels-default: white;
+}
+.theme-light {
+    --text-normal: black;
+    --text-muted: black;
+    --text-link: var(--accentcolor);
+    --channels-default: black;
+    --interactive-muted: rgba(0, 0, 0, 0.50);
+}
+.theme-light .app-19_DXt { /* For Light Theme */
+    background: rgba(255, 255, 255, 0.75);
+}
 /* - CUSTOM BACKGROUND - */
 .appMount-3lHmkl::before {
     content: "";
@@ -21,7 +38,15 @@
     filter: brightness(var(--opacitybg));
     transform: rotate(var(--bgrotation)) scale(var(--bgscale));
 }
-
+.app-19_DXt::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
 .appMount-3lHmkl, body {
     background-color: transparent;
 }
