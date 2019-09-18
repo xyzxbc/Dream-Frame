@@ -3,6 +3,7 @@
 
     --br: 7px;
     --bg-element: rgba(0,0,0,0.6);
+    --bg-element-light: rgba(255, 255, 255, 0.6);
 
     /* - */
 }
@@ -19,9 +20,6 @@
     --text-link: var(--accentcolor);
     --channels-default: black;
     --interactive-muted: rgba(0, 0, 0, 0.50);
-}
-.theme-light .app-19_DXt { /* For Light Theme */
-    background: rgba(255, 255, 255, 0.75);
 }
 /* - CUSTOM BACKGROUND - */
 .appMount-3lHmkl::before {
@@ -1117,4 +1115,27 @@ button.button-38qaLQ.button-38aScr.lookGhost-2Fn_0-.colorGrey-2DXtkV.sizeMin-1mJ
 }
 .theme-dark .content-3CCvMx:before {
     background-color: transparent;
+}
+/** Light Theme **/
+.theme-light .app-19_DXt::before {
+    top: 0px;
+    background: rgb(255, 255, 255, 0.75);
+}
+.theme-light svg.icon-22AiRD { 
+    color: black;
+}
+.theme-light .icon-3cZ1F_ {
+    color: black;
+}
+.theme-light .childWrapper-anI2G9 {
+    background-color: var(--accentcolor);
+}
+.theme-light .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color:  var(--bg-element-light);
+}
+.theme-light .selected-aXhQR6 .layout-2DM8Md {
+    background-color:  var(--bg-element-light);
+}
+.theme-light .contextMenu-HLZMGh {
+    background-color: var(--bg-element-light);
 }
