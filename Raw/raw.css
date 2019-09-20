@@ -1149,3 +1149,26 @@ button.button-38qaLQ.button-38aScr.lookGhost-2Fn_0-.colorGrey-2DXtkV.sizeMin-1mJ
 .theme-light .contextMenu-HLZMGh {
     background-color: var(--bg-element-light);
 }
+
+
+/* */
+@media only screen and (max-width: 1080px) {
+    .membersWrap-2h-GB4 {
+        display: none;
+    }
+    .clickable-3rdHwn .icon-22AiRD[name="Nova_People"] {
+        display: none;
+    }
+}
+@media only screen and (max-height: 510px) {
+    .title-3qD0b-.container-1r6BKw.themed-ANHk51 {
+        display: none;
+    }
+    .panels-j1Uci_ {
+        display: none;
+    }
+    header.header-2o-2hj {
+        display: none;
+    }
+    
+}
