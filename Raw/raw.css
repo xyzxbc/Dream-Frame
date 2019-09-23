@@ -52,10 +52,10 @@
     background-color: transparent;
 }
 /** Server List **/
+/* Background */
 .scroller-2TZvBN {
     background-color: transparent;
 }
-/* Background */
 .wrapper-1Rf91z {
     background-color: transparent;
 }
@@ -823,7 +823,12 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.item-2yFVoY {
     color: white !important;
 }
 /* - Settings - */
-
+.sidebarRegionScroller-3MXcoP {
+    background: transparent;
+}
+.contentRegionScroller-26nc1e {
+    background-color: transparent;
+}
 .sidebarRegion-VFTUkN {
     background: transparent;
 }
@@ -1123,6 +1128,10 @@ button.button-38qaLQ.button-38aScr.lookGhost-2Fn_0-.colorGrey-2DXtkV.sizeMin-1mJ
 .theme-dark .message-2qRu38 {
     box-shadow: none;
 }
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+    background-color: transparent;
+    color: white;
+}
 .theme-dark .footer-1FPmkC {
     background-color: transparent;
 }
@@ -1152,6 +1161,8 @@ button.button-38qaLQ.button-38aScr.lookGhost-2Fn_0-.colorGrey-2DXtkV.sizeMin-1mJ
 .theme-light .contextMenu-HLZMGh {
     background-color: var(--bg-element-light);
 }
+
+
 
 
 /* */
