@@ -8,6 +8,10 @@
     --elevation-low: none;
     --elevation-high: none;
     /* */
+
+
+    --custombackground: url(https://cdn.discordapp.com/attachments/592843406305394688/592844978921930762/nick-scheerbart-32085-unsplash.jpg);
+
 }
 /* Custom Background */
 /* In Dream Frame Lite, this is the only custom option that is offer to the user */
@@ -42,6 +46,12 @@
 .platform-win .winButton-iRh8-Z {
     color: white;
     margin-top: 4px;
+}
+.platform-win .dismiss-SCAH9H {
+    right: 82px;
+}
+.platform-win .platform-win .noticeDefault-362Ko2 {
+    border-radius: 0px;
 }
 /* Server List */
 .scroller-2TZvBN {
