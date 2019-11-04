@@ -194,6 +194,17 @@ svg.icon-1_QxNX {
 .chat-3bRxxu {
     background: transparent;
 }
+/* Chat Header in DM(top of DM) */
+.container-2OH5nX {
+    display: flex;
+}
+h1.header-37a0R7 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.size16-1P40sf.description-2VxQ44 {
+    display: none;
+}
 /* Stupid Lines */
 .dividerEnabled-2TTlcf {
     border-bottom-color: transparent;
@@ -245,6 +256,9 @@ span.dividerContent-2L12VI {
 }
 .clickable-3rdHwn .icon-22AiRD {
     color: white;
+}
+.content-yTz4x3:before {
+    display: none;
 }
 /* - Embeds */
 .theme-dark .embedInner-1-fpTo {
