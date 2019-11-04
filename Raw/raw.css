@@ -1,12 +1,10 @@
 :root {
-    /* - */
-
     --br: 7px;
     --bg-element: rgba(0,0,0,0.6);
     --bg-element-light: rgba(255, 255, 255, 0.6);
-
-    /* - */
 }
+
+
 /** Discord's Variables **/
 .theme-dark {
     --text-normal: white;
@@ -111,6 +109,46 @@ svg.circleIcon-LvPL6c {
 /* Seperator */
 .guildSeparator-3s64Iy {
     display: none;
+}
+/** Server Boost **/
+/* Background */
+.theme-dark .perksModal-fSYqOq {
+    background-image: none;
+    background-color: transparent;
+}
+/* Seperators */
+.divider-25_-sM {
+    height: 0px;
+}
+.guildsSection-3AvK09 {
+    border-top: none;
+}
+/* Top Box */
+.theme-dark .ctaBar-2UsjF2 {
+    background-color: var(--bg-element);
+    background-image: none;
+}
+.ctaBar-2UsjF2 {
+    border-radius: var(--br);
+}
+/* Perks (boxes) */
+.tierHeader---JJFb {
+    border-radius: var(--br);
+    margin: 10px 0px;
+}
+.tierWrapper-W9ajqp.pc-tierWrapper {
+    box-shadow: none !important;
+}
+.tierBody-16Chc9 {
+    border-radius: var(--br);
+}
+/* Reward Booster Information */
+li.perk-2WeBWW.pc-perk:hover {
+    transform: scale(1.1);
+    transition: 0.3s transform;
+}
+li.perk-2WeBWW.pc-perk {
+    transition: 0.3s transform;
 }
 /** Channel Sidebar **/
 /* Background */
