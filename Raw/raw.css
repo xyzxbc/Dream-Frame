@@ -220,6 +220,19 @@ svg.icon-1_QxNX {
     border-radius: 100%;
     left: 211px;
 }
+/* Category */
+.children-13TY0l.pc-children {
+    position: absolute;
+    left: 0px;
+    transform: scale(0.6);
+}
+
+header.name-IbjUBS.pc-name.container-2ax-kl.pc-container {
+    margin-left: 13px;
+}
+svg.icon-WnO6o2.pc-icon {
+    margin-left: 12.5px;
+}
 /* - Chat  - */
 /* Background */
 .container-1r6BKw.themed-ANHk51 {
@@ -228,9 +241,16 @@ svg.icon-1_QxNX {
 .messages-3amgkR {
     background-color: transparent;
 }
-
 .chat-3bRxxu {
     background: transparent;
+}
+/* Mentions */
+.isMentionedCozy-3isp7y:after {
+    opacity: 0;
+}
+.theme-dark .isMentioned-N-h9aa {
+    background: rgba(250,166,26,.1);
+    border-radius: var(--br);
 }
 /* Chat Header in DM(top of DM) */
 .container-2OH5nX {
@@ -272,6 +292,10 @@ span.dividerContent-2L12VI {
 }
 .attachButtonDivider-3Glu60 {
     display: none;
+}
+/* Links */
+a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHover {
+    color: var(--accentcolor);
 }
 /* Upload Menu */
 .attachPopout-1n-ZKM {
@@ -321,6 +345,12 @@ span.dividerContent-2L12VI {
 }
 .reactionMe-23mbRf .reactionCount-2ddRoS, .reactionMe-23mbRf:hover .reactionCount-2ddRoS {
     color: var(--accenttext);
+}
+/* Emojis */
+.emoji.jumboable {
+    width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
 }
 /* Pinned Messages */
 .messagesPopoutWrap-1MQ1bW {
@@ -599,6 +629,10 @@ img.bg-AYqtMd.pc-bg {
 }
 .scroller-1JbKMe {
     background-color: transparent;
+}
+/* Create DM Button */
+.privateChannelRecipientsInviteButtonIcon-cXLJ7f.pc-privateChannelRecipientsInviteButtonIcon.iconWrapper-2OrFZ1.pc-iconWrapper.clickable-3rdHwn.pc-clickable {
+    display: none;
 }
 /* Search Box */
 .searchBar-6Kv8R2 {
@@ -1118,6 +1152,18 @@ button.button-38qaLQ.button-38aScr.lookGhost-2Fn_0-.colorGrey-2DXtkV.sizeMin-1mJ
 .theme-dark .tierHeaderLocked-1a2opw {
     background-color: transparent;
     color: white;
+}
+.powercord-updater .buttons, .powercord-updater .update {
+    border-bottom: none;
+}
+.theme-dark .divider-1que2t {
+    border-color: transparent;
+}
+button.button-38aScr.pc-button.lookFilled-1Gx00P.colorYellow-2JqYwt.sizeSmall-2cSMqn.grow-q77ONN.pc-grow {
+    border-radius: var(--br);
+}
+button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMqn.grow-q77ONN.pc-grow {
+    border-radius: var(--br);
 }
 /* - Profile Modal - */
 /* Background */
