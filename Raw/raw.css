@@ -163,11 +163,7 @@ li.perk-2WeBWW.pc-perk {
 }
 /* Making sure you can tell what a voice channel is :D */
 
-
-
-
-
-
+/* Pings */
 
 /* Top */
 .header-2o-2hj {
@@ -208,9 +204,6 @@ button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3p
     background-color: var(--bg-element);
     border-radius: var(--br);
 }
-.children-Bmpf2Q {
-    display: none;
-}
 svg.icon-1_QxNX {
     display: none;
 }
@@ -228,13 +221,15 @@ svg.icon-1_QxNX {
     border-radius: 100%;
     left: 211px;
 }
+.iconItem-1-bXkn.iconBase-2IHuka.pc-iconItem.pc-iconBase {
+    display: none;
+}
 /* Category */
 .children-13TY0l.pc-children {
     position: absolute;
     left: 0px;
     transform: scale(0.6);
 }
-
 header.name-IbjUBS.pc-name.container-2ax-kl.pc-container {
     margin-left: 13px;
 }
