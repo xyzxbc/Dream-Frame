@@ -161,6 +161,14 @@ li.perk-2WeBWW.pc-perk {
 .sidebar-2K8pFh {
     background-color: transparent;
 }
+/* Making sure you can tell what a voice channel is :D */
+
+
+
+
+
+
+
 /* Top */
 .header-2o-2hj {
     height: 58px;
@@ -323,12 +331,10 @@ a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHove
     display: none;
 }
 /* - Embeds */
-.theme-dark .embedInner-1-fpTo {
-    background-color: var(--bg-element);
-    border-color: transparent;
-    border-radius: 0px var(--br) var(--br) 0px;
+.embedFull-2tM8-- {
+    background: var(--bg-element);
+    border-radius: var(--br) ;
 }
-
 .theme-dark .wrapperAudio-1jDe0Q {
     background-color: var(--bg-element);
     border-color: transparent;
@@ -352,6 +358,19 @@ a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHove
     height: 2rem;
     min-height: 2rem;
 }
+.categories-1feg4n.pc-categories {
+    border-radius: var(--br);
+    margin: 10px;
+}
+.infoBar-U6oBFk.pc-infoBar {
+    border-radius: var(--br);
+    margin: 0px 0px 0px 10px;
+    width: 94.8%;
+}
+.header-1nkwgG.pc-header {
+    box-shadow: none;
+}
+
 /* Pinned Messages */
 .messagesPopoutWrap-1MQ1bW {
     width: 540px;
@@ -964,7 +983,7 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.item-2yFVoY {
     background-color: var(--bg-element);
     border-radius: var(--br);
 }
-.connectionHeader-2MDqhu {;
+.connectionHeader-2MDqhu {
     border-bottom: none;
     border-radius: var(--br);
 }
@@ -1305,3 +1324,4 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
         margin-top: 0px !important;
     }
 }
+
