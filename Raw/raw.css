@@ -33,7 +33,6 @@
     background-position: center;
     filter: brightness(var(--opacitybg));
     transform: rotate(var(--bgrotation)) scale(var(--bgscale));
-    background: transparent;
 }
 .app-19_DXt::before {
     content: "";
