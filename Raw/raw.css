@@ -1,7 +1,8 @@
 :root {
     --br: 7px;
-    --bg-element: rgba(0,0,0,0.6);
-    --bg-element-light: rgba(255, 255, 255, 0.6);
+    --bg-element: rgba(0,0,0,0.5);
+    --bg-element-light: rgba(255, 255, 255, 0.5);
+    --bg-blur: blur(10px);
 }
 
 
@@ -52,6 +53,11 @@
 }
 .bg-h5JY_x {
     background-color: transparent;
+}
+/** Titlebar **/
+/* Powercord's Gamebar */
+.powercord-games-bar {
+    display: none;
 }
 /** Server List **/
 /* Background */
@@ -127,11 +133,27 @@ svg.circleIcon-LvPL6c {
 .theme-dark .ctaBar-2UsjF2 {
     background-color: var(--bg-element);
     background-image: none;
+    backdrop-filter: var(--bg-blur);
 }
 .ctaBar-2UsjF2 {
     border-radius: var(--br);
 }
+.theme-dark .tierHeaderLocked-1s2JJz {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.theme-dark .tierHeaderLocked-1s2JJz {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    backdrop-filter: var(--bg-blur);
+}
+
 /* Perks (boxes) */
+.theme-dark .tierBody-16Chc9 {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    backdrop-filter: var(--bg-blur);
+}
 .tierHeader---JJFb {
     border-radius: var(--br);
     margin: 10px 0px;
@@ -143,12 +165,16 @@ svg.circleIcon-LvPL6c {
     border-radius: var(--br);
 }
 /* Reward Booster Information */
-li.perk-2WeBWW.pc-perk:hover {
-    transform: scale(1.1);
-    transition: 0.3s transform;
+.theme-dark .perk-2WeBWW {
+    background-color: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+    transition: 1s transform;
 }
-li.perk-2WeBWW.pc-perk {
-    transition: 0.3s transform;
+.theme-dark .perk-2WeBWW:hover {
+    background-color: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+    transition: 1s transform;
+    transform: scale(1.1);
 }
 /** Channel Sidebar **/
 /* Background */
@@ -178,6 +204,7 @@ li.perk-2WeBWW.pc-perk {
     border-radius: var(--br);
     box-shadow: none;
     background: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
 }
 .separator-2zcjq8 {
     border-bottom: none;
@@ -230,6 +257,7 @@ svg.icon-1_QxNX {
     left: 0px;
     transform: scale(0.6);
 }
+
 header.name-IbjUBS.pc-name.container-2ax-kl.pc-container {
     margin-left: 13px;
 }
@@ -548,6 +576,7 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
     border-radius: var(--br) !important;
     background-color: var(--bg-element);
     box-shadow: none;
+    backdrop-filter: var(--bg-blur);
 }
 /* Seperators */
 .itemGroup-1tL0uz:not(:first-child):not(:empty) {
@@ -669,6 +698,7 @@ img.bg-AYqtMd.pc-bg {
     box-shadow: none;
     border-radius: var(--br);
     border-color: transparent;
+    backdrop-filter: var(--bg-blur);
 }
 /* Header */
 .friendsTable-133bsv .friendsTableHeader-32yE7d {
@@ -725,6 +755,7 @@ h2.oldH2-2In-bl {
 .outer-2IVh5n {
     background-color: var(--bg-element);
     border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
 }
 .theme-dark .wrapper-9ppXpy {
     box-shadow: none;
@@ -803,6 +834,7 @@ img.backgroundFill-22nw_b {
 .rowWrapperActive-2L7i9f {
     background-color: var(--bg-element);
     border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
 }
 /* - Nitro Store - */
 /* Background */
@@ -1185,6 +1217,7 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
     box-shadow: none;
     background-color: var(--bg-element);
     border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
 }
 .topSectionNormal-2-vo2m {
     background-color: var(--accentcolor);
@@ -1218,6 +1251,7 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
 }
 .backdrop-1wrmKB, .backdropWithLayer-3_uhz4, .modal-3c3bKg {
     position: absolute;
+    backdrop-filter: var(--bg-blur);
 }
 .body-3ND3kc {
     background-color: rgb(46, 46, 46);
@@ -1319,4 +1353,5 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
         margin-top: 0px !important;
     }
 }
+
 
