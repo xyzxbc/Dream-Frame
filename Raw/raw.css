@@ -506,6 +506,12 @@ video.video-8eMOth {
     width: 90%;
     margin-left: 4px;
     background-color: var(--bg-element);
+    transition: 0.3s height;
+}
+.wrapperControlsHidden-35Gtol.wrapper-2TxpI8 {
+    margin-top: 0px;
+    height: 104% !important;
+    transition: 0.3s height;
 }
 /* Audio Player */
 .audioControls-2HsaU6, .videoControls-2kcYic {
