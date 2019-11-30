@@ -163,6 +163,7 @@
 /* Server Folders */
 .expandedFolderBackground-2sPsd- {
     background-color: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
 }
 .folder-21wGz3 {
     background-color: transparent;
@@ -353,12 +354,14 @@ svg.icon-WnO6o2.pc-icon {
     background: transparent;
 }
 /* Mentions */
-.isMentionedCozy-3isp7y:after {
-    opacity: 0;
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background-color: var(--bg-element) !important;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: var(--bg-blur);
 }
-.theme-dark .isMentioned-N-h9aa {
-    background: rgba(250,166,26,.1);
-    border-radius: var(--br);
+.theme-dark .messagesPopout-24nkyi {
+    background-color: transparent;
 }
 /* Chat Header in DM(top of DM) */
 .container-2OH5nX {
@@ -412,6 +415,7 @@ a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHove
 }
 .noArrow-2foL9g.noShadow-3pu20z.popout-2iWAc-.popoutTopLeft-3B0mFf.arrowAlignmentTop-1yftWI {
     background-color: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
 }
 /* Header */
 .children-19S4PO:after {
@@ -640,6 +644,7 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
 .theme-dark .autocomplete-1vrmpx {
     background-color: var(--bg-element);
     border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
 }
 .theme-dark .header-1TOWci {
     box-shadow: none;
@@ -764,6 +769,7 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
     box-shadow: none;
     background-color: var(--bg-element);
     border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
 }
 .theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
     border-top: none;
@@ -774,6 +780,7 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
 .theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
     border: transparent;
     background-color: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
 }
 /* - Home / DMs - */
 /* Background */
@@ -929,6 +936,7 @@ img.backgroundFill-22nw_b {
 .theme-dark .card-3DjzTQ, .theme-dark .cardPlaceholder-1zrbbe {
     background-color: var(--bg-element);
     border-radius: var(--br);
+    backdrop-filter: vaR(--bg-blur);
 }
 /* - Library - */
 /* Background */
@@ -1126,7 +1134,9 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.item-2yFVoY {
     border-radius: var(--br);
 }
 .cardPrimary-1Hv-to {
-    background: transparent;
+    background-color: var(--bg-element);
+    border-radius: var(--br);
+    backdrop-filter: vaR(--bg-blur);
 }
 .divider-3573oO {
     background-color: transparent;
