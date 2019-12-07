@@ -12,6 +12,7 @@
     --text-muted: white;
     --text-link: var(--accentcolor);
     --channels-default: white;
+    --elevation-low: none;
 }
 .theme-light {
     --text-normal: black;
