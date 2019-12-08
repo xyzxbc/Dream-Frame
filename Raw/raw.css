@@ -73,13 +73,92 @@
     box-shadow: none;
 }
 /* File */
-.icon-kyxXVr.unknown-3TPTMr {
+.icon-kyxXVr.unknown-3TPTMr { /* File */
     position: absolute;
     top: 183px;
     left: 246px;
     transform: scale(3.5);
 }
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr { 
+    background-image: url(https://i.imgur.com/uIqZQdp.png);
+    background-size: cover;
+    height: 100%;
+    width: 200px;
+}
+
+.icon-kyxXVr.video-27RLEH { /* Video */
+    position: absolute;
+    top: 183px;
+    left: 246px;
+    transform: scale(3.5);
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.video-27RLEH {
+    background-image: url(https://i.imgur.com/uIqZQdp.png);
+    background-size: cover;
+    height: 100%;
+    width: 200px;
+}
+
+.icon-kyxXVr.audio-14DQXq { /* Music */
+    position: absolute;
+    top: 183px;
+    left: 246px;
+    transform: scale(3.5);
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.audio-14DQXq {
+    background-image: url(https://i.imgur.com/uIqZQdp.png);
+    background-size: cover;
+    height: 100%;
+    width: 200px;
+}
+
+.icon-kyxXVr.archive-2hqXug { /* Compressed File */
+    position: absolute;
+    top: 183px;
+    left: 246px;
+    transform: scale(3.5);
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.archive-2hqXug {
+    background-image: url(https://i.imgur.com/uIqZQdp.png);
+    background-size: cover;
+    height: 100%;
+    width: 200px;
+}
+
+.icon-kyxXVr.webcode-22GGLX { /* Web Code */
+    position: absolute;
+    top: 183px;
+    left: 246px;
+    transform: scale(3.5);
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
+    background-image: url(https://i.imgur.com/uIqZQdp.png);
+    background-size: cover;
+    height: 100%;
+    width: 200px;
+}
+
+.icon-kyxXVr.document-2cvI0u { /* Document */
+    position: absolute;
+    top: 183px;
+    left: 246px;
+    transform: scale(3.5);
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
+    background-image: url(https://i.imgur.com/uIqZQdp.png);
+    background-size: cover;
+    height: 100%;
+    width: 200px;
+}
+
+.icon-kyxXVr.code-aoB-kL { /* Code */
+    position: absolute;
+    top: 183px;
+    left: 246px;
+    transform: scale(3.5);
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL {
     background-image: url(https://i.imgur.com/uIqZQdp.png);
     background-size: cover;
     height: 100%;
