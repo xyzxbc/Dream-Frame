@@ -66,13 +66,16 @@
     background-color: var(--accentcolor);
     border-radius: var(--br);
 }
+.tooltipPointer-3ZfirK {
+    display: none;
+}
 /** Upload Modal **/
 /* Background */
 .theme-dark .uploadModal-2ifh8j {
     background-color: #2f3136;
     box-shadow: none;
 }
-/* File */
+/* Files */
 .icon-kyxXVr.unknown-3TPTMr { /* File */
     position: absolute;
     top: 183px;
@@ -415,13 +418,6 @@ svg.icon-1_QxNX {
     left: 0px;
     transform: scale(0.6);
 }
-
-header.name-IbjUBS.pc-name.container-2ax-kl.pc-container {
-    margin-left: 13px;
-}
-svg.icon-WnO6o2.pc-icon {
-    margin-left: 12.5px;
-}
 /* - Chat  - */
 /* Background */
 .container-1r6BKw.themed-ANHk51 {
@@ -475,15 +471,16 @@ span.dividerContent-2L12VI {
     padding: 2px 3px;
 }
 /* Text Field */
-.inner-zqa7da {
-    background-color: transparent;
-}
-.channelTextArea-rNsIhG {
+.form-2fGMdU {
     border-top: none;
 }
-.attachButtonDivider-3Glu60 {
-    display: none;
+.scrollableContainer-38zsVD {
+    background-color: rgba(0, 0, 0, 0);
 }
+.attachWrapper-1_D-pj {
+    border-right: none;
+}
+
 /* Links */
 a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHover {
     color: var(--accentcolor);
@@ -532,6 +529,9 @@ a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHove
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
 }
+.embedFull-2tM8-- {
+    border-left: 7px solid var(--background-tertiary);
+}
 /* Reactions */
 .reaction-1ELvT8.reactionMe-23mbRf {
     background-color: var(--accentcolor);
@@ -557,7 +557,9 @@ a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHove
 .header-1nkwgG.pc-header {
     box-shadow: none;
 }
-
+.stickyHeader-1SS0JU {
+    backdrop-filter: blur(2px);
+}
 /* Pinned Messages */
 .messagesPopoutWrap-1MQ1bW {
     width: 540px;
@@ -672,6 +674,16 @@ video.video-8eMOth {
 .imageWrapper-2p5ogY img {
     position: absolute;
     border-radius: var(--br);
+}
+/* GIFT modal */
+.breadcrumbsWrapper-3avBWN {
+    border-bottom: none;
+}
+.flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.footer-3rDWdC {
+    background: transparent;
+}
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4 {
+    border-color: transparent;
 }
 /* Welcome to the Server, Mr. Awesome B) */
 .emptyMessage-2wGhmr.base-34jWEe {
@@ -925,6 +937,7 @@ span.headerText-1-AnT0 {
     width: 50%;
     left: 50%;
     transform: translate(-50%);
+    position: fixed;
     z-index: 5;
 }
 .theme-dark .wrapper-1cBijl {
