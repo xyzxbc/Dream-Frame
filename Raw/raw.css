@@ -36,7 +36,7 @@
     filter: brightness(var(--opacitybg));
     transform: rotate(var(--bgrotation)) scale(var(--bgscale));
 }
-.app-19_DXt::before {
+.appMount-3lHmkl::after {
     content: "";
     position: fixed;
     top: 0px;
@@ -44,6 +44,7 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, var(--opacityDiscord));
+    z-index: -1;
 }
 
 .appMount-3lHmkl, body {
