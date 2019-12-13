@@ -1,8 +1,0 @@
-//META{"name":"Dream Frame Lite","description":"Lite weight version of Dream Frame.","author":"Korbs#0001","version":"AutoUpdate"}*//{}
-
-/* Please keep !important by each option, this helps override the fallback system */
-@import url("https://raw.githubusercontent.com/dream-frame/Dream-Frame/master/Raw/rawLite.css");
-:root {
-    /* Background */
-    --custombackground: url(https://cdn.discordapp.com/attachments/430388043594334210/567774100433534986/oc__winter_feelings___my_new_wallpaper___4k_by_total_chuck-dbv5j3k.jpg); /* Change the background */
-}
