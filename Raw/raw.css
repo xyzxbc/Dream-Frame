@@ -56,6 +56,10 @@
 .bg-h5JY_x {
     background-color: transparent;
 }
+/** Font **/
+::placeholder, body, button, input, select, textarea {
+    font-family: var(--customFont);
+}
 /** Titlebar **/
 /* Powercord's Gamebar */
 .powercord-games-bar {
@@ -290,6 +294,28 @@ svg.circleIcon-LvPL6c {
 }
 .guildsSection-3AvK09 {
     border-top: none;
+}
+.divider-J3ken9 {
+    opacity: 0;
+}
+/* Active Server Boosts */
+.theme-dark .guildHeaderBackground-1G51bM {
+    background-image: none;
+}
+.guildSubscriptionSlots-JPXXvN {
+    background-color: transparent;
+}
+.guildHeader-3nh5RK {
+    background-color: transparent;
+}
+.guild-Hq0WWA {
+    background: var(--bg-element);
+    border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
+}
+.cardWrapper-2Min21 {
+    background: transparent;
+    border-radius: var(--br);
 }
 /* Top Box */
 .theme-dark .ctaBar-2UsjF2 {
@@ -1219,6 +1245,12 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.item-2yFVoY {
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
 }
+.membershipDialogSwitchHouses-1K8L1U {
+    border-top: none;
+}
+.divider-3ZGpsB {
+    display: none;
+}
 .scroller-305q3I {
     background-color: transparent;
 }
@@ -1406,6 +1438,36 @@ button.subscribeButton-2h8nOh.button-38aScr.lookFilled-1Gx00P.colorGreen-29iAKY.
 .theme-dark .auditLog-3jNbM6 {
     border-color: transparent;
 }
+.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
+    background-color: var(--bg-element);
+    color: white;
+    border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
+}
+.theme-dark .headerExpanded-CUEwZ5 {
+    background-color: var(--bg-element);
+    color: white;
+    border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
+    margin-bottom: 10px;
+}
+.divider-1pnAR2 {
+    display: none;
+}
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.changeDetails-bk98pu {
+    background-color: var(--bg-element);
+    color: white;
+    border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
+}
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background-color: var(--bg-element);
+    border-radius: var(--br);
+}
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover { /* hover */
+    background-color: var(--bg-element);
+    border-radius: var(--br);
+}
 .theme-dark .emojiRow-zIc7ZX {
     box-shadow: none;
 }
@@ -1460,6 +1522,13 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
 }
+.footer-1fjuF6 {
+    display: none;
+}
+.headerXbox-3G-4PF {
+    background: transparent;
+}
+
 .topSectionNormal-2-vo2m {
     background-color: var(--accentcolor);
 }
@@ -1594,5 +1663,6 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
         margin-top: 0px !important;
     }
 }
+
 
 
