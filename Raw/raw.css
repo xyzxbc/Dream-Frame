@@ -1,3 +1,4 @@
+@import url(https://discord-custom-covers.github.io/Covers/database.css);
 :root {
     --br: 7px;
     --bg-element: rgba(0,0,0,0.5);
@@ -9,7 +10,7 @@
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6::before {
     content: "";
     background-image: url(https://i.imgur.com/lt68tx3.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -28,6 +29,21 @@
 }
 
 
+
+/* Custom Profile Backgrounds - Yes they're finally back thanks to "A User#0001" */
+.header-QKLPzZ .avatar-3EQepX::before{
+    background: unset;
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
 /** Discord's Variables **/
 .theme-dark {
     --text-normal: white;
@@ -43,8 +59,6 @@
     --channels-default: black;
     --interactive-muted: rgba(0, 0, 0, 0.50);
 }
-
-
 /* - CUSTOM BACKGROUND - */
 .appMount-3lHmkl::before {
     content: "";
@@ -1683,7 +1697,6 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
         margin-top: 0px !important;
     }
 }
-
 
 
 
