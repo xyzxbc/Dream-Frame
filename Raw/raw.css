@@ -32,11 +32,21 @@
 
 
 /* Custom Profile Backgrounds */
-.header-QKLPzZ .avatar-3EQepX::before {
+.header-QKLPzZ .avatar-3EQepX::before{
     background-image:var(--user-background) !important;
     background-size:cover !important;
     background-position:center !important;
-  }
+    background: unset;
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
 
 /** Discord's Variables **/
 .theme-dark {
