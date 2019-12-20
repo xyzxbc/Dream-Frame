@@ -483,6 +483,17 @@ svg.icon-1_QxNX {
 .theme-dark .messagesPopout-24nkyi {
     background-color: transparent;
 }
+.themedPopout-1TrfdI .header-2Kf7Yu+:after {
+    display: none;
+}
+.themedPopout-1TrfdI .footer-1K57q_ {
+    display: none;
+}
+..theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+    box-shadow: none;
+    background-color: transparent;
+}
+
 /* Chat Header in DM(top of DM) */
 .container-2OH5nX {
     display: flex;
@@ -740,10 +751,13 @@ video.video-8eMOth {
 a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
     text-decoration: underline;
 }
-/* Scrollbar */
+/* Scrollbars */
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: var(--colorbar);
     border-color: transparent;
+}
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: var(--colorbar);
 }
 /* Spoiler */
 .theme-dark .spoilerWarning-2aAZq1 {
@@ -1047,6 +1061,10 @@ img.image-3g0L65 {
 .theme-dark .recentlyPlayedContainer-2F3MqS {
     border: none;
     background-color: var(--bg-element);
+}
+/* Quick Launcher */
+.container-35JN_A {
+    border-radius: var(--br);
 }
 /* - Activity - With Treatment 1 from Experimental Options */
 /* Background */
@@ -1621,6 +1639,13 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
 .theme-dark .content-3CCvMx:before {
     background-color: transparent;
 }
+
+button.button-3k0cO7.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeLarge-1vSeWK.fullWidth-1orjjo.grow-q77ONN {
+    border-radius: var(--br);
+    background-color: var(--accentcolor) !important;
+    position: absolute;
+    margin-top: -120px;
+}
 /** Light Theme **/
 .theme-light .app-19_DXt::before {
     top: 0px;
@@ -1641,12 +1666,7 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
 .theme-light .contextMenu-HLZMGh {
     background-color: var(--bg-element-light);
 }
-button.button-3k0cO7.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeLarge-1vSeWK.fullWidth-1orjjo.grow-q77ONN {
-    border-radius: var(--br);
-    background-color: var(--accentcolor) !important;
-    position: absolute;
-    margin-top: -120px;
-}
+
 
 
 
@@ -1685,6 +1705,10 @@ button.button-3k0cO7.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeLarge
         margin-top: 0px !important;
     }
 }
+
+
+
+
 
 
 
