@@ -5,6 +5,37 @@ Dream Frame offers few options to customize like custom background and colors. T
 ## Downloads
 [Dream Frame for Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Powercord/Dream%20frame.zip)
 
+### New and old options possibly coming back in the future:
+`StatusOnline` Default is `#43b581` - Change color of status color
+
+`StatusIdle` Default is `yellow` - Change color of status color
+
+`StatusDND` Default is `red` - Change color of status color
+
+`StatusOffline` Default is `gray` - Change color of status color
+
+`IconColor` Default is `white` - Change color of icons
+
+`ScrollbarColor` Default is `white` - Change color of scrollbar
+
+`ScrollbarWidth` Default is `14px` - Change width of scrollbar
+
+`ScrollbarOpacity` Default is `1` - Change opacity of scrollbar
+
+`ServerIconSize` - Change the size of server icons
+
+`ServerListWidth`- In addition to ServerIconSize, you can change the width too
+
+`DefaultBlur` Default is `10px` - Adjust blur that you see through out Discord
+
+`DefaultBorderRadius` Default is `7px` - Adjust how round corners are
+
+`DefaultBackgroundElement` Default is `rgba(0, 0, 0, 0.5)` - Same places you would see blur, you can adjust the opacity with this
+
+`DefaultBackgroundElementLight`- Same places you would see blur, you can adjust the opacity with this(for light mode)
+
+`ChannelNameFlyOut` - When hovering over a channel name, you can set how far out the channel moves right. 
+
 ## Wiki
  - [Changelog](https://github.com/dream-frame/Dream-Frame/wiki/Changelog)
  - [FAQ](https://github.com/dream-frame/Dream-Frame/wiki/FAQ)
@@ -33,3 +64,4 @@ Dream Frame offers few options to customize like custom background and colors. T
 ## Support
   - [Discord Server](https://Discord.gg/Grya2sa)
   - Support Email: `Support@KorbsStudio.com`
+  
