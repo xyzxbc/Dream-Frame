@@ -22,6 +22,10 @@ Dream Frame offers few options to customize like custom background and colors. T
 
 `ScrollbarOpacity` Default is `1` - Change opacity of scrollbar
 
+`HomeIcon` Default is `https://upload.wikimedia.org/wikipedia/commons/1/13/Discord_color_D.svg` - Change the icon of the home button
+
+`HomeIconSize` Default is `17px` - If Home button isn't scaled properly, use this to change size
+
 `ServerIconSize` - Change the size of server icons
 
 `ServerListWidth`- In addition to ServerIconSize, you can change the width too
