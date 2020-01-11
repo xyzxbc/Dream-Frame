@@ -600,6 +600,7 @@ svg.icon-1_QxNX {
 }
 .container-2OH5nX {
     display: flex;
+    padding: 20px;
 }
 h1.header-37a0R7 {
     margin-top: 20px;
@@ -618,7 +619,18 @@ h1.header-37a0R7 {
     border-radius: var(--br);
     box-shadow: none !important;
 }
-
+/* Create Group DM Box */
+.theme-dark .modal-yWgWj- {
+    background-color: var(--bg-element);
+    box-shadow: none;
+    backdrop-filter: var(--bg-blur);
+}
+.theme-dark .footerSeparator-M9dQY1 {
+    display: none;
+}
+.container-2XeR5Z {
+    background: var(--bg-element);
+}
 /* Stupid Lines */
 .dividerEnabled-2TTlcf {
     border-bottom-color: transparent;
@@ -766,6 +778,19 @@ a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHove
 video.video-8eMOth {
     border-radius: var(--br);
 }
+.metadataSize-2UOOLK {
+    display: none;
+}
+.metadata-13NcHb {
+    top: 0px;
+    height: 29px;
+    background: var(--bg-element);
+    padding: 3px 8px;
+}
+.videoControls-2kcYic:hover {
+    opacity: 1;
+    transition: 0.3s opacity;
+}
 .wrapperPaused-19pWuK.wrapper-2TxpI8 {
     border-radius: var(--br);
 }
@@ -773,12 +798,14 @@ video.video-8eMOth {
     background-color: transparent;
 }
 .videoControls-2kcYic {
+    opacity: 0;
     margin-bottom: 18px;
-    padding: 10px;
+    padding: 1px 7px;
     width: 90%;
-    margin-left: 4px;
+    left: 50%;
     background-color: var(--bg-element);
-    transition: 0.3s height;
+    transition: 0.3s opacity;
+    transform: translate(-50%) !important;
 }
 .wrapperControlsHidden-35Gtol.wrapper-2TxpI8 {
     margin-top: 0px;
@@ -1064,9 +1091,43 @@ img.bg-AYqtMd.pc-bg {
 .scroller-1JbKMe {
     background-color: transparent;
 }
-/* Search Box */
+/* Search Bar */
+button.searchBarComponent-32dTOx::before {
+    content: "";
+    position: absolute;
+    background-image: url(https://i.imgur.com/lWyGVJx.png); /* From https://steemit.com/utopian-io/@zularizal/new-logo-icon-design-for-fast-app-search-tool */
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 18px;
+    top: 10px;
+}
+button.searchBarComponent-32dTOx::after {
+    content: "Search";
+    position: absolute;
+    top: 12px;
+    left: 60px;
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    height: 41px;
+    border-radius: var(--br);
+    background-color: transparent;
+    box-shadow: none;
+    color: transparent;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: right;
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx:hover {
+    background-color: var(--bg-element);
+}
 .searchBar-6Kv8R2 {
-    display: none;
+    margin-bottom: -10px;
 }
 /* - Friends List - */
 /* Background */
@@ -1086,6 +1147,9 @@ img.bg-AYqtMd.pc-bg {
     border-radius: var(--br);
     border-color: transparent;
     backdrop-filter: var(--bg-blur);
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+    border-radius: var(--br) !important;
 }
 /* Header */
 .friendsTable-133bsv .friendsTableHeader-32yE7d {
@@ -1895,6 +1959,8 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
         display: none;
     }
 }
+
+
 
 
 
