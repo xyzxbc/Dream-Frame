@@ -17,11 +17,11 @@ A clear and concise description of what the bug is.
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+**Screenshots** - Use Imgur
 If applicable, add screenshots to help explain your problem.
 
-**Discord Edition**
+**Discord Edition** - Since Dream Frame only supports Powercord, Discord Canary is expected here
 Discord Stable, Discord PTB, or Discord Canary?
 
-**Mod**
+**Mod** - Dream Frame currently only supports Powercord
 Powercord, BBD, etc...
