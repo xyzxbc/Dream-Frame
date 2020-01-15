@@ -30,6 +30,8 @@ Dream Frame offers few options to customize like custom background and colors. T
 
 `ServerListWidth`- In addition to ServerIconSize, you can change the width too
 
+`emojiSize` - Change size of emojis
+
 `DefaultBlur` Default is `10px` - Adjust blur that you see through out Discord
 
 `DefaultBorderRadius` Default is `7px` - Adjust how round corners are
