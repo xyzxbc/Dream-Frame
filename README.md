@@ -71,3 +71,34 @@ Dream Frame offers few options to customize like custom background and colors. T
   - [Discord Server](https://Discord.gg/Grya2sa)
   - Support Email: `Support@KorbsStudio.com`
   
+
+
+
+
+
+
+# Projects
+## To Do List
+- [ ] Re-theme the Create/Join modal
+- [ ] Start working on adding new options:
+  - [ ] StatusOnline
+  - [ ] StatusIdle
+  - [ ] StatusDND
+  - [ ] StatusOffline
+  - [ ] IconColor
+  - [x] ScrollbarColor
+  - [x] ScrollbarWidth
+  - [ ] ScrollbarOpacity
+  - [ ] HomeIcon
+  - [ ] HomeIconSize
+  - [ ] ServerIconSize
+  - [ ] ServerListWidth
+  - [ ] emojiSize
+  - [ ] DefaultBlur
+  - [ ] DefaultBorderRadius
+  - [ ] DefaultBackgroundElement
+  - [ ] DefaultBackgroundElementLight
+  - [ ] ChannelNameFlyOut
+- [ ] Revamp the website
+- [ ] Fix banners
+- [ ] Re-adjust animations
