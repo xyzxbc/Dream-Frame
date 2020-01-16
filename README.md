@@ -28,6 +28,7 @@ Dream Frame offers few options to customize like custom background and colors. T
 
 ## Extra Links
   - [Discord Server](https://Discord.gg/Grya2sa)
+  - [Patreon](https://www.patreon.com/KorbsStudio)
   - [My Twitter](https://Twitter.com/KorbsStudio)
   - [Korbs Studio's Website](https://KorbsStudio.com)
 
