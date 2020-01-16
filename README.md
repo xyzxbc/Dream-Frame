@@ -1,5 +1,5 @@
 # Dream Frame
-![image](https://i.imgur.com/db4LgIE.jpg)
+![image](https://imgur.com/riOTDQT.jpg)
 Dream Frame offers few options to customize like custom background and colors. This theme is the best translucent look to Discord, nothing can beat it!
 
 ## Downloads
