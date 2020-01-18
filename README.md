@@ -45,7 +45,6 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [ ] IconColor
 - [x] ScrollbarColor
 - [x] ScrollbarWidth
-- [ ] ScrollbarOpacity
 - [x] HomeIcon
 - [x] HomeIconSize
 - [ ] ServerIconSize
@@ -55,7 +54,7 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [x] DefaultBorderRadius
 - [x] DefaultBackgroundElement
 - [x] DefaultBackgroundElementLight
-- [ ] ChannelNameFlyOut
+- [x] ChannelNameFlyOut
 
 ## Website
 - [ ] Add Wiki
