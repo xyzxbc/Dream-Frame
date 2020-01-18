@@ -37,7 +37,7 @@ Dream Frame offers few options to customize like custom background and colors. T
   - Support Email: `Support@KorbsStudio.com`
 
 # Projects
-## Adding More Custom Options
+## Adding More Custom Options - In Progress
 - [ ] StatusOnline
 - [ ] StatusIdle
 - [ ] StatusDND
@@ -51,10 +51,10 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [ ] ServerIconSize
 - [ ] ServerListWidth
 - [ ] emojiSize
-- [ ] DefaultBlur
-- [ ] DefaultBorderRadius
-- [ ] DefaultBackgroundElement
-- [ ] DefaultBackgroundElementLight
+- [x] DefaultBlur
+- [x] DefaultBorderRadius
+- [x] DefaultBackgroundElement
+- [x] DefaultBackgroundElementLight
 - [ ] ChannelNameFlyOut
 
 ## Website
