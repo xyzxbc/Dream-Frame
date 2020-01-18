@@ -46,11 +46,11 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [x] ScrollbarColor
 - [x] ScrollbarWidth
 - [ ] ScrollbarOpacity
-- [ ] HomeIcon
-- [ ] HomeIconSize
+- [x] HomeIcon
+- [x] HomeIconSize
 - [ ] ServerIconSize
 - [ ] ServerListWidth
-- [ ] emojiSize
+- [x] EmojiSize
 - [x] DefaultBlur
 - [x] DefaultBorderRadius
 - [x] DefaultBackgroundElement
