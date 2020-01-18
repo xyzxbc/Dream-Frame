@@ -43,6 +43,8 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [ ] StatusDND
 - [ ] StatusOffline
 - [ ] IconColor
+- [ ] HomeIconColor
+- [ ] VoicePingIcon
 - [x] ScrollbarColor
 - [x] ScrollbarWidth
 - [x] HomeIcon
@@ -55,6 +57,14 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [x] DefaultBackgroundElement
 - [x] DefaultBackgroundElementLight
 - [x] ChannelNameFlyOut
+
+## Things to do
+- [ ] Move search icon on Home to home icon
+- [ ] Fix Server banners
+- [ ] Fix Pop up boxes
+- [ ] Theme the Create/Join modal
+- [ ] Update banner on Server Discovery
+- [ ] Remove help button, it's useless :)
 
 ## Website
 - [ ] Add Wiki
