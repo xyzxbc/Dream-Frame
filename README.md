@@ -25,6 +25,9 @@ Dream Frame offers few options to customize like custom background and colors. T
   - Support Email: `Support@KorbsStudio.com`
 
 # Projects
+## Things to do
+- [ ] Update on Dream Frame Lite
+
 ## Website
 - [ ] Add Wiki
 - [ ] Create hero section
