@@ -60,6 +60,7 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [x] Theme the Create/Join modal
 - [x] Remove banner on Server Discovery
 - [x] Remove help button, it's useless :)
+- [x] Test new fallback system
 
 ## Website
 - [ ] Add Wiki
