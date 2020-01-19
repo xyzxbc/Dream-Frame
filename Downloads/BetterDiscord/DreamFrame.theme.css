@@ -1,0 +1,59 @@
+//META{"name":"Dream Frame","description":"Dream Frame is a clean theme for Discord.","author":"Korbs#0001","version":"v0.0.9"}*//{}
+
+/* Please keep !important by each option, this helps override the fallback system */
+@import url("https://korbsstudio.com/DreamFrame/raw/raw.css");
+:root {
+    /* Background */
+    --custombackground: url(https://cdn.discordapp.com/attachments/430388043594334210/567774100433534986/oc__winter_feelings___my_new_wallpaper___4k_by_total_chuck-dbv5j3k.jpg); /* Change the background */
+    --blur: 0px !important; /* Adjust the amount of blur on the background */
+    --opacitybg: 0.3 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
+    --opacityDiscord: 0.7 !important; /* Try removing your custom background and enable Transparency in BandagedBD settings. Also adjust opacitybg to 0 */
+    --bgscale: 1; /* 0.3 to 3 */
+    --bgrotation: 0deg; /* This option works out for some backgrounds, just in case. */
+    --bgrepeat: no-repeat; /* To make the background not repeat, use "no-repeat". To make background repeat, use "repeat", changing bgscale might need to be adjusted */
+
+    /* Accent Colors */
+    --accentcolor: #7289da    !important;   /* To reset the color back to default, use #7289da */
+    --accenttext: white !important; /* Use this to change the text colors that are on top of the accentcolor, this is to help make text readable if you're using a bright accent color */
+
+    /* Font */
+    --font: Whitney;
+
+    /* Scrollbars */
+    --ScrollbarColor: white !important; /* Change the color of the scrollbar */
+    --ScrollbarWidth: 14px !important; /* Change the width of the scrollbar */
+
+    /* Blur */
+    --bg-blur: blur(10px); /* Sets the amount of blur you see on background of elements like pop up menus */
+    
+    /* Border Radius */
+    --br: 7px; /* Adjust how round the border is on buttons, elements, containers, etc... */
+
+    /* Element Background */
+    --bg-element: rgba(0,0,0,0.5); /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more. */
+    --bg-element-light: rgba(255, 255, 255, 0.5); /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more but for light mode */
+
+    /* Covers */
+    --showCovers: 1; /* Set 0 to hide covers | Set 1 to show covers | Covers are backgrounds shown on user's profiles. Each cover is set by the user. These covers can only be seen on some themes including Dream Frame.*/
+
+    /* Emojis */
+    --EmojiSize: 2rem;
+    --EmojiMenuHeight: 300px;
+    
+    /* Icons */
+    --IconColor: white; /* Set the color for Discord icons */
+    
+    /* Home Icon */
+    --HomeIconSize: 17px; /* If the size of the icon you set doesn't seem right, you can adjust it here. Use this if you also re-sized the server icons */
+    --HomeIconColor: #7289da;
+
+    /* Status Colors */
+    --StatusOnline: yeet;
+    --StatusIdle: yeet;
+    --StatusDND: yeet;
+    --StatusOffline: yeet;
+
+    /* Channel Name Flyout */
+    --ChannelNameFlyOut: 13px; /* When hovering over a channel name, the name goes a little bit right as a small animation. You can adjust how far it goes it here. */
+    
+}
