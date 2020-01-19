@@ -42,15 +42,10 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [ ] StatusIdle
 - [ ] StatusDND
 - [ ] StatusOffline
-- [ ] IconColor
-- [ ] HomeIconColor
-- [ ] VoicePingIcon
 - [x] ScrollbarColor
 - [x] ScrollbarWidth
 - [x] HomeIcon
 - [x] HomeIconSize
-- [ ] ServerIconSize
-- [ ] ServerListWidth
 - [x] EmojiSize
 - [x] DefaultBlur
 - [x] DefaultBorderRadius
@@ -59,11 +54,11 @@ Dream Frame offers few options to customize like custom background and colors. T
 - [x] ChannelNameFlyOut
 
 ## Things to do
-- [ ] Move search icon on Home to home icon
-- [ ] Fix Server banners
-- [ ] Fix Pop up boxes
-- [ ] Theme the Create/Join modal
-- [ ] Update banner on Server Discovery
+- [x] Move search icon on Home to home icon
+- [x] Fix Server banners
+- [x] Fix Pop up boxes
+- [x] Theme the Create/Join modal
+- [x] Remove banner on Server Discovery
 - [x] Remove help button, it's useless :)
 
 ## Website
