@@ -44,6 +44,7 @@
     --IconColor: white; /* Set the color for Discord icons */
     
     /* Home Icon */
+    --HomeIcon: url(https://upload.wikimedia.org/wikipedia/commons/1/13/Discord_color_D.svg); /* Set the icon for the home button. url() must stay in the option. */
     --HomeIconSize: 17px; /* If the size of the icon you set doesn't seem right, you can adjust it here. Use this if you also re-sized the server icons */
     --HomeIconColor: #7289da;
 
