@@ -37,11 +37,7 @@ Dream Frame offers few options to customize like custom background and colors. T
   - Support Email: `Support@KorbsStudio.com`
 
 # Projects
-## Adding More Custom Options - In Progress
-- [ ] StatusOnline
-- [ ] StatusIdle
-- [ ] StatusDND
-- [ ] StatusOffline
+## Adding More Custom Options
 - [x] ScrollbarColor
 - [x] ScrollbarWidth
 - [x] HomeIcon
