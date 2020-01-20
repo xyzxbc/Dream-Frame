@@ -24,14 +24,3 @@ Dream Frame offers few options to customize like custom background and colors. T
 ## Support
   - [Discord Server](https://Discord.gg/Grya2sa)
   - Support Email: `Support@KorbsStudio.com`
-
-# Projects
-## Things to do
-- [ ] Update on Dream Frame Lite
-
-## Website
-- [ ] Add Wiki
-- [ ] Create hero section
-- [ ] Create feature section
-- [ ] Create download section
-- [ ] Create gallery section
