@@ -4,6 +4,7 @@ Dream Frame offers few options to customize like custom background and colors. T
 
 ## Downloads
 [Dream Frame for Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Powercord/Dream%20frame.zip)
+
 [Dream Frame for BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/Downloads/BetterDiscord/DreamFrame.theme.css)
 
 ## Wiki
