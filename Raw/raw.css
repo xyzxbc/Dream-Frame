@@ -1,5 +1,12 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 @import url(https://rawcdn.githack.com/dream-frame/fallback/a2775a90573c9649fa9f7a0cd791b3ed5db10dbc/fallback.css);
+@import url(https://bdsources.github.io/sourcecheck/code.css);
+
+.info-1VyQPT::before {
+    content: "Dream Frame 3.31";
+    color: white;
+    font-size: 12px;
+}
 
 /* Custom Profile Backgrounds */
 .header-QKLPzZ .avatar-3EQepX::before{
@@ -1836,6 +1843,22 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
 }
 .activityPanel-28dQGo {
     border-bottom: none;
+}
+.role-2irmRk {
+    font-weight: bold;
+    border: none;
+    border-radius: var(--br);
+    background: var(--accentcolor);
+}
+.autocompleteHeaderBackground-30T70q {
+    border-radius: var(--br);
+}
+.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteShadow-iiGWFU {
+    box-shadow: none;
+}
+.theme-dark .container-VSDcQc .sectionTag-pXyto9 {
+    border-radius: var(--br);
+    margin-top: 10px;
 }
 /** Login Box **/
 form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
