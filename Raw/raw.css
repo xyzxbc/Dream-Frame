@@ -3,7 +3,7 @@
 @import url(https://bdsources.github.io/sourcecheck/code.css);
 
 .info-1VyQPT::before {
-    content: "Dream Frame 3.31";
+    content: "Dream Frame 3.32";
     color: white;
     font-size: 12px;
 }
@@ -97,7 +97,7 @@ div#app-mount {
 }
 .winButton-iRh8-Z {
     z-index: 20;
-    margin-top: 0px;
+    margin-top: 4px;
 }
 .withFrame-haYltI {
     height: 0px;
@@ -517,17 +517,9 @@ button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3p
     background-color: var(--bg-element);
     border-radius: var(--br);
 }
-svg.icon-1_QxNX {
-    display: none;
-}
-.name-3_Dsmg:hover {
-    margin-left: var(--ChannelNameFlyOut);
-    transition: margin-left 0.5s;
-}
 .name-3_Dsmg {
     padding: 6px 0px;
     margin-left: 0px;
-    transition: margin-left 0.5s;
 }
 .unread-3zKkbm {
     width: 8px;
@@ -604,8 +596,11 @@ svg.icon-1_QxNX {
 }
 
 /* Chat Header in DM(top of DM) */
+.toolbar-1t6TWx {
+    margin-right: -20px;
+}
 .platform-win .toolbar-1t6TWx {
-    margin-top: 22px;
+    margin-top: 27px;
 }
 .container-2OH5nX {
     display: flex;
@@ -1128,6 +1123,9 @@ button.searchBarComponent-32dTOx {
     border-radius: 50px !important;
     color: transparent !important;
     z-index: 4;
+}
+.platform-win button.searchBarComponent-32dTOx {
+    top: 4px;
 }
 /* - Friends List - */
 /* Background */
