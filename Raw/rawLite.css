@@ -5,13 +5,35 @@
     --background2: #2e323a7e;
 
     /* Discord's Vars */
+    --header-primary: #fff;
+    --channels-default: white;
+    --header-secondary: white;
+    --text-normal: white;
+    --interactive-muted: rgba(255, 255, 255, 0.50);
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-accent: transparent;
+    --background-floating: transparent;
+    --background-mobile-primary: rgba(0, 0, 0, 0.50);
+    --background-mobile-secondary: rgba(0, 0, 0, 0.50);
+    --background-modifier-hover: rgba(0, 0, 0, 0.50);
+    --background-modifier-active: rgba(0, 0, 0, 0.80);
+    --background-modifier-selected: rgba(0, 0, 0, 0.75);
+    --background-modifier-accent: rgba(0, 0, 0, 0.50);
     --elevation-low: none;
     --elevation-high: none;
+    --logo-primary: white;
+    --guild-header-text-shadow: none;
+    --channeltextarea-background: transparent;
+    --activity-card-background: transparent;
+    --textbox-markdown-syntax: transparent;
+    --deprecated-panel-background: transparent;
+    --deprecated-card-bg: transparent;
+    --deprecated-card-editable-bg: transparent;
+    --deprecated-store-bg: transparent;
+    --deprecated-quickswitcher-input-background: transparent;
     /* */
-
-
-    --custombackground: url(https://cdn.discordapp.com/attachments/592843406305394688/592844978921930762/nick-scheerbart-32085-unsplash.jpg);
-
 }
 /* Custom Background */
 /* In Dream Frame Lite, this is the only custom option that is offer to the user */
@@ -28,148 +50,23 @@
     background-repeat: no-repeat;
     filter: brightness(0.4);
 }
-
 .layer-3QrUeG.baseLayer-35bLyl, .app-2rEoOp, .wrapper-1Rf91z {
     background-color: transparent;
 }
-/* Windows Titlebar */
-.powercord-games-bar, .wordmarkWindows-1v0lYD {
-    display: none;
+.dividerEnabled-2TTlcf {
+    border-bottom-color: transparent;
 }
-.platform-win .withFrame-haYltI {
-    height: 0px;
-    margin-top: 0px;
+.contextMenu-HLZMGh {
+    background: rgba(0, 0, 0, 0.90);
 }
-.platform-win .title-3qD0b-.pc-title.container-1r6BKw.pc-container.themed-ANHk51.pc-themed, .libraryHeader-3g95kE.pc-libraryHeader.container-1r6BKw.pc-container.themed-ANHk51.pc-themed, .container-1r6BKw.themed-ANHk51 {
-    margin-top: 18px;
-}
-.platform-win .winButton-iRh8-Z {
-    color: white;
-    margin-top: 4px;
-}
-.platform-win .dismiss-SCAH9H {
-    right: 82px;
-}
-.platform-win .platform-win .noticeDefault-362Ko2 {
-    border-radius: 0px;
-}
-/* Server List */
-.scroller-2TZvBN {
-    background-color: var(--background2);
-}
-.clickable-2ap7je .header-2o-2hj:hover, .selected-WP3kCM .header-2o-2hj {
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
     background-color: transparent;
-}
-.icon-27yU2q {
-    border-radius: 50px !important;
-}
-.guildSeparator-3s64Iy {
-    display: none;
-}
-.separator-2zcjq8 {
-    border-bottom: none;
-}
-/* Channel Sidebar */
-.platform-win .sidebar-2K8pFh {
-    border-radius: 0px;
-}
-.sidebar-2K8pFh {
-    background: transparent;
-}
-.container-PNkimc, .panels-j1Uci_ {
-    background: var(--background2);
-}
-.header-2o-2hj {
-    box-shadow: none;
-}
-/* Chat */
-.divider-32i8lo, .channelTextArea-rNsIhG {
     border: none;
-}
-.container-1r6BKw.themed-ANHk51, .messages-3amgkR, .chat-3bRxxu, .inner-zqa7da {
-    background: transparent;
 }
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: white;
     border-color: transparent;
 }
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: transparent;
-    border: transparent;
-}
-.attachButtonDivider-3Glu60.pc-attachButtonDivider {
-    display: none;
-}
-/* DMs List */
-.scroller-1JbKMe {
-    background-color: transparent;
-}
-.privateChannels-1nO12o {
-    background-color: var(--background2);
-}
-.searchBar-6Kv8R2 {
-    display: none;
-}
-/* Activty */
-.theme-dark .layout-1cQCv2 {
-    background-image: none;
-}
-.activityFeed-1C0EmJ {
-    background-color: transparent;
-}
-.outer-2IVh5n {
-    background-color: var(--background2);
-}
-.outer-2IVh5n {
-    background-color: var(--background2);
-}
-.wrapper-9ppXpy.pc-wrapper {
-    display: none;
-}
-/* Library */
-.scroller-1IIF0A {
-    background-color: transparent;
-}
-.header-39GIC8 {
-    background-color: transparent;
-    border-bottom: none;
-}
-.rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY {
-    border-top: none;
-}
-.theme-dark .root-1BQpZw {
-    background-color: transparent;
-}
-.scroller-5bBood {
-    background-color: transparent;
-}
-/* Nitro */
-.scroller-9moviB {
-    background-color: transparent;
-}
-.applicationStore-1pNvnv {
-    background-color: transparent;
-}
-/* Friends List */
-.theme-dark .container-3gCOGc {
-    background-color: transparent;
-}
-.theme-dark .container-3gCOGc {
-    background-color: transparent;
-}
-.friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
-    border-top: none;
-}
-.friendsTable-133bsv .friendsTableHeader-32yE7d {
-    border-bottom: none;
-}
-/* Settings */
-.contentRegionScroller-26nc1e, .standardSidebarView-3F1I7i {
-    background-color: transparent;
-}
-.sidebarRegionScroller-3MXcoP {
-    background-color: var(--background2);
-}
-.layer-3QrUeG, .contentRegion-3nDuYy {
-    background-color: transparent;
+svg {
+  color: white !important;
 }
