@@ -14,13 +14,18 @@ Dream Frame offers customization like custom background, colors, fonts, and blur
 Dream Frame supports both [Powercord](https://Powercord.dev) and [BetterDiscord]().
 It is recommended to use Dream Frame on Discord Canary until `backdrop-filter` is supported on Discord Stable.
 
+## Support
+[Join](https://discord.gg/Grya2sa) our Discord server to get support for Dream Frame or you could also join [Black Box](https://discord.gg/TeRQEPb) for support.
+
 ## Downloads
 ### Dream Frame
  > [Download for Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Powercord/Dream%20frame.zip)
+ 
  > [Download for BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/Downloads/BetterDiscord/DreamFrame.theme.css)
  
 ### ~~Dream Frame Lite~~
 > ~~Download for Powercord~~
+
 > ~~Download for BetterDiscord~~
 
 ___
