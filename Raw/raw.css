@@ -2162,3 +2162,36 @@ img.bg-AYqtMd {
     color: white;
     border-bottom-color: transparent;
 }
+
+
+
+
+
+
+.gatedContent-3-B7qB {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 140;
+    backdrop-filter: blur(50px) brightness(1);
+    animation: 0.9s GatedConta35-Fw ease-in-out;
+}
+
+@keyframes GatedConta35-Fw {
+    0% {
+        backdrop-filter: blur(50px) brightness(0.4);
+    }
+    100% {
+        backdrop-filter: blur(50px) brightness(1);
+    }
+}
