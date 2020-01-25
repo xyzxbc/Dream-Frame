@@ -19,14 +19,14 @@ It is recommended to use Dream Frame on Discord Canary until `backdrop-filter` i
 
 ## Downloads
 ### Dream Frame
- > [Download for Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Powercord/Dream%20frame.zip)
+ > Download for [Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Powercord/Dream%20frame.zip)
  
- > [Download for BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/Downloads/BetterDiscord/DreamFrame.theme.css)
+ > Download for [BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/Downloads/BetterDiscord/DreamFrame.theme.css)
  
-### ~~Dream Frame Lite~~
-> ~~Download for Powercord~~
+### Dream Frame Lite
+> Download for [Powercord](https://github.com/dream-frame/Dream-Frame-Lite/raw/master/Downloads/Powercord/Dream%20Frame%20Lite.zip)
 
-> ~~Download for BetterDiscord~~
+> Download for [BetterDiscord](https://github.com/dream-frame/Dream-Frame-Lite/blob/master/Downloads/BetterDiscord/DreamFrameLite.theme.css)
 
 ___
 (C) 2018 - 2020 [Korbs Studio](https://KorbsStudio.com)
