@@ -17,37 +17,37 @@
     --accenttext: white !important; /* Use this to change the text colors that are on top of the accentcolor, this is to help make text readable if you're using a bright accent color */
 
     /* Font */
-    --font: Whitney;
+    --font: Whitney !important;
 
     /* Scrollbars */
-    --ScrollbarColor: white !important; /* Change the color of the scrollbar */
-    --ScrollbarWidth: 14px !important; /* Change the width of the scrollbar */
+    --ScrollbarColor: white !important !important; /* Change the color of the scrollbar */
+    --ScrollbarWidth: 14px !important !important; /* Change the width of the scrollbar */
 
     /* Blur */
-    --bg-blur: blur(10px); /* Sets the amount of blur you see on background of elements like pop up menus */
+    --bg-blur: blur(10px) !important; /* Sets the amount of blur you see on background of elements like pop up menus */
     
     /* Border Radius */
-    --br: 7px; /* Adjust how round the border is on buttons, elements, containers, etc... */
+    --br: 7px !important; /* Adjust how round the border is on buttons, elements, containers, etc... */
 
     /* Element Background */
-    --bg-element: rgba(0,0,0,0.5); /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more. */
-    --bg-element-light: rgba(255, 255, 255, 0.5); /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more but for light mode */
+    --bg-element: rgba(0,0,0,0.5) !important; /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more. */
+    --bg-element-light: rgba(255, 255, 255, 0.5) !important; /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more but for light mode */
 
     /* Covers */
     --showCovers: 1; /* Set 0 to hide covers | Set 1 to show covers | Covers are backgrounds shown on user's profiles. Each cover is set by the user. These covers can only be seen on some themes including Dream Frame.*/
 
     /* Emojis */
-    --EmojiSize: 2rem;
-    --EmojiMenuHeight: 300px;
+    --EmojiSize: 2rem !important;
+    --EmojiMenuHeight: 300px !important;
     
     /* Icons */
-    --IconColor: white; /* Set the color for Discord icons */
+    --IconColor: white !important; /* Set the color for Discord icons */
     
     /* Home Icon */
-    --HomeIcon: url(https://upload.wikimedia.org/wikipedia/commons/1/13/Discord_color_D.svg); /* Set the icon for the home button. url() must stay in the option. */
-    --HomeIconSize: 17px; /* If the size of the icon you set doesn't seem right, you can adjust it here. Use this if you also re-sized the server icons */
+    --HomeIcon: url(https://upload.wikimedia.org/wikipedia/commons/1/13/Discord_color_D.svg) !important; /* Set the icon for the home button. url() must stay in the option. */
+    --HomeIconSize: 17px !important; /* If the size of the icon you set doesn't seem right, you can adjust it here. Use this if you also re-sized the server icons */
 
     /* Channel Name Flyout */
-    --ChannelNameFlyOut: 13px; /* When hovering over a channel name, the name goes a little bit right as a small animation. You can adjust how far it goes it here. */
+    --ChannelNameFlyOut: 13px !important; /* When hovering over a channel name, the name goes a little bit right as a small animation. You can adjust how far it goes it here. */
     
 }
