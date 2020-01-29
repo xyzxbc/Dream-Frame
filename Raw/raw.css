@@ -1819,6 +1819,11 @@ button.button-38aScr.pc-button.lookFilled-1Gx00P.colorRed-1TFJan.sizeSmall-2cSMq
     color: white;
     border-radius: var(--br);
 }
+/* Mutual Servers and Friends */
+.listRow-hutiT_ {
+    width: 270px;
+    display: inline-flex;
+}
 /* - Other Pop Out Modals - */
 .theme-dark .message-2qRu38 {
     box-shadow: none;
