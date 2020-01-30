@@ -589,6 +589,7 @@ button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3p
     left: 0px;
     opacity: 0.2;
     border-radius: var(--br);
+    z-index: -1;
 }
 .mentioned-xhSam7:before {
     display: none;
