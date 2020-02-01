@@ -3,7 +3,7 @@
 @import url(https://bdsources.github.io/sourcecheck/code.css);
 
 .info-1VyQPT::before {
-    content: "Dream Frame 3.33";
+    content: "Dream Frame 3.34";
     color: white;
     font-size: 12px;
 }
@@ -575,6 +575,10 @@ button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3p
 .chat-3bRxxu {
     background: transparent;
 }
+/* Messages */
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover {
+    background: transparent;
+}
 /* Mentions */
 .message-2qnXI6.mentioned-xhSam7.container-3FojY8 {
     background: transparent;
@@ -679,6 +683,9 @@ h1.header-37a0R7 {
 }
 .channelTextArea-rNsIhG {
     background: transparent;
+}
+form.form-2fGMdU {
+    padding: 14px 10px 7px 10px;
 }
 /* Links */
 a.anchor-3Z-8Bb.pc-anchor.anchorUnderlineOnHover-2ESHQB.pc-anchorUnderlineOnHover {
@@ -988,6 +995,8 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
     background-color: var(--background-accent);
     box-shadow: none;
     width: max-content;
+    padding: 0px;
+    margin-bottom: 5px;
 }
 /* - Members List - */
 /* Background */
@@ -1172,6 +1181,7 @@ button.searchBarComponent-32dTOx {
 .peopleListItem-2nzedh {
     border-top: none;
 }
+
 /* Active Now */
 .wrapper-3D2qGf {
     border-radius: var(--br);
@@ -2158,3 +2168,5 @@ img.bg-AYqtMd {
         backdrop-filter: blur(50px) brightness(1);
     }
 }
+
+
