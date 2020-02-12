@@ -588,6 +588,19 @@ button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3p
 .wrapper-2aW0bm {
     transform: scale(0.8);
 }
+/* Diveders */
+.divider-JfaTT5 {
+    border: none;
+}
+.content-1o0f9g {
+    background: var(--accentcolor);
+    padding: 5px 10px;
+    left: 57px !important;
+    position: absolute;
+}
+.isUnread-3Ef-o9 .content-1o0f9g {
+    color: var(--accenttext);
+}
 /* Background */
 .container-1r6BKw.themed-ANHk51 {
     background: transparent;
