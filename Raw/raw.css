@@ -2226,11 +2226,6 @@ svg.icon-22AiRD[name="Nova_Help"]  {
     background: var(--bg-element);
     backdrop-filter: blur(10px) brightness(2);
 }
-.colorMuted-HdFt4q::before {
-    content: "Join Dream Frame's server: Grya2sa";
-    font-size: 14px;
-    font-weight: bold;
-}
 .colorMuted-HdFt4q {
     color: white;
     font-size: 0px !important;
