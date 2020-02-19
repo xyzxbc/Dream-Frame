@@ -670,6 +670,9 @@ svg.unreadPillCap-3_K2q2 {
 .isUnread-3Ef-o9 .content-1o0f9g {
     color: var(--accenttext);
 }
+.divider-3_HH5L.divider-JfaTT5.isUnread-3Ef-o9 {
+    margin: 5px 15px 20px 15px;
+}
 /* Background */
 .container-1r6BKw.themed-ANHk51 {
     background: transparent;
