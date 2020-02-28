@@ -1,3 +1,11 @@
+# v3.4 `Draft`
+ - [Accept or Decline call]() pop out has been tweaked. Custom background flashes when someone is calling.
+ - Blur has been removed in the following to prevent lags: Backdrop pop up, channels, members, DMs list, video player, mini profile pop up, and a few other elements.
+ - Search box in header expanded again
+ - Windows titlebar fixed
+ - Animation added to upload modal
+ - Accent color has been applied to more areas
+
 # v3.38
  - Updated the create/join server modal
  - Added transition for channels, members list, and friends list
