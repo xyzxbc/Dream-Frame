@@ -20,8 +20,8 @@
     --font: Whitney !important;
 
     /* Scrollbars */
-    --ScrollbarColor: white !important !important; /* Change the color of the scrollbar */
-    --ScrollbarWidth: 14px !important !important; /* Change the width of the scrollbar */
+    --ScrollbarColor: white !important; /* Change the color of the scrollbar */
+    --ScrollbarWidth: 14px !important; /* Change the width of the scrollbar */
 
     /* Blur */
     --bg-blur: blur(10px) !important; /* Sets the amount of blur you see on background of elements like pop up menus */
