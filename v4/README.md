@@ -3,4 +3,4 @@
 ## Release Dates
  - Coding begins **March 1st**
  - Beta release **April 1st**
- - Stable release **May 1st**(Dream Frame 2nd birthday)
+ - Stable release **May 1st** (Dream Frame's 2nd birthday)
