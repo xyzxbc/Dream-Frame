@@ -9,6 +9,15 @@
 The following options are being added:
  - Emojis
    - EmojiMenuWidth
+ - Container Backgrounds
+   - containerServer
+   - containerChannels
+   - containerChat
+   - containerMembers
+   - containerSettingsSidebar
+   - containerSettingsRightSide
+   - containerChatHeader
+   - containerFriendsList
    
  - Scrollbar
    - ScrollbarBorderRadius
@@ -22,7 +31,7 @@ The following options are being added:
    - MembersTabIcon
    - BellIcon
    - PinIcon
-   - UploadButton ;
+   - UploadButton
    - GiftIcon
    - GIFIcon
    - EmojiIcon
