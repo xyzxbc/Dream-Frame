@@ -2,5 +2,6 @@
 # Dream Frame v4
 ## Release Dates
  - Coding begins **March 1st**
+ - Alpha release **March 10th**
  - Beta release **April 1st**
  - Stable release **May 1st** (Dream Frame's 2nd birthday)
