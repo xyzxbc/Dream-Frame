@@ -18,7 +18,7 @@ Dream Frame supports both [Powercord](https://Powercord.dev) and [BetterDiscord]
 
 ## Downloads
 ### Dream Frame
- > Download for [Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Powercord/Dream%20frame.zip)
+ > Download for [Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Powercord/Dream-Frame.zip)
  
  > Download for [BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/Downloads/BetterDiscord/DreamFrame.theme.css)
  
