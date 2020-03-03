@@ -1,4 +1,3 @@
-
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
 :root {
@@ -246,7 +245,15 @@ svg[name="Nova_Bell"] {
 /* Unread Indicator */
 
 /* Home Icon */
-
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+    margin-top: -48px;
+    top: 8px;
+    width: 72px;
+    position: sticky !important;
+    height: 46px;
+    z-index: 805;
+    margin-bottom: 70px;
+}
 /** Add/Create Guilds Button **/
 /* Icons */
 
@@ -913,13 +920,84 @@ svg[name="Nova_Bell"] {
 }
 /** Upload Modal **/
 /* Background **/
-
+.theme-dark .footer-3mqk7D {
+    background-color: transparent;
+}
+.uploadModal-2ifh8j {
+    width: 630px;
+    min-height: 430px;
+}
+.theme-dark .footer-3mqk7D {
+    box-shadow: none;
+}
 /* Image */
+.icon-kyxXVr.image-2yrs5j {
+    width: 590px !important;
+    height: 332px !important;
+    margin-top: 16px !important;
+}
+
 
 /* Buttons */
-
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    color: #fff;
+    background-color: var(--accentcolor);
+    height: 45px !important;
+}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+    color: #fff;
+    background-color: var(--background-mobile-primary);
+    height: 45px !important;
+    margin-right: 10px;
+}
+.primary-jw0I4K::before {
+    content: "Spoiler";
+    font-size: 16px;
+    position: absolute;
+}
+label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
+    color: #fff;
+    background-color: var(--background-mobile-primary);
+    height: 45px !important;
+    margin-right: 10px;
+    max-width: 80px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    margin-left: 259px;
+}
+.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp {
+    border-radius: 50px;
+    border: 3px white solid;
+    margin-right: ;
+}
+.footer-3mqk7D .checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9::before {
+    content: "";
+    backdrop-filter: blur(10px);
+    width: 119px;
+    height: 46px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    z-index: 2205;
+}
 /* Comment */
-
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
+    z-index: 5;
+}
+.comment-4IWttf {
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    width: 251px;
+}
+.label-3aiqT2 {
+    display: none;
+}
+.comment-4IWttf .scrollableContainer-2NUZem.webkit-HjD9Er {
+    height: 45px;
+    background-color: var(--background-mobile-primary);
+}
 /* File Name */
 
 /* File Icons */
