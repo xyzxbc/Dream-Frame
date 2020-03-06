@@ -135,7 +135,15 @@
     width: calc(100% - 50px);
     height: calc(100% - 50px);
     border-radius: 10px;
-    backdrop-filter: blur(var(--blur)) brightness(var(--opacitybg));
+}
+.appMount-3lHmkl::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background: #000000a6;
 }
 /** Titlebar **/
 html.platform-win::after { /* Allows drag */
