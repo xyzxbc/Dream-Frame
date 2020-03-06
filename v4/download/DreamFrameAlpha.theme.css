@@ -1,0 +1,55 @@
+//META{"name":"Dream Frame","description":"Dream Frame is a clean theme for Discord.","author":"Korbs#0001","version":"v4 Alpha"}*//{}
+@import url('https://rawcdn.githack.com/dream-frame/Dream-Frame/c52e64bfa864d44b387a0315164a7dd9b75c23db/v4/raw/alphaRaw.css');
+
+:root {
+    /** Background **/
+    --custombackground: url(https://cdn.discordapp.com/attachments/456316408465195009/664848782093189140/Leaves.jpg);
+    /* Adjustments */
+    --blur: 0px !important; 
+    --opacitybg: 0.3 !important; 
+    --opacityDiscord: 0.7 !important;
+    --bgscale: 1; 
+    --bgrotation: 0deg; 
+    --bgrepeat: no-repeat;
+    
+    /** Accents **/
+    --accentcolor: #7289da;
+    --accenttext: white;
+
+    /* Status Colors */
+    --online: #43b581;
+	--idle: #faa61a;
+	--dnd: #f04747;
+	--offline: #636b75;
+	--invisible: #747f8d;
+	--streaming: #9146FF;
+
+    /** Fonts **/
+    --font: Whitney;
+
+    /** Scrollbar **/
+    --ScrollbarColor: white;
+    --ScrollbarWidth: 14px;
+    --ScrollbarBorderRadius: 10px;
+
+    /** Element Backgrounds(pop ups, menus, tabs, etc...) **/
+    /* Blur */
+    --bg-blur: blur(10px);
+    /* Background */
+    --bg-element: rgba(23,23,23,0.5);
+    --br: 7px;
+
+    /** Covers **/
+    --showCovers: 1;
+
+    /** Emojis **/
+    /* In Chat */
+    --EmojiSize: 2rem;
+    /* Emoji Picker */
+    --EmojiMenuHeight: 300px;
+    --EmojiMenuWidth: 200px;
+
+    /** Icons **/
+    --IconColor: white;
+
+}
