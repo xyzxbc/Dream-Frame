@@ -11,6 +11,7 @@
     --bgrotation: 0deg; 
     --bgrepeat: no-repeat; 
 
+
     /** Container Backgrounds **/
     --containerServer: ;
     --containerChannels: ;
@@ -126,22 +127,178 @@
 
 /*** Discord and Background ***/
 /** App **/
-
+.appMount-3lHmkl {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    border-radius: 10px;
+    backdrop-filter: blur(var(--blur)) brightness(var(--opacitybg));
+}
 /** Titlebar **/
+html.platform-win::after { /* Allows drag */
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: 25px;
+    -webkit-app-region: drag;
+}
+html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who have transparency enabled */
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: 25px;
+    -webkit-app-region: drag;
+}
+.withFrame-haYltI {
+    height: 0px;
+    margin-top: 0px;
+}
+.wordmarkWindows-1v0lYD.wordmark-2iDDfm {
+    display: none;
+}
 
+/* Buttons */
+.winButton-iRh8-Z {
+    color: white;
+    height: 48px;
+    margin-top: 4px;
+    width: 40px;
+}
+.platform-win .toolbar-1t6TWx { /* Move toolbar to prevent overlaying with titlebar buttons */
+    margin-right: 115px;
+}
+/** Changelog **/
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::before {
+    content: "What's new in Dream Frame v4 \A- This will be the new changelog area \A- Just like old times, but you hover now";
+    display: block;
+    line-height: 22px;
+    font-size: 14px;
+    position: fixed;
+    background: rgba(23,23,23,0.5) !important;
+    backdrop-filter: var(--bg-blur);
+    padding: 10px 25px 10px 15px;
+    white-space: pre;
+    line-height: 18px;
+    margin-bottom: 15px;
+    border-radius: var(--br);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    font-weight: 500;
+    margin-top: -10px;
+    color: #fff;
+    text-transform: none;
+    overflow: hidden;
+    width: fit-content;
+    right: 13px;
+    top: 70px;
+    animation: 1s fadeFromRight ease;
+}
+
+@keyframes fadeFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50%)
+    }
+    100% {
+        opacity: 0.9;
+        transform: none
+    }
+  }
 /** Scrollbars **/
 /* Chat */
-
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: var(--ScrollbarColor);
+    border-color: transparent;
+}
 /* Channels */
-
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: var(--ScrollbarColor);
+}
 /** Background **/
 /* General Transparency */
+.theme-dark {
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
+    --elevation-low: none;
+    --elevation-high: none;
+    --elevation-medium: none;
+}
 
 /* Custom Background */
-
+html::before {
+    content: "";
+    background-image: var(--custombackground);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    transform: rotate(var(--bgrotation)) scale(var(--bgscale));
+    background-repeat: var(--bgrepeat);
+}
 /** Light Mode **/
 /* Blocker */
-
+.theme-light .layer-3QrUeG:first-of-type::before {
+    content: "Light mode will not be support on Aurora ~Korbs";
+    text-align:center;
+    width: 500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background:rgba(0,0,0,0.75);
+    border:1px solid rgba(0,0,0,0.5);
+    box-shadow:0 0 12px black;
+    color:#fff;
+    padding: 20px;
+    padding-bottom:80px;
+    border-radius: 5px;
+  }
+  .theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"] {
+      position: absolute;
+      left: 48%;
+      border-radius: 3px;
+      top: 45%;
+      transform: translate(-50%, 120%);
+      width: 480px;
+      height: 40px;
+      visibility: visible !important;
+      background: var(--main-color) !important;
+      box-shadow: 0 0 12px black;
+      opacity: 1;
+  }
+  .theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
+      content: "Turn On Dark mode";
+      color: white;
+      font-weight: bold;
+  }
+  .theme-light .side-8zPYf6 .item-PXvHYJ:nth-of-type(19) {
+      border:2px solid red !important;
+      color:var(--hover-color);
+      background:var(--main-color-faded);
+      padding:16px;
+      text-align:center;
+  }
+  .theme-light .layer-3QrUeG {
+    background:var(--backdropblurred) !important;
+    background-size:cover !important;
+  }
+  .theme-light .layer-3QrUeG:first-of-type * {
+    visibility:hidden;
+  }
 /** Icons **/
 /* Chat Header */
 svg[name="Nova_At"] {
@@ -172,14 +329,93 @@ svg[name="Nova_Bell"] {
 /*** Chat ***/
 /* Background */
 /** Messages **/
-
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover {
+    background: transparent;
+}
+.wrapper-2aW0bm {
+    background: var(--bg-element);
+}
+.separator-42rNt0 {
+    display: none;
+}
+.separator-42rNt0 {
+    display: none;
+}
+.emojiButton-jE9tXC.button-1ZiXG9 {
+    display: none;
+}
+.wrapper-2aW0bm:hover {
+    box-shadow: none;
+}
+span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQeI4.alt-1uNpEt {
+    display: none;
+}
 /* Emojis */
 
 /* Codeblocks */
 
 /* Mentions */
-
+.message-2qnXI6.mentioned-xhSam7.container-3FojY8 {
+    background: transparent;
+}
+.mentioned-xhSam7::after {
+    content: "";
+    background: var(--accentcolor);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.2;
+    border-radius: var(--br);
+    z-index: -1;
+}
+.mentioned-xhSam7:before {
+    display: none;
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background-color: var(--bg-element) !important;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: var(--bg-blur);
+}
+.theme-dark .messagesPopout-24nkyi {
+    background-color: transparent;
+}
+.themedPopout-1TrfdI .header-2Kf7Yu+:after {
+    display: none;
+}
+.themedPopout-1TrfdI .footer-1K57q_ {
+    display: none;
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+    box-shadow: none;
+    background-color: transparent;
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    border-radius: var(--br);
+}
 /* Invites */
+
+/* Text Field */
+.scrollableContainer-2NUZem {
+    background-color: transparent;
+}
+.form-2fGMdU:before {
+    display: none;
+}
+.attachWrapper-2TRKBi {
+    border-right: none;
+}
+.form-2fGMdU {
+    border-top: none;
+}
+.channelTextArea-rNsIhG {
+    background: transparent;
+}
+form.form-2fGMdU {
+    padding: 14px 10px 7px 10px;
+}
 
 /* Spotify Invites */
 
@@ -254,6 +490,7 @@ svg[name="Nova_Bell"] {
     z-index: 805;
     margin-bottom: 70px;
 }
+
 /** Add/Create Guilds Button **/
 /* Icons */
 
@@ -490,8 +727,8 @@ svg[name="Nova_Bell"] {
     width:100%;
     padding-top:95px;
     position:relative;
-    background:var(--body-color);
-    backdrop-filter:blur(30px);
+    background:var(--bg-element);
+    backdrop-filter:blur(10px);
     box-shadow:0 2px 12px rgba(0,0,0,0.35);
     border-radius:0 8px 8px 0;
 }
@@ -912,7 +1149,7 @@ svg[name="Nova_Bell"] {
 	background-image:url(https://i.imgur.com/VJMyFAR.png);
 	background-position: center center;
     background-size: cover;
-    background-color:var(--secondary-color);
+    background-color: transparent;
     z-index:1;
     box-shadow:0 4px 4px -4px rgba(0,0,0,0.25);
     pointer-events:none;
@@ -920,84 +1157,14 @@ svg[name="Nova_Bell"] {
 }
 /** Upload Modal **/
 /* Background **/
-.theme-dark .footer-3mqk7D {
-    background-color: transparent;
-}
-.uploadModal-2ifh8j {
-    width: 630px;
-    min-height: 430px;
-}
-.theme-dark .footer-3mqk7D {
-    box-shadow: none;
-}
-/* Image */
-.icon-kyxXVr.image-2yrs5j {
-    width: 590px !important;
-    height: 332px !important;
-    margin-top: 16px !important;
-}
 
+
+/* Image */
 
 /* Buttons */
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
-    color: #fff;
-    background-color: var(--accentcolor);
-    height: 45px !important;
-}
-.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-    color: #fff;
-    background-color: var(--background-mobile-primary);
-    height: 45px !important;
-    margin-right: 10px;
-}
-.primary-jw0I4K::before {
-    content: "Spoiler";
-    font-size: 16px;
-    position: absolute;
-}
-label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
-    color: #fff;
-    background-color: var(--background-mobile-primary);
-    height: 45px !important;
-    margin-right: 10px;
-    max-width: 80px;
-    padding: 0px 20px;
-    border-radius: 5px;
-    margin-left: 259px;
-}
-.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp {
-    border-radius: 50px;
-    border: 3px white solid;
-    margin-right: ;
-}
-.footer-3mqk7D .checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9::before {
-    content: "";
-    backdrop-filter: blur(10px);
-    width: 119px;
-    height: 46px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 5px;
-    z-index: 2205;
-}
+
 /* Comment */
-.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
-    z-index: 5;
-}
-.comment-4IWttf {
-    position: absolute;
-    bottom: 2px;
-    left: 0px;
-    width: 251px;
-}
-.label-3aiqT2 {
-    display: none;
-}
-.comment-4IWttf .scrollableContainer-2NUZem.webkit-HjD9Er {
-    height: 45px;
-    background-color: var(--background-mobile-primary);
-}
+
 /* File Name */
 
 /* File Icons */
@@ -1043,7 +1210,15 @@ label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
 /* Seperators */
 
 /* Version of DF */
-
+.info-1VyQPT::before {
+    content: "Dream Frame v4.0.01 Alpha";
+    color: white;
+    font-size: 12px !important;
+}
+.colorMuted-HdFt4q.size12-3cLvbJ {
+    color: white;
+    font-size: 12px;
+}
 /** Buttons **/
 
 /** Checkmarks **/
