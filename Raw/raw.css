@@ -28,6 +28,39 @@
     animation: 1s cpb ease-out;
 }
 
+/* Adding Creatable's tag */
+.avatar-1BDn8e[src*="597905003717459968"] + h2 > span.username-1A8OIy::after { /* Creatable asked to add this */
+    color: white !important;
+    background: #7289da;
+    content: 'Guy who is better than you';
+    font-size: .625em;
+    font-weight: 500;
+    height: 1.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-left: .25rem;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.avatar-1BDn8e[src*="273169968202252289"] + h2 > span.username-1A8OIy::after {
+    color: white !important;
+    background: #7289da;
+    content: 'Dream Frame Developer';
+    font-size: .625em;
+    font-weight: 500;
+    height: 1.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-left: .25rem;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
 /** Discord's Variables **/
 .theme-dark {
     --text-normal: white;
