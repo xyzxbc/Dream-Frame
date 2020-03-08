@@ -15,9 +15,6 @@ Dream Frame offers customization like custom background, colors, fonts, and blur
 ## Discord Mod Support
 Dream Frame supports both [Powercord](https://Powercord.dev) and [BetterDiscord]().
 
-## Known Issues
-[Black bars](https://media.discordapp.net/attachments/449179335442825228/685594652228976711/unknown.png) appear when transparency is enabled. 
-
 ## Support
 [Join](https://discord.gg/Grya2sa) our Discord server to get support for Dream Frame or you could also join [Black Box](https://discord.gg/TeRQEPb) for support.
 
