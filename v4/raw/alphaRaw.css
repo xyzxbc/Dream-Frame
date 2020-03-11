@@ -1,6 +1,11 @@
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
-/* Adding Creatable's tag */
+.theme-dark {
+    --background-tertiary: transparent !important;
+}
+
+
+/** Tags **/
 .avatar-1BDn8e[src*="597905003717459968"] + h2 > span.username-1A8OIy::after { /* Creatable asked to add this */
     color: white !important;
     background: #7289da;
@@ -32,9 +37,76 @@
     text-decoration: none !important;
     display: inline-block;
 }
+/* Donators */
+.avatar-1BDn8e[src*="126053182748098567"] + h2 > span.username-1A8OIy::after { /* ! Siage */
+    color: white !important;
+    background: #7289da;
+    content: 'Donator';
+    font-size: .625em;
+    font-weight: 500;
+    height: 1.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-left: .25rem;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.avatar-1BDn8e[src*="224193802187833344"] + h2 > span.username-1A8OIy::after { /* Winter */
+    color: white !important;
+    background: #7289da;
+    content: 'Donator';
+    font-size: .625em;
+    font-weight: 500;
+    height: 1.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-left: .25rem;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.avatar-1BDn8e[src*="383345807228928010"] + h2 > span.username-1A8OIy::after { /* Bryce */
+    color: white !important;
+    background: #7289da;
+    content: 'Donator';
+    font-size: .625em;
+    font-weight: 500;
+    height: 1.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-left: .25rem;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.avatar-1BDn8e[src*="102541888376020992"] + h2 > span.username-1A8OIy::after { /* Plox */
+    color: white !important;
+    background: #7289da;
+    content: 'Donator';
+    font-size: .625em;
+    font-weight: 500;
+    height: 1.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-left: .25rem;
+    text-decoration: none !important;
+    display: inline-block;
+}
 
 /*** Discord and Background ***/
 /** App **/
+ * {
+     font-family: var(--font);
+ }
 .appMount-3lHmkl {
     position: fixed;
     top: 50%;
@@ -91,14 +163,14 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
     margin-right: 115px;
 }
 /** Changelog **/
-.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::before {
-    content: "What's new in Dream Frame v4 \A- This will be the new changelog area \A- Just like old times, but you hover now";
+
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::after {
+    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on";
     display: block;
     line-height: 22px;
     font-size: 14px;
     position: fixed;
-    background: rgba(23,23,23,0.5) !important;
-    backdrop-filter: var(--bg-blur);
+    background: rgba(0,0,0,0.75) !important;
     padding: 10px 25px 10px 15px;
     white-space: pre;
     line-height: 18px;
@@ -114,6 +186,34 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
     right: 13px;
     top: 70px;
     animation: 1s fadeFromRight ease;
+    z-index: 5000 !important;
+}
+
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::before {
+    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on";
+    display: block;
+    line-height: 22px;
+    font-size: 14px;
+    position: fixed;
+    background-image: var(--custombackground);
+    padding: 10px 25px 10px 15px;
+    white-space: pre;
+    line-height: 18px;
+    margin-bottom: 15px;
+    border-radius: var(--br);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    font-weight: 500;
+    margin-top: -10px;
+    color: transparent;
+    text-transform: none;
+    overflow: hidden;
+    width: fit-content;
+    right: 13px;
+    top: 70px;
+    animation: 1s fadeFromRight ease;
+    background-position: right;
+    background-size: cover;
+    z-index: 5000 !important;
 }
 
 @keyframes fadeFromRight {
@@ -122,7 +222,7 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
         transform: translateX(50%)
     }
     100% {
-        opacity: 0.9;
+        opacity: 1;
         transform: none
     }
   }
@@ -143,16 +243,74 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
 }
 /** Background **/
 /* General Transparency */
-.theme-dark {
-    --background-primary: transparent;
-    --background-secondary: transparent;
-    --background-secondary-alt: transparent;
-    --background-tertiary: transparent;
-    --elevation-low: none;
-    --elevation-high: none;
-    --elevation-medium: none;
+.appMount-3lHmkl {
+    background: transparent;
+}
+.app-2rEoOp {
+    background: transparent;
+}
+.bg-h5JY_x {
+    background: transparent;
+}
+.scroller-2FKFPG.systemPad-3UxEGl.scroller-2TZvBN {
+    background: transparent;
+}
+.container-PNkimc {
+    background: transparent;
+}
+.panels-j1Uci_ {
+    background: transparent;
+}
+.messages-3amgkR {
+    background: transparent;
+}
+.standardSidebarView-3F1I7i {
+    background: transparent;
+}
+.layer-3QrUeG {
+    background: transparent;
+}
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
+}
+.privateChannels-1nO12o {
+    background: transparent;
+}
+.scroller-1JbKMe {
+    background-color: transparent;
+}
+.applicationStore-1pNvnv {
+    background-color: transparent;
+}
+.scroller-9moviB {
+    background-color: transparent;
 }
 
+
+nav.wrapper-1Rf91z.guilds-1SWlCJ {
+    background: var(--containerServer);
+}
+.sidebar-2K8pFh {
+    background: var(--containerchannels);
+}
+.chat-3bRxxu {
+    background: var(--containerChat);
+}
+.title-3qD0b-.container-1r6BKw.themed-ANHk51 {
+    background: var(--containerchatheader);
+}
+.members-1998pB {
+    background: var(--containerMembers);
+}
+.sidebarRegionScroller-3MXcoP {
+    background: var(--containerSettingsSidebar);
+}
+.contentRegion-3nDuYy {
+    background: var(--containerSettingsRightSide);
+}
+.theme-dark .container-1D34oG {
+    background-color: var(--containerfriendslist);
+}
 /* Custom Background */
 html::before {
     content: "";
@@ -216,33 +374,6 @@ html::before {
   .theme-light .layer-3QrUeG:first-of-type * {
     visibility:hidden;
   }
-/** Icons **/
-/* Chat Header */
-svg[name="Nova_At"] {
-    color: transparent;
-    background-image: var(--MentionIcon);
-    background-size: contain;
-}
-svg[name="Nova_Help"] {
-    color: transparent;
-    background-image: var(--HelpIcon);
-    background-size: contain;
-}
-svg[name="Nova_People"] {
-    color: transparent !important;
-    background-image: var(--MembersTabIcon);
-    background-size: contain;
-}
-svg[name="Nova_Pin"] {
-    color: transparent;
-    background-image: var(--PinIcon);
-    background-size: contain;
-}
-svg[name="Nova_Bell"] {
-    color: transparent;
-    background-image: var(--BellIcon);
-    background-size: contain;
-}
 /*** Chat ***/
 /* Background */
 /** Messages **/
@@ -269,6 +400,18 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
 }
 /* Emojis */
 
+/* Reactions */
+.reactionInner-15NvIl {
+    display: contents;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+    width: max-content;
+    padding: 0px 6px 3px 6px;
+}
+.reactionCount-2mvXRV {
+    margin: 0px;
+    color: var(--accenttext) !important;
+}
 /* Codeblocks */
 
 /* Mentions */
@@ -352,6 +495,10 @@ form.form-2fGMdU {
 
 /* Right side buttons */
 
+/* Seperorater */
+.content-yTz4x3:before {
+    display: none;
+}
 /** Video Player **/
 /* Controls */
 
@@ -394,7 +541,11 @@ form.form-2fGMdU {
 /** Seperator **/
 /** Servers **/
 /* Icons */
-
+.blobContainer-239gwq:active {
+    position: relative;
+    -webkit-transform: translateY(0px) translateZ(0);
+    transform: translateY(0px) translateZ(0);
+}
 /* Unread Indicator */
 
 /* Home Icon */
@@ -414,13 +565,47 @@ form.form-2fGMdU {
 /*** Popups and Dropdowns ***/
 /** Server Dropdown **/
 /* Background */
-
+.clickable-2ap7je .header-2o-2hj:hover, .selected-WP3kCM .header-2o-2hj {
+    background-color: transparent;
+}
+.menu-Sp6bN1 {
+    background: transparent;
+}
+.menu-Sp6bN1::before {
+    content: "";
+    background-image: var(--custombackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 5px;
+    filter: brightness(0.45);
+    animation: 3s fade1 ease;
+}
+@keyframes fade1 {
+    0% {
+        filter: brightness(0.25);
+    }
+    100% {
+        filter: brightness(0.45);
+    }
+}
 /* Text */
-
+.label-1Y-LW5 {
+    margin: 0px -205px 0px 30px;
+}
 /* Icon */
-
+.iconContainer-2ZxvJk {
+    margin: 0px 170px 0px 0px;
+}
 /* Seperators */
-
+.separator-2zcjq8 {
+    display: none;
+}
 /** Status Picker **/
 /* Background */
 
@@ -439,35 +624,241 @@ form.form-2fGMdU {
 
 /** Tooltip **/
 /* Background */
-
-/* Check Mark */
-
+.theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z {
+    background-color: var(--accentcolor);
+    border-radius: var(--br);
+    color: var(--accenttext);
+    font-weight: bold;
+}
+.tooltipPointer-3ZfirK {
+    display: none;
+}
 /** Pinned Messages and Mentions **/
 /* Background */
 
-/* Messages */
+.searchResultsWrap-2DKFzt::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background-image: var(--custombackground);
+    background-size: cover;
+    filter: brightness(0.4);
+}
 
+.searchResultsWrap-2DKFzt {
+    background: var(--bg-element);
+    border-radius: var(--br);
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    height: calc(100% - 20px);
+    box-shadow: none !important;
+    width: 456px;
+}
+/* Messages */
+.searchResultMessage-2VxO12.hit-NLlWXA {
+    position: relative;
+    z-index: 1;
+    max-height: none;
+    box-shadow: none;
+    background-color: var(--bg-element);
+    border: none;
+    border-radius: var(--br);
+    cursor: auto;
+}
+.searchResult-3pzFAB:after {
+    display: none;
+}
+.searchResult-3pzFAB::before {
+    display: none;
+}
+.searchResult-3pzFAB.expanded-v2Szsz {
+    border: none;
+    background-color: transparent;
+}
+.searchResultMessage-2VxO12.hit-NLlWXA {
+    background: var(--bg-element) !important;
+    border: none;
+    border-radius: var(--br);
+}
+/* Channel Names */
+.channelName-1QajIf {
+    color: white;
+    background: transparent;
+    font-weight: bold;
+}
+.channelSeparator-1X1FuH:before {
+    display: none;
+}
+/* Header */
+.searchHeader-1l-wpR {
+    box-shadow: none;
+    background: var(--bg-element);
+    margin: 10px;
+    border-radius: var(--br);
+}
+.tab-2Ixsn0.selected-16te-P, .tab-2Ixsn0:hover {
+    border: 2px solid var(--accenttext);
+    color: var(--accenttext);
+    border-radius: var(--br);
+}
 /* Footer */
 
 /** Search **/
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+    background-color: var(--bg-element);
+    border-radius: 3px;
+    padding: 0px 5px;
+}
+.container-3ayLPN.elevationBorderHigh-2WYJ09::before {
+    position: absolute;
+    background-image: var(--custombackground);
+    background-size: cover;
+    background-position: right !important;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    top: 0px;
+    left: 0px;
+    content: "";
+    border-radius: var(--br);
+    filter: brightness(0.4);
+}
+.theme-dark .container-3ayLPN {
+    background-color: var(--bg-element);
+    border: none;
+    box-shadow: none;
+    border-radius: var(--br);
+}
+.option-96V44q:after {
+    background: transparent !important;
+}
+.container-3ayLPN.elevationBorderHigh-2WYJ09 {
+    position: fixed;
+    top: 0px;
+    right: -110px;
+}
 /* Search Box */
-
-/* Messages */
-
-/* Backgrounds */
-
+.searchBar-3dMhjb {
+    margin: 0px 0px 0px -272px;
+}
+.focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
+    width: 240px;
+    margin: 0px 0px 0px -380px;
+    background: var(--bg-element);
+    border-radius: var(--br);
+    padding: 0px 5px;
+    transition: all 0.5s;
+}
 /* Calendar */
+.react-datepicker__day.react-datepicker__day--tue {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--thu {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--wed {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--fri {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--disabled {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--mon {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+    border: none;
+}
+.react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--disabled.react-datepicker__day--weekend.react-datepicker__day--outside-month {
+    border: none;
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker {
+    background-color: transparent;
+}
+.react-datepicker__current-month {
+    border: none !important;
+    background: transparent !important;
+}
+.react-datepicker__header {
+    background: transparent !important;
+}
 
-/* Header */
-
+a.react-datepicker__navigation.react-datepicker__navigation--previous {
+    border: none !important;
+    background: var(--bg-element);
+    border-radius: 50px !important;
+    padding: 5px;
+    margin-top: -5px;
+}
+a.react-datepicker__navigation.react-datepicker__navigation--next {
+    border: none !important;
+    background: var(--bg-element);
+    border-radius: 50px !important;
+    padding: 5px;
+    margin-top: -5px;
+}
+.react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend {
+    border: none !important;
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover {
+    color: var(--accenttext);
+    background-color: var(--accentcolor);
+    border-radius: var(--br);
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after {
+    background-color: var(--accentcolor);
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: rgba(47, 49, 54, 0.5);
+    color: rgba(246,246,247,.3);
+    border: none;
+}
 /** GIF picker **/
 /* Background */
 
 /** Emoji Picker **/
 /* Background */
-
+.infoBar-U6oBFk {
+    margin: 10px 0px 10px 10px;
+    width: calc(100% - 20px);
+    border-radius: var(--br);
+    background: var(--background-tertiary);
+}
+.categories-1feg4n {
+    margin: 0px 0px 10px 10px;
+    width: calc(100% - 46px);
+    border-radius: var(--br);
+}
+.header-1nkwgG {
+    box-shadow: none !important;
+}
 /* Height */
-
+.emojiPicker-3m1S-j .scroller-3vODG7 {
+    height: var(--EmojiMenuHeight);
+}
 /** RTC **/
 /* Background */
 
@@ -1075,7 +1466,6 @@ form.form-2fGMdU {
 /** Upload Modal **/
 /* Background **/
 
-
 /* Image */
 
 /* Buttons */
@@ -1128,7 +1518,7 @@ form.form-2fGMdU {
 
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4.0.05 Alpha";
+    content: "Dream Frame v4.0.01 Alpha";
     color: white;
     font-size: 12px !important;
 }
