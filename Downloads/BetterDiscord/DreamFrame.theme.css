@@ -1,5 +1,13 @@
-//META{"name":"Dream Frame","description":"Dream Frame is a clean theme for Discord.","author":"Korbs#0001","version":"v0.0.9"}*//{}
-
+/**
+ * @name Dream Frame
+ * @version 4
+ * @author Korbs
+ * @description Dream Frame offers customization like custom background, colors, fonts, and blur adjustments. One of the best translucent themes out there for Powercord and BetterDiscord.
+ * @invite https://discord.gg/Grya2sa
+ * @donate https://Paypal.me/CorbsEditor
+ * @website https://DreamFrame.KorbsStudio.com
+ * @authorId 273169968202252289
+ */
 /* Please keep !important by each option, this helps override the fallback system */
 @import url("https://korbsstudio.com/DreamFrame/raw/raw.css");
 :root {
@@ -46,8 +54,7 @@
     /* Home Icon */
     --HomeIcon: url(https://upload.wikimedia.org/wikipedia/commons/1/13/Discord_color_D.svg) !important; /* Set the icon for the home button. url() must stay in the option. */
     --HomeIconSize: 17px !important; /* If the size of the icon you set doesn't seem right, you can adjust it here. Use this if you also re-sized the server icons */
-
+    
     /* Channel Name Flyout */
     --ChannelNameFlyOut: 13px !important; /* When hovering over a channel name, the name goes a little bit right as a small animation. You can adjust how far it goes it here. */
-    
 }
