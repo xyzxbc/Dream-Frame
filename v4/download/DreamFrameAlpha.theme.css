@@ -3,53 +3,64 @@
 
 :root {
     /** Background **/
-    --custombackground: url(https://cdn.discordapp.com/attachments/456316408465195009/664848782093189140/Leaves.jpg);
+    --custombackground: url(https://cdn.discordapp.com/attachments/456316408465195009/685963884502450269/wallhaven-5w81w8.png);
     /* Adjustments */
     --blur: 0px !important; 
     --opacitybg: 0.3 !important; 
     --opacityDiscord: 0.7 !important;
-    --bgscale: 1; 
-    --bgrotation: 0deg; 
-    --bgrepeat: no-repeat;
-    
+    --bgscale: 1 !important; 
+    --bgrotation: 0deg !important; 
+    --bgrepeat: no-repeat !important; 
+
+    /** App **/
+    /* Margins */
+    --appMargins: 50px !important;
+
+    /** Container Backgrounds **/
+    --containerServer:  transparent !important;
+    --containerChannels:  transparent !important;
+    --containerChat:  transparent !important;
+    --containerMembers:  transparent !important;
+    --containerSettingsSidebar:  transparent !important;
+    --containerSettingsRightSide:  transparent !important;
+    --containerChatHeader:  transparent !important;
+    --containerFriendsList:  transparent !important;
+
     /** Accents **/
-    --accentcolor: #7289da;
-    --accenttext: white;
+    --accentcolor: #7289da !important;
+    --accenttext: white !important;
 
     /* Status Colors */
-    --online: #43b581;
-	--idle: #faa61a;
-	--dnd: #f04747;
-	--offline: #636b75;
-	--invisible: #747f8d;
-	--streaming: #9146FF;
+    --online: #43b581 !important;
+	--idle: #faa61a !important;
+	--dnd: #f04747 !important;
+	--offline: #636b75 !important;
+	--invisible: #747f8d !important;
+	--streaming: #9146FF !important;
 
     /** Fonts **/
     --font: Whitney;
 
     /** Scrollbar **/
-    --ScrollbarColor: white;
-    --ScrollbarWidth: 14px;
-    --ScrollbarBorderRadius: 10px;
+    --ScrollbarColor: white !important;
+    --ScrollbarWidth: 14px !important;
+    --ScrollbarBorderRadius: 10px !important;
 
     /** Element Backgrounds(pop ups, menus, tabs, etc...) **/
     /* Blur */
-    --bg-blur: blur(10px);
+    --bg-blur: blur(10px) !important;
     /* Background */
-    --bg-element: rgba(23,23,23,0.5);
-    --br: 7px;
+    --bg-element: rgba(23,23,23,0.5) !important;
+    --br: 7px !important;
 
     /** Covers **/
-    --showCovers: 1;
+    --showCovers: 1 !important;
 
     /** Emojis **/
     /* In Chat */
     --EmojiSize: 2rem;
     /* Emoji Picker */
-    --EmojiMenuHeight: 300px;
-    --EmojiMenuWidth: 200px;
-
-    /** Icons **/
-    --IconColor: white;
+    --EmojiMenuHeight: 300px !important;
+    --EmojiMenuWidth: 200px !important;
 
 }
