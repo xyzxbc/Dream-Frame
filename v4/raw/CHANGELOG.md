@@ -1,4 +1,10 @@
 # Alpha 
+## v4.0.06
+ - Search has more margin and background has been fixed on it
+ - Search menu no longer positioned in the wrong spot
+ - Container options should now work
+ - Dropdown menu and status picker background fix
+ - `backdrop-filter` removed from most elements to prevent black bar bug
 ## v4.0.05
  - Removed all custom icon options(Due to Discord update)
  - Added new tags for Dream Frame developer(Donators tags coming later)
