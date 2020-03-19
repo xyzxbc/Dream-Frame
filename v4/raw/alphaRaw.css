@@ -5,6 +5,11 @@
 }
 
 
+.theme-dark {
+    --background-tertiary: transparent !important;
+}
+
+
 /** Tags **/
 .avatar-1BDn8e[src*="597905003717459968"] + h2 > span.username-1A8OIy::after { /* Creatable asked to add this */
     color: white !important;
@@ -165,7 +170,7 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
 /** Changelog **/
 
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::after {
-    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on";
+    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on \A- Spotify modal is no longer too spaced out from the profile container \A- Background elements with blur have been replaced with custom background, to prevent black bar bug";
     display: block;
     line-height: 22px;
     font-size: 14px;
@@ -183,8 +188,8 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
     text-transform: none;
     overflow: hidden;
     width: fit-content;
-    right: 13px;
-    top: 70px;
+    right: 31px;
+    top: 85px;
     animation: 1s fadeFromRight ease;
     z-index: 5000 !important;
 }
@@ -208,8 +213,8 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
     text-transform: none;
     overflow: hidden;
     width: fit-content;
-    right: 13px;
-    top: 70px;
+    right: 31px;
+    top: 85px;
     animation: 1s fadeFromRight ease;
     background-position: right;
     background-size: cover;
@@ -236,6 +241,10 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: var(--ScrollbarColor);
     border-color: transparent;
+}
+.webkit-HjD9Er::-webkit-scrollbar-thumb {
+    background-color: var(--ScrollbarColor);
+    border-radius: 8px;
 }
 /* Channels */
 .theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
@@ -285,6 +294,9 @@ html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who hav
 .scroller-9moviB {
     background-color: transparent;
 }
+.contentRegionScroller-26nc1e {
+    background-color: transparent;
+}
 
 
 nav.wrapper-1Rf91z.guilds-1SWlCJ {
@@ -323,6 +335,7 @@ html::before {
     transform: rotate(var(--bgrotation)) scale(var(--bgscale));
     background-repeat: var(--bgrepeat);
     background-size: cover;
+    opacity: var(--opacityDiscord);
 }
 /** Light Mode **/
 /* Blocker */
@@ -374,6 +387,9 @@ html::before {
   .theme-light .layer-3QrUeG:first-of-type * {
     visibility:hidden;
   }
+  .backdropWithLayer-3_uhz4 {
+    background: transparent !important;
+}
 /*** Chat ***/
 /* Background */
 /** Messages **/
@@ -398,6 +414,12 @@ html::before {
 span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQeI4.alt-1uNpEt {
     display: none;
 }
+
+
+
+
+
+
 /* Emojis */
 
 /* Reactions */
@@ -405,6 +427,10 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
     display: contents;
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
+    width: max-content;
+    padding: 0px 6px 3px 6px;
+}
+.reaction-1hd86g {
     width: max-content;
     padding: 0px 6px 3px 6px;
 }
@@ -481,6 +507,7 @@ form.form-2fGMdU {
 
 /* Spinners */
 
+
 /** Dividers **/
 /* New Messages */
 
@@ -489,8 +516,22 @@ form.form-2fGMdU {
 /* Date with New Messages */
 
 /** Chat Header **/
+.children-19S4PO:after {
+    display: none;
+}
+.iconWrapper-2OrFZ1[aria-label="Start Video Call"] { /* Prevent search bar overlay */
+    display: none;
+}
+.search-36MZv- {
+    margin: 0 0px;
+}
 /* Name */
-
+.divider-3FBTu8 {
+    display: none;
+}
+.icon-22AiRD {
+    color: white;
+}
 /* Description */
 
 /* Right side buttons */
@@ -507,20 +548,94 @@ form.form-2fGMdU {
 /*** Sidebar ***/
 /** Channels Area **/
 /* Categories */
-
+.container-2ax-kl {
+    color: var(--accenttext);
+    padding-left: 0px !important;
+}
+svg.icon-WnO6o2 {
+    display: none;
+}
 /* Channel Names */
-
+.name-3_Dsmg {
+    color: var(--accenttext);
+}
+.icon-1_QxNX {
+    color: var(--accenttext);
+}
+.modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX, .modeUnread-1zpFdA .icon-1_QxNX, .modeUnread-1zpFdA:hover .icon-1_QxNX {
+    color: var(--accenttext);
+}
+.modeConnected-2IEL4z .name-3_Dsmg, .modeConnected-2IEL4z:hover .name-3_Dsmg, .modeSelected-1zApJ_ .name-3_Dsmg, .modeSelected-1zApJ_:hover .name-3_Dsmg, .modeUnread-1zpFdA .name-3_Dsmg, .modeUnread-1zpFdA:hover .name-3_Dsmg, .notInteractive-YF5EXq.modeConnected-2IEL4z .name-3_Dsmg, .notInteractive-YF5EXq.modeSelected-1zApJ_ .name-3_Dsmg {
+    color: var(--accenttext);
+}
+/* Channel Selected */
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color: var(--bg-element);
+}
+/* Channel Hover */
+.wrapper-1ucjTd:hover .content-3at_AU {
+    background-color: var(--bg-element);
+    opacity: 0.8;
+}
 /* Unread Indicator */
+.unread-3zKkbm {
+    background-color: var(--accentcolor);
+    width: 221px;
+    left: 9px;
+    top: 5px;
+    height: 32px;
+    border-radius: var(--br);
+    opacity: 0.4;
+    z-index: -1;
+}
+/* Pinged in channel */
+.numberBadge-2s8kKX {
+    background: red;
+    font-weight: bold;
+    border-radius: var(--br);
+    height: 26px;
+    width: 26px !important;
+    margin-right: -2px;
+}
+.lowerBadge-29hYVK .numberBadge-2s8kKX.base-PmTxvP {
+    width: 47px !important;
+    height: 47px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 50px;
+    opacity: 0.85;
+    pointer-events: none;
+}
+/* Voice Channels */
+.total-3tKGEB {
+    background-color: var(--accentcolor);
+}
+.total-3tKGEB:after {
+    border-top: 20px solid var(--accentcolor);
+    transform: rotate(180deg);
+}
+/** Bottom Containers **/
+/* Profile */
+.container-3baos1 {
+    margin-bottom: 27px;
+}
+/* Voice Connected */
+.container-1giJp5 {
+    border: none;
+}
 
-/* Side Buttons */
-
-/* Pings */
-
+/* Spotify */
+div#powercord-spotify-modal {
+    margin-bottom: 5px;
+}
 /** Header **/
 /* Background */
-
+.header-2o-2hj {
+    box-shadow: none;
+}
 /* Arrow */
-
+.button-1w5pas {
+    display: none;
+}
 /* Cover */
 
 /** Account Container **/
@@ -547,17 +662,6 @@ form.form-2fGMdU {
     transform: translateY(0px) translateZ(0);
 }
 /* Unread Indicator */
-
-/* Home Icon */
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
-    margin-top: -48px;
-    top: 8px;
-    width: 72px;
-    position: sticky !important;
-    height: 46px;
-    z-index: 805;
-    margin-bottom: 70px;
-}
 
 /** Add/Create Guilds Button **/
 /* Icons */
@@ -618,10 +722,45 @@ form.form-2fGMdU {
 /* Seperator */
 
 /** Context Menu **/
+/* Emoji Row */
+.wrapper-35dUTv {
+    display: none;
+}
 /* Text */
 
 /* Background */
+.scroller-2PSBSf {
+    max-height: 283px;
+}
+.scroller-2FKFPG.systemPad-3UxEGl.contextMenu-HLZMGh.scroller-2PSBSf {
+    overflow: hidden;
+}
 
+
+
+.contextMenu-HLZMGh::before {
+    content: "";
+    background-image: var(--custombackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 5px;
+    filter: brightness(0.45);
+    animation: 3s fade1 ease;
+}
+.contextMenu-HLZMGh {
+    background-color: transparent;
+    box-shadow: var(--elevation-high);
+}
+/* Seperator */
+.itemGroup-1tL0uz:not(:first-child):not(:empty) {
+    border-top-width: 0px;
+}
 /** Tooltip **/
 /* Background */
 .theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z {
@@ -859,6 +998,8 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 .emojiPicker-3m1S-j .scroller-3vODG7 {
     height: var(--EmojiMenuHeight);
 }
+/* 3789 */
+
 /** RTC **/
 /* Background */
 
@@ -1031,14 +1172,14 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 }
 
 .root-SR8cQa .body-3ND3kc {
-    height:275px;
-    width:100%;
-    padding-top:95px;
-    position:relative;
-    background:var(--bg-element);
-    backdrop-filter:blur(10px);
-    box-shadow:0 2px 12px rgba(0,0,0,0.35);
-    border-radius:0 8px 8px 0;
+    height: 275px;
+    width: 100%;
+    padding-top: 95px;
+    position: relative;
+    background: var(--bg-element);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    border-radius: 0 8px 8px 0;
+    background: #151515;
 }
 
 .root-SR8cQa .header-QKLPzZ {
@@ -1394,19 +1535,21 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 }
 
 .root-SR8cQa .customStatusText-39gdCI {
-    position:absolute;
-    top:0;
-    left:100%;
-    width:fit-content;
-    z-index:10;
-    color:#fff !important;
-    font-weight:500;
-    background:rgba(0,0,0,.5);
-    padding:4px 8px;
-    border-bottom-right-radius:3px;
-    backdrop-filter:blur(10px);
-    display:flex;
-    align-items:center;
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    width: fit-content;
+    z-index: 10;
+    color: #fff !important;
+    font-weight: 500;
+    background: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+    padding: 4px 8px;
+    border-radius: var(--br);
+    display: flex;
+    align-items: center;
+    max-width: 384px;
+    height: 70px;
 }
 
 .root-SR8cQa .contentNoImagesProfile-371_Rv:empty:after {
@@ -1477,7 +1620,18 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 /* File Icons */
 
 /** Keyboard Shortcuts **/
-
+.modalSubtitle-1Pj5nv {
+    border: none !important;
+}
+.symbol-3ffeCr img {
+    display: none;
+}
+.symbol-3ffeCr::before {
+    content: "Korbs was here!";
+    color: white;
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
+}
 /** Quicker Switcher **/
 /* Background */
 
@@ -1500,6 +1654,24 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 
 /** Add/Create Modal - New from Experiemental Treatment 4 **/
 
+/** Channel Description **/
+/* Background */
+.theme-dark .root-1gCeng::before {
+    content: "";
+    background-image: var(--custombackground);
+    background-size: cover;
+    filter: brightness(0.4);
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    position: absolute;
+    border-radius: var(--br);
+}
+.theme-dark .root-1gCeng {
+    background-color: transparent;
+    box-shadow: none;
+}
 /** Reactions Modal **/
 /* Background */
 
@@ -1518,7 +1690,7 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4.0.06 Alpha";
+    content: "Dream Frame v4.0.07 Alpha";
     color: white;
     font-size: 12px !important;
 }
@@ -1554,26 +1726,173 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 /*** Friends List ***/
 /** Active Now **/
 /* Background */
-
+.nowPlayingColumn-2sl4cE {
+    background: var(--containerfriendslist);
+}
 /* Card */
-
+.itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.padded-302COx.interactive-3B9GmY {
+    background: var(--bg-element);
+    border-radius: var(--br);
+}
+.body-1ld4H7.inset-3sAvek {
+    background: var(--bg-element);
+    border-radius: var(--br);
+}
 /** List **/
 /* Friend */
-
+.peopleListItem-2nzedh {
+    border: none;
+    border-radius: var(--br);
+}
 /* Buttons */
 
 /** Add Friend **/
 /* Header */
-
+.theme-dark .sectionHeader-20RGqu {
+    border-bottom: none;
+}
 /* Bottom */
 
 /* Input */
-
+.wrapper-1cBijl {
+    border: none;
+    background-color: var(--bg-element);
+    border-radius: var(--br);
+}
 /* Button */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*** Out of App Areas ***/
 /** Login Screen **/
+/* Background */
+img.image-2jyRAK.loaded-3PtF_J {
+    opacity: 0;
+}
+/* Login Box */
+.theme-dark.authBox-hW6HRx {
+    color: white;
+    background: transparent;
+}
+input.inputDefault-_djjkz.input-cIJ7To {
+    border: none;
+    border-radius: var(--br);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    color: #fff;
+    background-color: var(--accentcolor);
+    border-radius: var(--br);
+}
+.qrCodeOverlay-qgtlTP::before {
+    content: "Hover to view";
+    position: absolute;
+    color: white;
+    background: black;
+    padding: 61px 67px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+.qrCodeOverlay-qgtlTP:hover::before {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background-image: var(--custombackground);
+    z-index: -1;
+    filter: brightness(0.4);
+    border-radius: var(--br);
+    background-size: cover;
+}
+form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.leftSplit-1qOwnR {
+    max-width: 100% !important;
+}
 
 /** Crash Screen **/
 
 /** Loading Screen **/
+.container-16j22k video.ready-36e6Vk {
+    display: none;
+}
+.quote-3aooyW.contentBase-11jeVK::before {
+    content: "Loading...";
+    font-size: 16px;
+}
+.quote-3aooyW {
+    font-style: unset;
+    font-size: 0px;
+}
+
+/*** Calls ***/
+/** In Voice Channel Screenshare **/
