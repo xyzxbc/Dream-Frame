@@ -1,4 +1,9 @@
 # Alpha 
+## v4.0.07
+ - Fixed searchbar overlay with call button. Video call button removed.
+ - Made rightside of settings transparent
+ - Padding on reactions are fixed
+ - Emoji row removed context menu
 ## v4.0.06
  - Search has more margin and background has been fixed on it
  - Search menu no longer positioned in the wrong spot
