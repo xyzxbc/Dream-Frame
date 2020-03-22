@@ -5,11 +5,6 @@
 }
 
 
-.theme-dark {
-    --background-tertiary: transparent !important;
-}
-
-
 /** Tags **/
 .avatar-1BDn8e[src*="597905003717459968"] + h2 > span.username-1A8OIy::after { /* Creatable asked to add this */
     color: white !important;
@@ -128,19 +123,12 @@
     left: 0px;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-    background: #000000a6;
+    background: #000000;
+    opacity: var(--opacitybg);
 }
+
 /** Titlebar **/
 html.platform-win::after { /* Allows drag */
-    content: "";
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: -webkit-fill-available;
-    height: 25px;
-    -webkit-app-region: drag;
-}
-html.theme-dark.platform-linux::after { /* Allows drag - Meant for users who have transparency enabled */
     content: "";
     position: fixed;
     top: 0px;
@@ -588,22 +576,24 @@ svg.icon-WnO6o2 {
     opacity: 0.4;
     z-index: -1;
 }
-/* Pinged in channel */
-.numberBadge-2s8kKX {
-    background: red;
-    font-weight: bold;
-    border-radius: var(--br);
-    height: 26px;
-    width: 26px !important;
-    margin-right: -2px;
+/* Ping */
+.lowerBadge-29hYVK {
+    animation: 2s ping ease-in-out;
 }
-.lowerBadge-29hYVK .numberBadge-2s8kKX.base-PmTxvP {
-    width: 47px !important;
-    height: 47px;
-    margin: 0px 0px 0px 0px;
-    border-radius: 50px;
-    opacity: 0.85;
-    pointer-events: none;
+
+@keyframes ping {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 /* Voice Channels */
 .total-3tKGEB {
@@ -729,15 +719,6 @@ div#powercord-spotify-modal {
 /* Text */
 
 /* Background */
-.scroller-2PSBSf {
-    max-height: 283px;
-}
-.scroller-2FKFPG.systemPad-3UxEGl.contextMenu-HLZMGh.scroller-2PSBSf {
-    overflow: hidden;
-}
-
-
-
 .contextMenu-HLZMGh::before {
     content: "";
     background-image: var(--custombackground);
@@ -1690,7 +1671,7 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4.0.07 Alpha";
+    content: "Dream Frame v4.0.08 Alpha";
     color: white;
     font-size: 12px !important;
 }
