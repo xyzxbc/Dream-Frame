@@ -3,7 +3,7 @@
 
 :root {
     /** Background **/
-    --custombackground: url(https://cdn.discordapp.com/attachments/456316408465195009/685963884502450269/wallhaven-5w81w8.png);
+    --custombackground: url(https://cdn.discordapp.com/attachments/456316408465195009/664274459871543296/luca-micheli-ruWkmt3nU58-unsplash.jpg);
     /* Adjustments */
     --blur: 0px !important; 
     --opacitybg: 0.3 !important; 
@@ -14,7 +14,9 @@
 
     /** App **/
     /* Margins */
-    --appMargins: 50px !important;
+    --appMargins: 10px !important;
+    /* Round Corners */
+    --appBR: 10px !important;
 
     /** Container Backgrounds **/
     --containerServer:  transparent !important;
@@ -29,6 +31,7 @@
     /** Accents **/
     --accentcolor: #7289da !important;
     --accenttext: white !important;
+    --text-link: #7289da !important;
 
     /* Status Colors */
     --online: #43b581 !important;
