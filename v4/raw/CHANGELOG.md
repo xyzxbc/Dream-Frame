@@ -1,4 +1,10 @@
 # Alpha 
+##v4.0.08
+ - Gradient colors can now be set as gradient colors
+ - New option `--appBR`
+ - Roles now have colored backgrounds in mini profile pop ups
+ - Covers added to mini profile pop ups
+ - Round corners fixed in mini profile pop ups
 ## v4.0.07
  - Fixed searchbar overlay with call button. Video call button removed.
  - Made rightside of settings transparent
