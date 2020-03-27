@@ -1,4 +1,16 @@
 # Alpha 
+##v4.0.08
+ - Gradient colors can now be set as gradient colors
+ - New option `--appBR`
+ - New option `--text-link` (Discord variable)
+ - Roles now have colored backgrounds in mini profile pop ups
+ - Covers added to mini profile pop ups
+ - Round corners fixed in mini profile pop ups
+## v4.0.07
+ - Fixed searchbar overlay with call button. Video call button removed.
+ - Made rightside of settings transparent
+ - Padding on reactions are fixed
+ - Emoji row removed context menu
 ## v4.0.06
  - Search has more margin and background has been fixed on it
  - Search menu no longer positioned in the wrong spot
