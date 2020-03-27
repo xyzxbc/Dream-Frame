@@ -1,4 +1,7 @@
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+@import url('https://rawcdn.githack.com/dream-frame/fallback/a2775a90573c9649fa9f7a0cd791b3ed5db10dbc/fallback.css');
+@import url('https://bdsources.github.io/sourcecheck/code.css');
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 
 .theme-dark {
     --background-tertiary: transparent !important;
@@ -114,7 +117,7 @@
     transform: translate(-50%, -50%);
     width: calc(100% - var(--appMargins));
     height: calc(100% - var(--appMargins));
-    border-radius: 10px;
+    border-radius: var(--appBR);
 }
 .appMount-3lHmkl::before {
     content: "";
@@ -158,7 +161,7 @@ html.platform-win::after { /* Allows drag */
 /** Changelog **/
 
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::after {
-    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on \A- Spotify modal is no longer too spaced out from the profile container \A- Background elements with blur have been replaced with custom background, to prevent black bar bug";
+    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on \A- Spotify modal is no longer too spaced out from the profile container \A- Background elements with blur have been replaced with custom background, to prevent black bar bug \A- Covers now show up on mini profile pop ups \A- You can now set the accent color to a gradient color";
     display: block;
     line-height: 22px;
     font-size: 14px;
@@ -183,7 +186,7 @@ html.platform-win::after { /* Allows drag */
 }
 
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::before {
-    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on";
+    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on \A- Spotify modal is no longer too spaced out from the profile container \A- Background elements with blur have been replaced with custom background, to prevent black bar bug \A- Covers now show up on mini profile pop ups \A- You can now set the accent color to a gradient color";
     display: block;
     line-height: 22px;
     font-size: 14px;
@@ -291,7 +294,7 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ {
     background: var(--containerServer);
 }
 .sidebar-2K8pFh {
-    background: var(--containerchannels);
+    background: var(--containerChannels);
 }
 .chat-3bRxxu {
     background: var(--containerChat);
@@ -381,6 +384,9 @@ html::before {
 /*** Chat ***/
 /* Background */
 /** Messages **/
+.markup-2BOw-j.messageContent-2qWWxC {
+    color: white;
+}
 .message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover {
     background: transparent;
 }
@@ -402,11 +408,17 @@ html::before {
 span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQeI4.alt-1uNpEt {
     display: none;
 }
-
-
-
-
-
+/* Embeds */
+.embedFull-2tM8-- {
+    background: var(--bg-element);
+    border-radius: var(--br);
+}
+.markup-2BOw-j a {
+    color: var(--accentcolor);
+}
+.embedImage-2W1cML img, .embedImage-2W1cML video, .embedThumbnail-2Y84-K img, .embedThumbnail-2Y84-K video, .embedVideo-3nf0O9 img, .embedVideo-3nf0O9 video {
+    border-radius: var(--br);
+}
 
 /* Emojis */
 
@@ -434,7 +446,7 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
 }
 .mentioned-xhSam7::after {
     content: "";
-    background: var(--accentcolor);
+    background-image: var(--accentcolor);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -496,13 +508,54 @@ form.form-2fGMdU {
 /* Spinners */
 
 
+/** Mark as Read **/
+.newMessagesBar-mujexs.barBase-39XTcM {
+    background-image: var(--accentcolor);
+    border-radius: var(--br);
+    margin-top: 10px;
+    padding: 3px 10px;
+}
+/** Jump to present **/
+.jumpToPresentBar-9P20AM.barBase-39XTcM {
+    background-image: var(--accentcolor);
+    border-radius: var(--br);
+    margin-bottom: 10px;
+    padding: 3px 10px;
+}
 /** Dividers **/
 /* New Messages */
-
+svg.unreadPillCap-3_K2q2 {
+    display: none;
+}
+span.unreadPill-2HyYtt {
+    padding: 9px 10px;
+    margin-top: -3px;
+    border-radius: var(--br);
+}
 /* Date */
+.unreadBar-3YD_k9 {
+	background:var(--main-color);
+}
+.content-1o0f9g {
+    color: white;
+    border-radius: 5px;
+    background-image: var(--accentcolor);
+    padding: 8px 20px;
+}
+.divider-3_HH5L.hasContent-1_DUdQ.divider-JfaTT5.hasContent-1cNJDh {
+    border: none;
+    margin-bottom: 10px;
+}
 
+span.content-1o0f9g {
+    position: absolute;
+    left: 54px;
+}
 /* Date with New Messages */
-
+.isUnread-3Ef-o9 .content-1o0f9g {
+    color: rgb(255, 255, 255);
+    background: red;
+}
 /** Chat Header **/
 .children-19S4PO:after {
     display: none;
@@ -523,7 +576,20 @@ form.form-2fGMdU {
 /* Description */
 
 /* Right side buttons */
-
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Start Voice Call"]:hover {
+    animation:shake 150ms linear infinite;
+}
+@keyframes shake {
+    from {
+        transform: rotate(-7deg);
+    }
+    to {
+        transform: rotate(7deg);
+    }
+}
+.clickable-3rdHwn .icon-22AiRD {
+    color: white;
+}
 /* Seperorater */
 .content-yTz4x3:before {
     display: none;
@@ -567,7 +633,7 @@ svg.icon-WnO6o2 {
 }
 /* Unread Indicator */
 .unread-3zKkbm {
-    background-color: var(--accentcolor);
+    background-image: var(--accentcolor);
     width: 221px;
     left: 9px;
     top: 5px;
@@ -597,7 +663,7 @@ svg.icon-WnO6o2 {
 }
 /* Voice Channels */
 .total-3tKGEB {
-    background-color: var(--accentcolor);
+    background-image: var(--accentcolor);
 }
 .total-3tKGEB:after {
     border-top: 20px solid var(--accentcolor);
@@ -646,16 +712,29 @@ div#powercord-spotify-modal {
 /** Seperator **/
 /** Servers **/
 /* Icons */
-.blobContainer-239gwq:active {
-    position: relative;
-    -webkit-transform: translateY(0px) translateZ(0);
-    transform: translateY(0px) translateZ(0);
+.svg-1X37T1, .wrapper-25eVIn {
+    border-radius: 50px;
 }
 /* Unread Indicator */
 
 /** Add/Create Guilds Button **/
-/* Icons */
-
+.circleIconButton-jET_ig.selected-ugP_am {
+    color: #fff;
+    background-image: linear-gradient(120deg, #9BA3A6, var(--accentcolor));
+    transition: none;
+}
+svg.circleIcon-LvPL6c {
+    color: white;
+    transition: none;
+}
+.circleIconButton-jET_ig {
+    color: white;
+    transition: none;
+}
+.circleIconButton-jET_ig {
+    background-image: var(--accentcolor);
+    transition: none;
+}
 /*** Popups and Dropdowns ***/
 /** Server Dropdown **/
 /* Background */
@@ -745,7 +824,7 @@ div#powercord-spotify-modal {
 /** Tooltip **/
 /* Background */
 .theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z {
-    background-color: var(--accentcolor);
+    background-image: var(--accentcolor);
     border-radius: var(--br);
     color: var(--accenttext);
     font-weight: bold;
@@ -858,7 +937,7 @@ div#powercord-spotify-modal {
 .container-3ayLPN.elevationBorderHigh-2WYJ09 {
     position: fixed;
     top: 0px;
-    right: -110px;
+    right: 60px;
 }
 /* Search Box */
 .searchBar-3dMhjb {
@@ -945,11 +1024,11 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover {
     color: var(--accenttext);
-    background-color: var(--accentcolor);
+    background-image: var(--accentcolor);
     border-radius: var(--br);
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after {
-    background-color: var(--accentcolor);
+    background-image: var(--accentcolor);
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover {
     background-color: rgba(47, 49, 54, 0.5);
@@ -1587,6 +1666,133 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
     pointer-events:none;
     border-top-right-radius:8px;
 }
+
+.reduce-motion .userPopout-3XzG_A {
+    transform:translateZ(0);
+    box-shadow: none;
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	pointer-events: none;
+	opacity: 1;
+    filter: brightness(0.2);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position) center;
+	background-image: var(--user-background);
+}
+
+.userPopout-3XzG_A  .header-2BwW8b,
+.userPopout-3XzG_A  .scroller-2FKFPG,
+.userPopout-3XzG_A  .footer-1fjuF6 {
+	z-index: 1;
+}
+/* Mini Profile */
+.theme-dark .headerNormal-T_seeN {
+    background-color: transparent;
+}
+.userPopout-3XzG_A::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: var(--bg-element);
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    border-radius: var(--br);
+}
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+    background-color: transparent;
+    color: white;
+}
+.bodyTitle-Y0qMQz {
+    color: white;
+}
+.role-2irmRk {
+    border-width: 0px;
+    border-style: solid;
+    border-radius: var(--br);
+    box-sizing: content-box;
+    height: 16px;
+    margin: 3px;
+    padding: 2px;
+    position: relative;
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    overflow: visible;
+}
+.role-2irmRk::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-width: calc(0.65em + 4px) .5em;
+    border-style: solid;
+    border-color: inherit;
+    box-sizing: border-box;
+    opacity: 0.5;
+    border-radius: var(--br);
+}
+  .roleName-32vpEy {
+    margin: 0 4px;
+  }
+  .roleCircleButton-377y0l {
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    height: 22px;
+    top: -1px;
+    left: -1px;
+    border-radius: 2px 0 0 2px;
+    width: 0px;
+    display: flex !important;
+    transition: width 200ms;
+  }
+  .roleCircle-3xAZ1j {
+    display: none;
+  }
+  .addButton-pcyyf6 {
+    line-height: 10px;
+    width: 22px;
+    box-sizing: border-box;
+    height: 22px;
+  }
+  .roleRemoveIcon-2-TeGW {
+    display: block;
+  }
+  .role-2irmRk:hover .roleCircleButton-377y0l {
+    transition: width 0.2s;
+    width: 22px;
+    border-radius: var(--br);
+}
+  .addButtonIcon-1NMJ8u {
+    height: 7px;
+    width: 7px;
+  }
+
+  .footer-1fjuF6 {
+    display: none;
+}
+.activity-11LB_k {
+    background-color: transparent;
+    padding: 10px;
+}
+.headerSpotify-zpWxgT {
+    background: transparent;
+}
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
+    background: transparent;
+}
 /** Upload Modal **/
 /* Background **/
 
@@ -1630,6 +1836,8 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 /* Header Menu */
 
 /* Footer */
+
+/* Mini Profile Popup */
 
 /** Add/Create Modal **/
 
@@ -1742,62 +1950,13 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 }
 /* Button */
 
+/** Private Search(to quick switcher) **/
+/* Height */
+.searchBar-6Kv8R2 {
+    height: 70px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*** Out of App Areas ***/
+/** Out of App Areas ***/
 /** Login Screen **/
 /* Background */
 img.image-2jyRAK.loaded-3PtF_J {
@@ -1814,7 +1973,7 @@ input.inputDefault-_djjkz.input-cIJ7To {
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     color: #fff;
-    background-color: var(--accentcolor);
+    background-image: var(--accentcolor);
     border-radius: var(--br);
 }
 .qrCodeOverlay-qgtlTP::before {
