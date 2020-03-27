@@ -2,6 +2,7 @@
 ##v4.0.08
  - Gradient colors can now be set as gradient colors
  - New option `--appBR`
+ - New option `--text-link` (Discord variable)
  - Roles now have colored backgrounds in mini profile pop ups
  - Covers added to mini profile pop ups
  - Round corners fixed in mini profile pop ups
