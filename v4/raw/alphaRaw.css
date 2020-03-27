@@ -414,7 +414,7 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
     border-radius: var(--br);
 }
 .markup-2BOw-j a {
-    color: var(--accentcolor);
+    color: var(--text-link);
 }
 .embedImage-2W1cML img, .embedImage-2W1cML video, .embedThumbnail-2Y84-K img, .embedThumbnail-2Y84-K video, .embedVideo-3nf0O9 img, .embedVideo-3nf0O9 video {
     border-radius: var(--br);
