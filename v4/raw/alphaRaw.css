@@ -1183,7 +1183,23 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
     width: 351px;
 }
 
-rect.pointerEvents-2zdfdO {
+.root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="#43b581"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[mask*="online"] {
+    display: none;
+}
+
+.root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="#43b581"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[mask*="idle"] {
+    display: none;
+}
+
+.root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="#43b581"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[mask*="dnd"] {
+    display: none;
+}
+
+.root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="#43b581"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[mask*="offline"] {
+    display: none;
+}
+
+.root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="#43b581"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA rect[mask*="streaming"] {
     display: none;
 }
 
