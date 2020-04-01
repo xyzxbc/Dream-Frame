@@ -1,5 +1,15 @@
 # Alpha 
-##v4.0.08
+## v4.0.09
+ - Square status don't show on profile modal 
+ - Updated mini profile pop ups
+ - Updated custom status pop up
+ - Updated status picker
+ - Updated server boost page
+ - Updated Emoji picker
+ - Emoji category now on side with sidebar background
+ - Updated blur
+ - Updated backgrounds
+## v4.0.08
  - Gradient colors can now be set as gradient colors
  - New option `--appBR`
  - New option `--text-link` (Discord variable)
