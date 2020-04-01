@@ -302,6 +302,7 @@ html::before {
     background-repeat: var(--bgrepeat);
     background-size: cover;
     opacity: 1;
+    animation: 15s bgAnimation ease;
 }
 /** Light Mode **/
 /* Blocker */
@@ -2281,7 +2282,7 @@ canvas.media-engine-video.video-1kutKI.videoContain-2ih_gc.mirror-1Z13AJ {
 }
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4.0.09 Alpha";
+    content: "Dream Frame v4.0.10 Beta";
     color: white;
     font-size: 12px !important;
 }
@@ -2573,3 +2574,78 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
     font-style: unset;
     font-size: 0px;
 }
+
+
+
+@keyframes bgAnimation {
+    0% {
+        content: "";
+        background-image: var(--custombackground);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+        transform: rotate(var(--bgrotation)) scale(1.5);
+        background-repeat: var(--bgrepeat);
+        background-size: cover;
+        filter: brightness(0.5);
+        opacity: 1;
+    }
+    100% {
+        content: "";
+        background-image: var(--custombackground);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+        transform: rotate(var(--bgrotation)) scale(var(--bgscale));
+        background-repeat: var(--bgrepeat);
+        background-size: cover;
+        filter: brightness(1);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
