@@ -8,6 +8,6 @@
  - Stable release **May 1st** (Dream Frame's 2nd birthday)
  
 ## Download Alpha
-[Download for BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/v4/download/DreamFrameAlpha.theme.css)
+[Download for BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/v4/download/DreamFrameBeta.theme.css)
 
-[Download for Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/v4/download/Dream%20Frame%20v4%20Alpha.zip)
+[Download for Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/v4/download/Dream%20Frame%20v4%20Beta.zip)
