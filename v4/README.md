@@ -2,12 +2,12 @@
 # Dream Frame v4
 
 ## Release Dates
- - Coding begins **March 1st**
+ ~~- Coding begins **March 1st**
  - Alpha release **March 1st**
  - Beta release **April 1st**
  - Stable release **May 1st** (Dream Frame's 2nd birthday)
  
-## Download Alpha
+## Download Beta
 [Download for BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/v4/download/DreamFrameAlpha.theme.css)
 
 [Download for Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/v4/download/Dream%20Frame%20v4%20Alpha.zip)
