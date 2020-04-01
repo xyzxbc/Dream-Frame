@@ -1,3 +1,7 @@
+# Beta
+## v4.0.10
+ - Fixed statuses
+ - Wallpaper animated on boot
 # Alpha 
 ## v4.0.09
  - Square status don't show on profile modal 
