@@ -10,13 +10,13 @@ Dream Frame offers customization like custom background, colors, fonts, and blur
  ### Custom Colors
  You can set an accent color to whatever you like best, instead of seeing Discord's default accent color known as blurple and also set accent text color.
  ### Profile Covers
- Dream Frame is one of the themes to support [profile covers](https://github.com/Discord-Custom-Covers/usrbg). Go to [Dream Frame's](https://discord.gg/Grya2sa) or [Black Box's](https://discord.gg/TeRQEPb) support server and request a background cover for your profile. You can also view other's covers too by viewing their profiles.
+ Dream Frame is one of the themes to support [profile covers](https://github.com/Discord-Custom-Covers/usrbg). Go to [Black Box's](https://discord.gg/TeRQEPb) support server and request a background cover for your profile. You can also view other's covers too by viewing their profiles.
 
 ## Discord Mod Support
 Dream Frame supports both [Powercord](https://Powercord.dev) and [BetterDiscord]().
 
 ## Support
-[Join](https://discord.gg/Grya2sa) our Discord server to get support for Dream Frame or you could also join [Black Box](https://discord.gg/TeRQEPb) for support.
+Join [Black Box](https://discord.gg/TeRQEPb) for support.
 
 ## Downloads
 ### Dream Frame
