@@ -1,4 +1,8 @@
 # Beta
+## v4.0.11
+ - Fixed profile modal
+ - Fixed mini profile pop up
+ - Bug fixes
 ## v4.0.10
  - Fixed statuses
  - Wallpaper animated on boot
