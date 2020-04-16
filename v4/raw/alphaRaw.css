@@ -8,9 +8,14 @@
 }
 
 /** Tags **/
+:root {
+    --tag-bg: var(--accentcolor);
+}
+
 .avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
+    content: var(--tag-text);
     color: var(--accenttext) !important;
-    background: var(--accentcolor);
+    background: var(--tag-bg);
     font-size: .8em;
     font-weight: 500;
     height: 2.28em;
