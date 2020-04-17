@@ -59,54 +59,10 @@
  * {
      font-family: var(--font);
  }
-.appMount-3lHmkl {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: calc(100% - var(--appMargins));
-    height: calc(100% - var(--appMargins));
-    border-radius: var(--appBR);
-    backdrop-filter: blur(var(--blur));
-}
-.appMount-3lHmkl::before {
-    content: "";
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    background: #000000;
-    opacity: var(--opacitybg);
-}
-
-/** Titlebar **/
-html.platform-win::after { /* Allows drag */
-    content: "";
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: -webkit-fill-available;
-    height: 25px;
-    -webkit-app-region: drag;
-}
-.withFrame-haYltI {
-    height: 0px;
-    margin-top: 0px;
-}
-.wordmarkWindows-1v0lYD.wordmark-2iDDfm {
-    display: none;
-}
 
 /* Buttons */
 .winButton-iRh8-Z {
     color: white;
-    height: 48px;
-    margin-top: 4px;
-    width: 40px;
-}
-.platform-win .toolbar-1t6TWx { /* Move toolbar to prevent overlaying with titlebar buttons */
-    margin-right: 115px;
 }
 /** Changelog **/
 
@@ -132,7 +88,7 @@ html.platform-win::after { /* Allows drag */
     width: fit-content;
     right: 31px;
     top: 85px;
-    animation: 1s fadeFromRight ease;
+    animation: 0.5s fadeFromRight ease;
     z-index: 5000 !important;
 }
 
@@ -239,7 +195,7 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ {
     background-color: var(--containerfriendslist);
 }
 /* Custom Background */
-html::before {
+.appMount-3lHmkl::before {
     content: "";
     background-image: var(--custombackground);
     position: absolute;
@@ -251,12 +207,13 @@ html::before {
     background-repeat: var(--bgrepeat);
     background-size: cover;
     opacity: 1;
+    filter: blur(var(--blur)) brightness(var(--opacitybg));
     animation: 15s bgAnimation ease;
 }
 /** Light Mode **/
 /* Blocker */
 .theme-light .layer-3QrUeG:first-of-type::before {
-    content: "Light mode will not be support on Dream Frame ~Korbs";
+    content: "Light mode will not be supported on Dream Frame ~Korbs";
     text-align:center;
     width: 500px;
     position:absolute;
@@ -395,6 +352,13 @@ html::before {
 /*** Chat ***/
 /* Background */
 /** Messages **/
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover {
+    background-color: transparent;
+}
+.wrapper-2aW0bm {
+    margin-top: 30px;
+    border-radius: var(--br);
+}
 .markup-2BOw-j.messageContent-2qWWxC {
     color: white;
 }
@@ -549,18 +513,19 @@ span.unreadPill-2HyYtt {
 }
 /* Date */
 .unreadBar-3YD_k9 {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
 }
 .unread-1xRYoj {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     opacity: 1;
 }
 .content-1o0f9g {
     color: white;
     border-radius: 5px;
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     padding: 8px 20px;
 }
+
 .divider-3_HH5L.hasContent-1_DUdQ.divider-JfaTT5.hasContent-1cNJDh {
     border: none;
     margin-bottom: 10px;
@@ -576,6 +541,9 @@ span.content-1o0f9g {
     background: red;
 }
 /** Chat Header **/
+.theme-dark .base-19D3Qq {
+    border-color: transparent;
+}
 .children-19S4PO:after {
     display: none;
 }
@@ -1005,6 +973,19 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 }
 /** GIF picker **/
 /* Background */
+.theme-dark .autocomplete-1vrmpx {
+    background-color: var(--bg-element);
+    box-shadow: none;
+    border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
+}
+/* Search Box */
+.theme-dark .header-1TOWci {
+    box-shadow: none;
+}
+.container-cMG81i {
+    background: transparent;
+}
 
 /** Emoji Picker **/
 /* Background */
@@ -1035,6 +1016,9 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
     background: transparent;
 }
 /* Category */
+.emojiPicker-3m1S-j .categories-1feg4n {
+    background-color: transparent;
+}
 .categories-1feg4n {
     position: absolute;
     top: 180px;
@@ -1060,7 +1044,7 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 .emojiPicker-3m1S-j::before {
     content: "";
     position: absolute;
-    background: var(--accentcolor);
+    background-image: var(--accentcolor);
     top: 0px;
     left: 0px;
     width: 56px;
@@ -1920,14 +1904,14 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 }
 
 .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] .avatar-SmRMf2 {
-	position:absolute;
-	left:50%;
-	bottom:168px;
-	transform:translateX(-50%);
-	z-index:15;
-	height:50px !important;
-	width:50px !important;
-	opacity:1;
+	position: absolute;
+    left: 110px !important;
+    bottom: 143px;
+    transform: translateX(-50%);
+    z-index: 15;
+    height: 50px !important;
+    width: 50px !important;
+    opacity: 1;
 }
 .nameTag-3uD-yy.canCopy-2VBT7N[aria-expanded="true"] .avatar-SmRMf2 {
     margin-left: -38px;
@@ -2021,86 +2005,37 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 }
 /* - Calls - */
 /* Background */
-.wrapper-KXM2i0 {
-    background: transparent;
-}
-canvas.media-engine-video.video-1kutKI.videoContain-2ih_gc.mirror-1Z13AJ {
-    width: fit-content;
-    border-radius: var(--br);
-    height: fit-content;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 50%;
-}
-.theme-dark .container-2oTpPc {
-    background-color: transparent;
-}
-.root-25RxKh {
-    background: transparent;
-}
-.paused-3oG15i { /* If your stream preview has been paused */
+.wrapper-2qzCYF.minimum-28Z35l {
+    height: 300px;
     background-color: var(--bg-element);
-    backdrop-filter:  var(--bg-blur);
-}
-.video-1kutKI {
-    background-color: transparent;
-}
-.videoControls-3glNbo {
-    background: none;
-}
-.bottomControls-UTyHwG {
-    background: var(--bg-element);
-    padding: 10px;
-    margin-left: -10px;
-    margin-bottom: -9px;
+    margin: 20px;
     border-radius: var(--br);
-    backdrop-filter:  var(--bg-blur);
-}
-
-
-
-
-.theme-dark .selected-P8xTeN {
-    color: #ffffff;
-    font-weight: bold;
+    backdrop-filter: var(--bg-blur);
     border: none;
 }
-.theme-dark .border-2AhmKo {
-    border-bottom: navajowhite;
+/* Bottom Controls */
+/* Make em smaller, they too big */
+button.centerButton-3CaNcJ.controlButton-2MhVEL.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
+    height: 30px;
+    width: 30px;
 }
-.theme-dark .tiles-2aXG_k {
-    background-color: transparent;
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.2), 0 0 0 1px rgba(32,34,37,.6);
-    box-shadow: none;
+.controlIcon-35oS15 {
+    width: 14px;
+    height: 14px;
 }
-.theme-dark .item-3T2z1R {
-    border-color: #18191c;
-    border: none;
-    border-radius: var(--br);
-    margin: 0px 3px;
+.centerButton-3CaNcJ .centerIcon-2G6o-T {
+    margin-top: -6px;
 }
-.selectorButtonSelected-1j4DmC {
-    background-image: var(--accentcolor);
+/* People in calls */
+.tile-2gi3tr.noInteraction-2pbsEq.idle-U-LIlZ.tile-ME82Od {
+    border-radius: var(--br) !important;
 }
-.selectorButtonSelected-1j4DmC {
-    background-image: var(--accentcolor);
+.size16-1P40sf.overlayTitle-8IcS01 {
+    border-radius: var(--br) !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+svg.status-254fhp {
+    border-radius: var(--br) !important;
+}
 /* pop out that someone is calling */
 .incomingCallInner-2VmFiR {
     border-radius: var(--br);
@@ -2171,6 +2106,29 @@ canvas.media-engine-video.video-1kutKI.videoContain-2ih_gc.mirror-1Z13AJ {
 /* Platform */
 
 /*** Settings ***/
+/** Make the settings small again **/
+/* Keep everything in background visible */
+.layer-3QrUeG.baseLayer-35bLyl.stop-animations {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+    animation: none !important;
+}
+.layer-3QrUeG.baseLayer-35bLyl.start-animations {
+    animation: none !important;
+}
+/* Make Background */
+.standardSidebarView-3F1I7i {
+    width: 1040px;
+    height: 720px;
+    max-height: 1000px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000000c7;
+    border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
+}
 /** Sidebar **/
 /* Tab */
 
@@ -2180,7 +2138,7 @@ canvas.media-engine-video.video-1kutKI.videoContain-2ih_gc.mirror-1Z13AJ {
 }
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4.0.11 Beta";
+    content: "Dream Frame v4.0.13 Beta";
     color: white;
     font-size: 12px !important;
 }
@@ -2487,7 +2445,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
         transform: rotate(var(--bgrotation)) scale(1.5);
         background-repeat: var(--bgrepeat);
         background-size: cover;
-        filter: brightness(0.5);
+        filter: blur(0px) brightness(0.8);
         opacity: 1;
     }
     100% {
@@ -2501,29 +2459,14 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
         transform: rotate(var(--bgrotation)) scale(var(--bgscale));
         background-repeat: var(--bgrepeat);
         background-size: cover;
-        filter: brightness(1);
+        filter: blur(var(--blur)) brightness(var(--opacitybg));
         opacity: 1;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.expandedFolderBackground-2sPsd- {
+    background-color: var(--bg-element);
+}
 
 
 
