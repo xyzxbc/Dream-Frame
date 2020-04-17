@@ -1,4 +1,16 @@
 # Beta
+## v4.0.13
+ - Made the settings menu smaller
+ - Fixed backdrop blur
+ - Fixed emoji menu
+ - Changed background on new call UI
+ - Made control buttons on new call UI smaller
+ - Fixed accent color in a couple of places
+ - Removed app margin(options no longer needs)
+ - Prevented Discord from being blurry sometimes
+ - Moved custom background to different class name
+## v4.0.12
+ - Updated tags
 ## v4.0.11
  - Fixed profile modal
  - Fixed mini profile pop up
