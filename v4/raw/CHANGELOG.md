@@ -1,4 +1,14 @@
 # Beta
+## v4.0.14
+ - Removed BDSources import link
+ - Updated Dream Frame's fallback [import link](https://dream-frame.github.io/fallback/fallback.css)
+ - Updated Dream Frame's fallback system for v4
+ - Fixed the limit counter on voice channels
+ - Removed shadow from quick switch button on home page
+ - Removed shadow from  header in mentions and pinned messages
+ - Fixed position of badges if Powercord badges are only showing
+ - Moved version number on top of code
+ - Selected server icon will remain round like other server icons
 ## v4.0.13
  - Made the settings menu smaller
  - Fixed backdrop blur
