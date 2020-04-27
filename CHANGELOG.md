@@ -1,3 +1,20 @@
+# v4
+ - The transparency mode is no longer supported because it causes black bars to appear behind blurry backgrounds
+ - The profile modal got a make over and custom profile covers were moved within the profile modal
+ - Mini profiles have also been updated and profile covers are now visible on it
+ - The search from home has been moved away from the home button
+ - The status picker also got a make over
+ - Search bar in the chat header has been moved far right and will now remain expanded
+ - A changelog modal was added and can been seen when hovering over the Help button
+ - The settings page is small now
+ - The new call UI has been themed
+ - Accent color can now be a [gradient color](https://cssgradient.io/)
+ - Elements using `backdrop-filter` has been fixed(as in not supporting transparency mode anyway)
+ - Animation was added to background when booting Discord
+ - ~~Category was moved to the side in emoji picker~~ (New Discord update changed this)
+ - ~~New emoji picker themed~~ (not yet)
+ - [Dream Frame now supports the Guilded client for those Guilded users out there](https://korbsstudio.com/DreamFrame/guilded/)
+
 # v3.38
  - Updated the create/join server modal
  - Added transition for channels, members list, and friends list
