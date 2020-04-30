@@ -2735,57 +2735,6 @@ img.bg-AYqtMd.pc-bg {
 .scroller-1JbKMe {
     background-color: transparent;
 }
-/* Search Bar */ /* url(https://i.imgur.com/lWyGVJx.png) */
-.searchBar-6Kv8R2 {
-    margin-top: -41px;
-}
-button.searchBarComponent-32dTOx::before {
-    content: "";
-    background-image: url(https://i.imgur.com/lWyGVJx.png);
-    position: absolute;
-    top: -1px;
-    left: -2px;
-    width: 50px;
-    height: 50px;
-    z-index: 5;
-    background-size: 27px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #7289da;
-}
-button.searchBarComponent-32dTOx {
-    position: fixed;
-    top: 12px;
-    left: 12px;
-    width: 48px !important;
-    height: 48px !important;
-    border-radius: 50px !important;
-    color: transparent !important;
-    z-index: 4;
-}
-hr.sectionSeparator-2OWiNT {
-    opacity: 0;
-}
-header.header-3ZP1MY {
-    display: none;
-}
-.actions-pBaxX6 {
-    margin-top: 25px;
-}
-.theme-light .action-1lSjCi {
-    border-color: transparent;
-    background: hsl(0, 0%, 100%);
-    border-radius: var(--br) !important;
-}
-form.modal-yWgWj-.slide-2pHaq5.size-3BX7nn.fullscreenOnMobile-1aglG_ {
-    background: transparent;
-    box-shadow: none;
-}
-form.modal-yWgWj-.slide-2pHaq5.size-1WIx1O.fullscreenOnMobile-1aglG_ {
-    background: transparent;
-    box-shadow: none;
-}
-
 
 
 
