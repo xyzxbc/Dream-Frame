@@ -116,29 +116,28 @@
 /** Changelog **/
 
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::after {
-    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on \A- Spotify modal is no longer too spaced out from the profile container \A- Background elements with blur have been replaced with custom background, to prevent black bar bug \A- Covers now show up on mini profile pop ups \A- You can now set the accent color to a gradient color";
-    display: block;
-    line-height: 22px;
-    font-size: 14px;
+    content: "";
+    background-image: url(https://i.imgur.com/44p0iPa.png);
     position: fixed;
-    background: var(--bg-element);
-    backdrop-filter:  var(--bg-blur);
-    padding: 10px 25px 10px 15px;
-    white-space: pre;
-    line-height: 18px;
-    margin-bottom: 15px;
-    border-radius: var(--br);
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    font-weight: 500;
-    margin-top: -10px;
-    color: #fff;
-    text-transform: none;
-    overflow: hidden;
-    width: fit-content;
-    right: 31px;
-    top: 85px;
+    right: 5px;
+    height: 628px;
+    width: 500px;
+    top: 26px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     animation: 0.5s fadeFromRight ease;
-    z-index: 5000 !important;
+}
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::before {
+    content: "";
+    position: fixed;
+    top: 150px;
+    right: 12px;
+    backdrop-filter: blur(30px);
+    width: 486px;
+    height: 494px;
+    border-radius: 0px 0px 9px 9px;
+    animation: 0.5s fadeFromRight ease;    
 }
 
 @keyframes fadeFromRight {
