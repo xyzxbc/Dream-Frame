@@ -1,3 +1,14 @@
+# Pre-Relase v4
+ - Removed shadow on friends list and over the DM list
+ - Made the background on roles transparent
+ - Removed borders on the audit log
+ - Removed borders in members and invite list
+ - Fixed background on voice limit number
+ - Made background on regions list transparent
+ - Fixed pinned messages
+ - Themed the new Inbox
+ - Removed divider on server list
+ - Changed value of default accent color
 # Beta
 ## v4.0.14
  - Removed BDSources import link
