@@ -29,7 +29,7 @@
     --containerFriendsList:  transparent !important;
 
     /** Accents **/
-    --accentcolor: #7289da !important;
+    --accentcolor: linear-gradient(90deg, rgba(114,137,218,1) 0%, rgba(114,137,218,1) 100%) !important;
     --accenttext: white !important;
     --text-link: #7289da !important;
 
