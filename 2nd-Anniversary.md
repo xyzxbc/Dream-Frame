@@ -12,6 +12,9 @@
 ## Dream Frame History | Screenshots
 ### v3.25 Covers Returning Back
 ![image](https://pbs.twimg.com/media/EL2s9rqXkAAcZSx?format=jpg)
+### v2.47
+![image](https://cdn.discordapp.com/attachments/334930755736174592/654817242701365279/unknown.png)
+![image](https://cdn.discordapp.com/attachments/334930755736174592/654824802468495391/unknown.png)
 ### v2.46
 ![image](https://pbs.twimg.com/media/D6GxoZ8XoAACHx2?format=jpg)
 ### v2.31
@@ -20,6 +23,9 @@
 ![image](https://pbs.twimg.com/media/DuFXF8wUUAA6nGq?format=jpg)
 ![image](https://pbs.twimg.com/media/DuFXF8wV4AAwZ_F?format=jpg)
 ![image](https://pbs.twimg.com/media/DuFXF8uUwAA9qBz?format=jpg)
+### v1.09
+![image](https://cdn.discordapp.com/attachments/334930755736174592/495351890733694988/Capture.PNG)
+
 
 ### v1.06
 ![image](https://cdn.discordapp.com/attachments/456652562435670027/456652688373841920/Screen_Shot_2018-06-04_at_7.png)
@@ -27,6 +33,7 @@
 ### v1 First Release and the original website
 ![image](https://pbs.twimg.com/media/DYmc02iVoAAd6Mw?format=jpg)
 ### v0.7 Beta
+![image](https://cdn.discordapp.com/attachments/334930755736174592/431938423381557248/unknown.png)
 ![image](https://pbs.twimg.com/media/Dat9MnlU0AAniAp?format=jpg)
 ### v0.61 Beta
 ![image](https://pbs.twimg.com/media/DagUAk0V4AIW8NC?format=jpg)
