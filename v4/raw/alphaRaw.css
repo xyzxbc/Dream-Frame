@@ -4,43 +4,10 @@
 
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4 Pre-Release";
+    content: "Dream Frame v4";
     color: white;
     font-size: 12px !important;
 }
-
-/* * */
-.app-2rEoOp::before {
-    content: "Dream Frame v4 Pre-Release";
-    position: fixed;
-    color: white;
-    font-weight: bold;
-    background-image: var(--accentcolor);
-    padding: 10px 14px;
-    border-radius: var(--br);
-    bottom: 10px;
-    right: 10px;
-    z-index: 5;
-    opacity: 0;
-    animation: 10s v4 ease;
-}
-
-@keyframes v4 {
-    0% {
-        opacity: 1;
-        bottom: 10px;
-    }
-    90% {
-        opacity: 1;
-        bottom: 10px;
-    }
-    100% {
-        opacity: 0;
-        bottom: -50px;
-    }
-}
-
-/* * */
 
 .theme-dark {
     --background-tertiary: transparent !important;
@@ -2112,14 +2079,48 @@ hr.guildCategorySeparator-_An-MP {
     border-radius: var(--br);
 }
 /** Upload Modal **/
-/* Background **/
-
+/* Size */
+.uploadModal-2ifh8j {
+    width: 600px;
+    height: 350px;
+    border-radius: var(--br);
+    background: transparent !important;
+    backdrop-filter: blur(10px) brightness(3);
+    box-shadow: none !important;
+}
 /* Image */
-
+.icon-kyxXVr.image-2yrs5j {
+    margin: -2px 0px 0px -4px !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 600px !important;
+    height: 347px !important;
+    filter: brightness(0.7);
+}
+/* Footer */
+.footer-3mqk7D.hasSpoilers-1IRtQC {
+    background: transparent;
+    box-shadow: none;
+}
 /* Buttons */
 
 /* Comment */
-
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
+    margin: 0 8px;
+}
+.comment-4IWttf {
+    position: absolute;
+    bottom: 0px;
+    width: 385px;
+    z-index: 5;
+}
+.label-3aiqT2 {
+    display: none;
+}
+label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
+    pointer-events: none;
+    opacity: 0;
+}
 /* File Name */
 
 /* File Icons */
@@ -2290,17 +2291,27 @@ svg.status-254fhp {
 .standardSidebarView-3F1I7i {
     width: 1040px;
     height: 720px;
-    max-height: 1000px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #000000c7;
+    background: rgba(0,0,0,0.75);
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
 }
 .scroller-2FKFPG.systemPad-3UxEGl.scroller-305q3I {
     background: transparent;
+}
+
+@media only screen and (max-height: 750px) { 
+    .standardSidebarView-3F1I7i {
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 1070px) { 
+    .standardSidebarView-3F1I7i {
+        width: 100%;
+    }
 }
 /** Sidebar **/
 /* Tab */
