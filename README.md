@@ -14,7 +14,9 @@ Dream Frame offers customization like custom background, colors, fonts, and blur
 
 ## Discord Mod Support
 BetterDiscord: https://betterdiscord.net/
+
 Powercord: https://Powercord.dev
+
 Powercord for Discord Stable: https://github.com/dream-frame/powercord-for-discord-stable/blob/v2/README.md
 
 ## Support
