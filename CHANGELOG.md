@@ -1,3 +1,29 @@
+# v4
+ - **Dream Frame's 2nd Anniversary**
+ - Themed the new Inbox
+ - Changed value of default accent color
+ - Removed BDSources import link
+ - Updated Dream Frame's fallback [import link](https://dream-frame.github.io/fallback/fallback.css)
+ - Updated Dream Frame's fallback system for v4
+ - Fixed position of badges if Powercord badges are only showing
+ - Made the settings menu smaller
+ - Fixed backdrop blur
+ - Themed the new emoji menu
+ - Themed the new call UI
+ - Made control buttons on new call UI smaller
+ - Fixed accent color in a couple of places
+ - Accent color can now be gradient
+ - Revamped the profile modal thanks to Tropical
+ - Themed mini profile pop outs
+ - Search bar in chat header moved to left of header buttons
+ - Windows titlebar Updated
+ - Cover in profiles have been moved within the profile modal
+ - Themed mirror code in Powercord's theme settings
+ - Themed Powercord's theme settings
+ - Removed search button on home and reverted back
+ - Email is now blurred on My Account settings
+ - GIF button removed from text box in chat - [Dream Frame now supports the Guilded client for those Guilded users out there](https://korbsstudio.com/DreamFrame/guilded/)
+
 # v3.38
  - Updated the create/join server modal
  - Added transition for channels, members list, and friends list
