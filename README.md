@@ -13,7 +13,9 @@ Dream Frame offers customization like custom background, colors, fonts, and blur
  Dream Frame is one of the themes to support [profile covers](https://github.com/Discord-Custom-Covers/usrbg). Go to [Black Box's](https://discord.gg/TeRQEPb) support server and request a background cover for your profile. You can also view other's covers too by viewing their profiles.
 
 ## Discord Mod Support
-Dream Frame supports both [Powercord](https://powercord.dev) and [BetterDiscord](https://betterdiscord.net/).
+BetterDiscord: https://betterdiscord.net/
+Powercord: https://Powercord.dev
+Powercord for Discord Stable: https://github.com/dream-frame/powercord-for-discord-stable/blob/v2/README.md
 
 ## Support
 Join [Black Box](https://discord.gg/TeRQEPb) for support.
