@@ -4,12 +4,23 @@
 
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4.0.14 Beta";
+    content: "Dream Frame v4";
     color: white;
     font-size: 12px !important;
 }
+
 .theme-dark {
     --background-tertiary: transparent !important;
+    --header-primary: white;
+    --header-secondary: white;
+    --text-normal: white;
+    --text-muted: rgba(255, 255, 255, 0.5);
+    --channels-default: white;
+    --interactive-normal: white;
+    --interactive-hover: white;
+    --interactive-active: white;
+    --interactive-muted: rgba(255, 255, 255, 0.5);
+    --elevation-low: none !important;
 }
 
 /** Tags **/
@@ -72,29 +83,28 @@
 /** Changelog **/
 
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::after {
-    content: "What's new in Dream Frame v4 Alpha \A- The profile modal has been updated with a new layout \A- Covers in profiles have been moved within the profile modal \A- Discord now has a margin around it along with a new option you can adjust(Re-download to get it) \A- Each container in Discord can now have it's background changed with new options(Re-download to get it) \A- Tags for donators were added \A- Black bars are no longer visible when using Dream Frame with transparency turned on \A- Spotify modal is no longer too spaced out from the profile container \A- Background elements with blur have been replaced with custom background, to prevent black bar bug \A- Covers now show up on mini profile pop ups \A- You can now set the accent color to a gradient color";
-    display: block;
-    line-height: 22px;
-    font-size: 14px;
+    content: "";
+    background-image: url(https://i.imgur.com/44p0iPa.png);
     position: fixed;
-    background: var(--bg-element);
-    backdrop-filter:  var(--bg-blur);
-    padding: 10px 25px 10px 15px;
-    white-space: pre;
-    line-height: 18px;
-    margin-bottom: 15px;
-    border-radius: var(--br);
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    font-weight: 500;
-    margin-top: -10px;
-    color: #fff;
-    text-transform: none;
-    overflow: hidden;
-    width: fit-content;
-    right: 31px;
-    top: 85px;
+    right: 5px;
+    height: 628px;
+    width: 500px;
+    top: 26px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     animation: 0.5s fadeFromRight ease;
-    z-index: 5000 !important;
+}
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label="Help"]:hover::before {
+    content: "";
+    position: fixed;
+    top: 150px;
+    right: 12px;
+    backdrop-filter: blur(30px);
+    width: 486px;
+    height: 494px;
+    border-radius: 0px 0px 9px 9px;
+    animation: 0.5s fadeFromRight ease;    
 }
 
 @keyframes fadeFromRight {
@@ -392,6 +402,7 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
 .embedFull-2tM8-- {
     background: var(--bg-element);
     border-radius: var(--br);
+    backdrop-filter: var(--bg-blur);
 }
 .markup-2BOw-j a {
     color: var(--text-link);
@@ -399,9 +410,14 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
 .embedImage-2W1cML img, .embedImage-2W1cML video, .embedThumbnail-2Y84-K img, .embedThumbnail-2Y84-K video, .embedVideo-3nf0O9 img, .embedVideo-3nf0O9 video {
     border-radius: var(--br);
 }
-
 /* Emojis */
-
+.card-FDVird:before {
+    display: none;
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.emojiRow-zIc7ZX.card-FDVird {
+    box-shadow: none;
+    border: none;
+}
 /* Reactions */
 .reactionInner-15NvIl {
     display: contents;
@@ -419,7 +435,18 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
     color: var(--accenttext) !important;
 }
 /* Codeblocks */
-
+code.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs {
+    background: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+    border-radius: var(--br);
+}
+.powercord-codeblock-lang {
+    color: white;
+    border: none;
+}
+.hljs .powercord-lines:after {
+    border:none;
+}
 /* Mentions */
 .message-2qnXI6.mentioned-xhSam7.container-3FojY8 {
     background: transparent;
@@ -488,7 +515,24 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
 form.form-2fGMdU {
     padding: 14px 10px 7px 10px;
 }
+/* Remove Gift and GIF button */
+button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.noFocus-2C7BQj[aria-label="Open GIF picker"] {
+    display: none;
+}
+button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.noFocus-2C7BQj[aria-label="Send a gift"] {
+    display: none;
+}
 /* Spotify Invites */
+.theme-dark .invite-18yqGF {
+    background-color: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+    border-color: transparent;
+    border-radius: var(--br);
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+    background-color: #747f8d;
+    border-radius: var(--br);
+}
 
 /* Spinners */
 
@@ -588,7 +632,16 @@ span.content-1o0f9g {
 }
 /** Video Player **/
 /* Controls */
-
+.videoControls-2kcYic {
+    backdrop-filter: blur(10px);
+    height: 40px;
+    width: 93%;
+    left: 50%;
+    transform: translate(-50%) !important;
+    bottom: 10px;
+    border-radius: var(--br);
+    padding: 0px;
+}
 /* Top */
 
 /*** Sidebar ***/
@@ -617,10 +670,12 @@ svg.icon-WnO6o2 {
 /* Channel Selected */
 .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
     background-color: var(--bg-element);
+    border-radius: var(--br);
 }
 /* Channel Hover */
 .wrapper-1ucjTd:hover .content-3at_AU {
     background-color: var(--bg-element);
+    border-radius: var(--br);
     opacity: 0.8;
 }
 /* Unread Indicator */
@@ -664,7 +719,7 @@ svg.icon-WnO6o2 {
     font-size: 9px;
 }
 .wrapper-pZmgj4 {
-    background-color: var(--accentcolor);
+    background-image: var(--accentcolor);
     color: white;
 }
 .users-i_3-kL {
@@ -679,6 +734,7 @@ svg.icon-WnO6o2 {
 .container-1giJp5 {
     border: none;
 }
+
 
 /* Spotify */
 div#powercord-spotify-modal {
@@ -808,6 +864,11 @@ svg.circleIcon-LvPL6c {
 }
 /** Pinned Messages and Mentions **/
 /* Background */
+.container-PbeQka.recentMentionsPopout-3rCiI6 {
+    background: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+    border-radius: var(--br);
+}
 .searchResultsWrap-2DKFzt {
     background: var(--bg-element);
     backdrop-filter:  var(--bg-blur);
@@ -819,10 +880,23 @@ svg.circleIcon-LvPL6c {
     box-shadow: none !important;
     width: 456px;
 }
+.messageGroupWrapper-o-Zw7G {
+    background: var(--bg-element);
+    border: none;
+    border-radius: var(--br) brightness(0.5);
+}
 .header-ykumBX {
     box-shadow: none;
 }
 /* Messages */
+.channelHeader-3Gd2xq {
+    background: var(--bg-element);
+    border-radius: var(--br) var(--br) 0px 0px;
+}
+.messageContainer-gbhlwo {
+    background-color: var(--bg-element);
+    border-radius: 0px 0px var(--br) var(--br);
+}
 .searchResultMessage-2VxO12.hit-NLlWXA {
     position: relative;
     z-index: 1;
@@ -988,29 +1062,28 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
     color: rgba(246,246,247,.3);
     border: none;
 }
-/** GIF picker **/
-/* Background */
-.theme-dark .autocomplete-1vrmpx {
-    background-color: var(--bg-element);
-    box-shadow: none;
-    border-radius: var(--br);
-    backdrop-filter: var(--bg-blur);
-}
-/* Search Box */
-.theme-dark .header-1TOWci {
-    box-shadow: none;
-}
-.container-cMG81i {
-    background: transparent;
-}
-
 /** Emoji Picker **/
 /* Background */
-.emojiPicker-3m1S-j {
+.contentWrapper-2txmjs {
     background-color: var(--bg-element);
     box-shadow: none;
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
+}
+header.categoryWrapper-UZ5YNj {
+    background: transparent;
+}
+.inspector-sdLnLS.inspector-3LQtX9 {
+    background: transparent;
+}
+.header-8ilj5e {
+    box-shadow: none;
+}
+button.navButton-3Mnpqt.navButtonActive-3RPAJy.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
+    background-image: var(--accentcolor);
+}
+hr.guildCategorySeparator-_An-MP {
+    display: none;
 }
 /* Width */
 .emojiPicker-3m1S-j {
@@ -1765,6 +1838,41 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
     border-width: 2px;
 }
 
+
+
+
+
+/* Scroll bar for roles */
+.rolesList-22qj2L {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 175px;
+}
+
+.rolesList-22qj2L::-webkit-scrollbar {
+    width: 5px;
+    height: 14px;
+}
+
+.rolesList-22qj2L::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #202225;
+}
+
+.rolesList-22qj2L::-webkit-scrollbar-track-piece {
+    background-color: #2f3136;
+    border: 3px solid #36393f;
+    border-radius: 7px;
+}
+
+
+
+
+
+
 .note-3kmerW.note-3HfJZ5, .bodyTitle-Y0qMQz.marginBottom8-AtZOdT.size12-3R0845, .headerTextNormal-2mGWX3.headerText-1HLrL7.marginBottom8-AtZOdT.small-29zrCQ.weightBold-WPtQ_b {
     display: none;
 }
@@ -2037,6 +2145,12 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
     border: none;
 }
 /* Bottom Controls */
+.theme-dark .quickSelectPopout-X1hvgV {
+    background: var(--bg-element);
+    color: white;
+    border-radius: var(--br);
+}
+
 /* Make em smaller, they too big */
 button.centerButton-3CaNcJ.controlButton-2MhVEL.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
     height: 30px;
@@ -2152,6 +2266,9 @@ svg.status-254fhp {
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
 }
+.scroller-2FKFPG.systemPad-3UxEGl.scroller-305q3I {
+    background: transparent;
+}
 /** Sidebar **/
 /* Tab */
 
@@ -2172,6 +2289,17 @@ svg.status-254fhp {
     background-color: var(--accenttext);
 }
 /** My Account **/
+.marginTop20-3TxNs6 {
+    margin-bottom: 16px;
+}
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1 {
+    filter: blur(5px);
+    transition: filter .5s;
+}
+
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7 + div .selectable-2GY4I1:hover{
+    filter: blur(0);
+}
 .cardPrimary-1Hv-to {
     background: var(--bg-element);
 }
@@ -2327,12 +2455,36 @@ h2.paymentHeader-3QlZQi {
     background-color: transparent;
     padding: 0px;
 }
+.powercord-quickcss-header {
+    background-color: var(--bg-element);
+    border-radius: var(--br) var(--br) 0px 0px;
+}
+.powercord-quickcss-footer {
+    background-color: var(--bg-element);
+    border-radius: 0px 0px var(--br) var(--br);
+}
+.powercord-quickcss .CodeMirror {
+    background: var(--bg-element);
+}
+.powercord-quickcss .CodeMirror-gutters {
+    background: transparent;
+}
+.powercord-quickcss-editor:before, .powercord-quickcss-editor:after {
+    display: none;
+}
+.powercord-quickcss-editor-settings {
+    background: transparent;
+    backdrop-filter: blur(10px) brightness(0.4);
+}
 
 /*** Friends List ***/
 /** Active Now **/
 /* Background */
 .nowPlayingColumn-2sl4cE {
     background: var(--containerfriendslist);
+}
+.tabBody-3YRQ8W:before {
+    display: none;
 }
 /* Card */
 .itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.padded-302COx.interactive-3B9GmY {
@@ -2377,7 +2529,7 @@ h2.paymentHeader-3QlZQi {
 }
 }
 .searchBar-6Kv8R2 {
-    box-shadow: none;
+    box-shadow: none !important;
 }
 /** Out of App Areas ***/
 /** Login Screen **/
@@ -2493,11 +2645,62 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 .expandedFolderBackground-2sPsd- {
     background-color: var(--bg-element);
 }
+.auditLog-3jNbM6 {
+    border: none;
+    border-radius: var(--br) !important;
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.member-1q7VfX.card-FDVird {
+    box-shadow: none;
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.inviteSettingsInviteRow-3p2O-N.card-FDVird {
+    box-shadow: none;
+}
+.guildSeparator-3s64Iy {
+    display: none;
+}
 
-
-
-
-
+/* - Activity - With Treatment 1 from Experimental Options */
+/* Background */
+.container-2kwSDr {
+    background-color: transparent;
+}
+.activityFeed-1gPv3M {
+    background-color: transparent;
+}
+img.backgroundFill-22nw_b {
+    display: none;
+}
+.theme-dark .homepage-3LhjZt.outer-2IVh5n {
+    background-color: var(--bg-element);
+    border: none;
+}
+.theme-dark .recentlyPlayedContainer-2F3MqS.homepage-3nzCdM {
+    background-color: var(--bg-element);
+}
+.theme-dark .homepage-3LhjZt.inset-GQDQYw {
+    background-color: transparent;
+}
+/* Cards */
+.theme-dark .card-3DjzTQ, .theme-dark .cardPlaceholder-1zrbbe {
+    background-color: var(--bg-element);
+    border-radius: var(--br);
+    backdrop-filter: vaR(--bg-blur);
+}
+img.bg-AYqtMd {
+    display: none;
+}
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: transparent;
+}
+img.bg-AYqtMd.pc-bg {
+    display: none;
+}
+.privateChannels-1nO12o {
+    background-color: transparent;
+}
+.scroller-1JbKMe {
+    background-color: transparent;
+}
 
 
 

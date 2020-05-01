@@ -1,19 +1,28 @@
 # v4
- - The transparency mode is no longer supported because it causes black bars to appear behind blurry backgrounds
- - The profile modal got a make over and custom profile covers were moved within the profile modal
- - Mini profiles have also been updated and profile covers are now visible on it
- - The search from home has been moved away from the home button
- - The status picker also got a make over
- - Search bar in the chat header has been moved far right and will now remain expanded
- - A changelog modal was added and can been seen when hovering over the Help button
- - The settings page is small now
- - The new call UI has been themed
- - Accent color can now be a [gradient color](https://cssgradient.io/)
- - Elements using `backdrop-filter` has been fixed(as in not supporting transparency mode anyway)
- - Animation was added to background when booting Discord
- - ~~Category was moved to the side in emoji picker~~ (New Discord update changed this)
- - ~~New emoji picker themed~~ (not yet)
- - [Dream Frame now supports the Guilded client for those Guilded users out there](https://korbsstudio.com/DreamFrame/guilded/)
+ - **Dream Frame's 2nd Anniversary**
+ - Themed the new Inbox
+ - Changed value of default accent color
+ - Removed BDSources import link
+ - Updated Dream Frame's fallback [import link](https://dream-frame.github.io/fallback/fallback.css)
+ - Updated Dream Frame's fallback system for v4
+ - Fixed position of badges if Powercord badges are only showing
+ - Made the settings menu smaller
+ - Fixed backdrop blur
+ - Themed the new emoji menu
+ - Themed the new call UI
+ - Made control buttons on new call UI smaller
+ - Fixed accent color in a couple of places
+ - Accent color can now be gradient
+ - Revamped the profile modal thanks to Tropical
+ - Themed mini profile pop outs
+ - Search bar in chat header moved to left of header buttons
+ - Windows titlebar Updated
+ - Cover in profiles have been moved within the profile modal
+ - Themed mirror code in Powercord's theme settings
+ - Themed Powercord's theme settings
+ - Removed search button on home and reverted back
+ - Email is now blurred on My Account settings
+ - GIF button removed from text box in chat - [Dream Frame now supports the Guilded client for those Guilded users out there](https://korbsstudio.com/DreamFrame/guilded/)
 
 # v3.38
  - Updated the create/join server modal
