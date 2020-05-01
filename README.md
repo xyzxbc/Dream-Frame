@@ -24,9 +24,9 @@ Join [Black Box](https://discord.gg/TeRQEPb) for support.
 
 ## Downloads
 ### Dream Frame
- > Download for [Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Powercord/Dream-Frame.zip)
+ > Download for [Powercord](https://github.com/dream-frame/Dream-Frame/raw/master/Downloads/Dream-Frame.zip)
  
- > Download for [BetterDiscord](https://github.com/dream-frame/Dream-Frame/blob/master/Downloads/BetterDiscord/DreamFrame.theme.css)
- 
+ > Download for [BetterDiscord](https://raw.githubusercontent.com/dream-frame/Dream-Frame/master/Downloads/DreamFrame.theme.css)
+  
 ___
 (C) 2018 - 2020 [Korbs Studio](https://KorbsStudio.com)
