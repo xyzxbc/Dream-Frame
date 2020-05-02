@@ -7,7 +7,6 @@
     /* Adjustments */
     --blur: 0px !important; 
     --opacitybg: 0.3 !important; 
-    --opacityDiscord: 0.7 !important;
     --bgscale: 1 !important; 
     --bgrotation: 0deg !important; 
     --bgrepeat: no-repeat !important; 
@@ -40,8 +39,6 @@
 
     /** Scrollbar **/
     --ScrollbarColor: white !important;
-    --ScrollbarWidth: 14px !important;
-    --ScrollbarBorderRadius: 10px !important;
 
     /** Element Backgrounds(pop ups, menus, tabs, etc...) **/
     /* Blur */
