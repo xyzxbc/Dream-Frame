@@ -12,12 +12,6 @@
     --bgrotation: 0deg !important; 
     --bgrepeat: no-repeat !important; 
 
-    /** App **/
-    /* Margins */
-    --appMargins: 10px !important;
-    /* Round Corners */
-    --appBR: 10px !important;
-
     /** Container Backgrounds **/
     --containerServer:  transparent !important;
     --containerChannels:  transparent !important;
