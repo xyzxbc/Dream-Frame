@@ -251,7 +251,7 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ {
     width: 100px;
     height: 40px;
     visibility: visible !important;
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     box-shadow: none;
     opacity: 1;
     border-radius: var(--br);
@@ -259,7 +259,7 @@ nav.wrapper-1Rf91z.guilds-1SWlCJ {
 .theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
     content: "Settings";
     color: white;
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     font-weight: bold;
     text-align: center;
     margin-left: 11px;
@@ -454,7 +454,7 @@ code.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs {
 }
 .mentioned-xhSam7::after {
     content: "";
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -539,14 +539,14 @@ button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.gro
 
 /** Mark as Read **/
 .newMessagesBar-mujexs.barBase-39XTcM {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     border-radius: var(--br);
     margin-top: 10px;
     padding: 3px 10px;
 }
 /** Jump to present **/
 .jumpToPresentBar-9P20AM.barBase-39XTcM {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     border-radius: var(--br);
     margin-bottom: 10px;
     padding: 3px 10px;
@@ -681,7 +681,7 @@ svg.icon-WnO6o2 {
 }
 /* Unread Indicator */
 .unread-3zKkbm {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     width: 221px;
     left: 9px;
     top: 5px;
@@ -720,7 +720,7 @@ svg.icon-WnO6o2 {
     font-size: 9px;
 }
 .wrapper-pZmgj4 {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     color: white;
 }
 .users-i_3-kL {
@@ -790,7 +790,7 @@ svg.circleIcon-LvPL6c {
     transition: none;
 }
 .circleIconButton-jET_ig {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     transition: none;
 }
 
@@ -855,7 +855,7 @@ svg.circleIcon-LvPL6c {
 /** Tooltip **/
 /* Background */
 .theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     border-radius: var(--br);
     color: var(--accenttext);
     font-weight: bold;
@@ -1056,11 +1056,11 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover {
     color: var(--accenttext);
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     border-radius: var(--br);
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover {
     background-color: rgba(47, 49, 54, 0.5);
@@ -1091,7 +1091,7 @@ header.categoryWrapper-UZ5YNj {
     box-shadow: none;
 }
 button.navButton-3Mnpqt.navButtonActive-3RPAJy.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
 }
 hr.guildCategorySeparator-_An-MP {
     display: none;
@@ -1140,12 +1140,12 @@ hr.guildCategorySeparator-_An-MP {
     border-bottom-color: transparent;
 }
 .item-16cXuq.selected-39BZ4S {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
 }
 .emojiPicker-3m1S-j::before {
     content: "";
     position: absolute;
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     top: 0px;
     left: 0px;
     width: 56px;
@@ -1322,7 +1322,7 @@ hr.guildCategorySeparator-_An-MP {
 
 .root-SR8cQa .tabBarItem-1b8RUP.selected-3s45Ha::before {
     content: "";
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     width: 40px;
     height: 40px;
     position: absolute;
@@ -1413,7 +1413,7 @@ hr.guildCategorySeparator-_An-MP {
 
 .root-SR8cQa .header-QKLPzZ .button-38aScr::before {
     content: "";
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     width: 40px;
     height: 40px;
     border-radius: var(--br);
@@ -1463,7 +1463,7 @@ hr.guildCategorySeparator-_An-MP {
     position:absolute;
     top:-32px;
     font-size:12px;
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     padding:2px 4px;
     border-radius:3px;
     color:#fff;
@@ -2259,7 +2259,7 @@ svg.status-254fhp {
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY {
     color: var(--accenttext);
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     margin-right: 10px;
     border-radius: var(--br) !important;
 }
@@ -2339,7 +2339,7 @@ svg.status-254fhp {
 /** Switches **/
 /* On */
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
 }
 .size-3rFEHg:after {
     background-color: var(--accenttext);
@@ -2385,7 +2385,7 @@ svg.status-254fhp {
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
     color: white;
     border-color: transparent;
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
 }
 .formNotice-2_hHWR.cardPrimary-1Hv-to.card-3Qj_Yx {
     background: var(--bg-element);
@@ -2562,7 +2562,7 @@ h2.paymentHeader-3QlZQi {
 /* Buttons */
 .actionButtons-uPB8Fs {
     color: var(--accenttext);
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
 }
 
 /** Add Friend **/
@@ -2606,7 +2606,7 @@ input.inputDefault-_djjkz.input-cIJ7To {
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     color: #fff;
-    background-image: var(--accentcolor);
+    background: var(--accentcolor);
     border-radius: var(--br);
 }
 .qrCodeOverlay-qgtlTP::before {
@@ -2868,4 +2868,3 @@ form.modal-yWgWj-.sizeSmall-1jtLQy.fullscreenOnMobile-1aglG_ {
     backdrop-filter: var(--bg-blur);
     box-shadow: none;
 }
-
