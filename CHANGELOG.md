@@ -1,6 +1,7 @@
 # v4
  - **Dream Frame's 2nd Anniversary**
  - Themed the new Inbox
+ - **Transparency** is no longer supported until an issue like [this](https://github.com/AryToNeX/Glasscord/issues/17 is solved in Electron
  - Changed value of default accent color
  - Removed BDSources import link
  - Updated Dream Frame's fallback [import link](https://dream-frame.github.io/fallback/fallback.css)
