@@ -4,7 +4,7 @@
 
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4";
+    content: "Dream Frame v4.01";
     color: white;
     font-size: 12px !important;
 }
@@ -127,10 +127,12 @@
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: var(--ScrollbarColor);
     border-color: transparent;
+    width: 50px !important;
 }
 .webkit-HjD9Er::-webkit-scrollbar-thumb {
     background-color: var(--ScrollbarColor);
     border-radius: 8px;
+    width: 50px !important;
 }
 /* Channels */
 .theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
@@ -404,6 +406,9 @@ span.latin24CompactTimeStamp-2V7XIQ.timestamp-3ZCmNB.timestampVisibleOnHover-2bQ
     background: var(--bg-element);
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
+}
+.embedWrapper-lXpS3L.embedFull-2tM8--.embed-IeVjo6.markup-2BOw-j {
+    border-width: 7px;
 }
 .markup-2BOw-j a {
     color: var(--text-link);
@@ -2764,27 +2769,32 @@ img.bg-AYqtMd.pc-bg {
     border-radius: var(--br);
     backdrop-filter: vaR(--bg-blur);
 }
-.animatorBottom-fS5rNO.translate-2dAEQ6.didRender-33z1u8 {
-    position: fixed;
-    top: 60px;
-    left: 30px;
-}
-
 .lookOutlined-3sRXeN.colorGreen-29iAKY {
     color: #43b581;
     border-color: rgba(67,181,129,.3);
     border-radius: var(--br);
 }
-
+.theme-dark .container-VSDcQc .sectionTag-pXyto9 {
+    background-color: var(--bg-element);
+    color: white;
+    backdrop-filter: var(--bg-blur);
+}
+.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .header-2bNvm4 {
+    background-color: var(--bg-element);
+    color: white;
+    backdrop-filter: var(--bg-blur);
+}
 .input-cIJ7To.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs {
     border: none;
     background: transparent;
+    backdrop-filter: var(--bg-blur);
 }
-
+.row-rrHHJU.selected-1pIgLL {
+    background: transparent !important;
+}
 .container-2x5lvQ {
     background-color: var(--bg-element) !important;
     border-radius: var(--br);
-    backdrop-filter: vaR(--bg-blur);
 }
 .tierHeaderLocked-1a2opw.tierHeader-rlkkJd {
     margin-bottom: 10px;
@@ -2866,5 +2876,32 @@ form.modal-yWgWj-.sizeSmall-1jtLQy.fullscreenOnMobile-1aglG_ {
     border-radius: var(--br);
     background: var(--bg-element);
     backdrop-filter: var(--bg-blur);
+    box-shadow: none;
+}
+.autocompleteArrowWrapper-3Z7OuM {
+    display: none;
+}
+a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.embedTitleLink-1Zla9e.embedLink-1G1K1D.embedTitle-3OXDkz[href="https://www.apple.com/newsroom/2020/05/apple-to-host-virtual-worldwide-developers-conference-beginning-june-22/"] {
+    color: white;
+    padding-left: 40px;
+}
+a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.embedTitleLink-1Zla9e.embedLink-1G1K1D.embedTitle-3OXDkz[href="https://www.apple.com/newsroom/2020/05/apple-to-host-virtual-worldwide-developers-conference-beginning-june-22/"]::before {
+    content: "";
+    background-image: url(https://201758-624029-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/05/white-apple-logo-on-black-background-md.png);
+    background-size: 25px;
+    position: absolute;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    left: 8px;
+    background-repeat: no-repeat;
+}
+.subscribeTooltipWrapper-32-Ce8 {
+    display: none;
+}
+.divider-3wNib3 {
+    border: none;
+}
+.theme-dark .game-1ipmAa {
     box-shadow: none;
 }
