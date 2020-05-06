@@ -1,3 +1,8 @@
+# v4.01
+ - [New editor by Gibbu](https://gibbu.me/editor/dreamframe)
+ - When adding a role to a user, the pop up should appear in the correct position
+ - Removed some dividers from settings page
+ - Bug fixes
 # v4
  - **Dream Frame's 2nd Anniversary**
  - Themed the new Inbox
