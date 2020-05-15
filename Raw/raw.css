@@ -2905,3 +2905,26 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.embedTitleLink-1Zla9e.embedLink-1G
 .theme-dark .game-1ipmAa {
     box-shadow: none;
 }
+.styleFixed-sX-yHV {
+    width: 220px;
+    background: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+    border-radius: var(--br) !important;
+}
+.separator-2I32lJ {
+    display: none;
+}
+.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
+    background: var(--accentcolor);
+    border-radius: var(--br) !important;
+}
+.colorDanger-2qLCe1.focused-3afm-j, .colorDanger-2qLCe1:hover:not(.hideInteraction-1iHO1O) {
+    background: #f04747 !important;
+    color: #fff;
+}
+
+
+
+.scroller-2FKFPG.scroller-305q3I {
+    background: transparent;
+}
