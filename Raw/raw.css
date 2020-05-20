@@ -2928,3 +2928,142 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.embedTitleLink-1Zla9e.embedLink-1G
 .scroller-2FKFPG.scroller-305q3I {
     background: transparent;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.size14-e6ZScH.title-eS5yk3::before {
+    content: "";
+    animation: 15s w ease;
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 {
+    width: 94px;
+    opacity: 1;
+    animation: 15s x ease;
+}
+@keyframes x {
+	0% {
+		opacity: 0;
+		width: 0px;
+	}
+	90% {
+		opacity: 0;
+		width: 0px;
+	}
+	100% {
+    	width: 94px;
+    	opacity: 1;
+    }
+}
+
+@keyframes w {
+	0% {
+		content: "W"
+	}
+	1% {
+		content: "We"
+	}
+	2% {
+		content: "Wel"
+	}
+	3% {
+		content: "Welc"
+	}
+	4% {
+		content: "Welco"
+	}
+	5% {
+		content: "Welcom"
+	}
+	6% {
+		content: "Welcome"
+	}
+	7% {
+		content: "Welcome "
+	}
+	8% {
+		content: "Welcome b"
+	}
+	9% {
+		content: "Welcome ba"
+	}
+	10% {
+		content: "Welcome ba"
+	}
+	11% {
+		content: "Welcome bac"
+	}
+	12% {
+		content: "Welcome back"
+	}
+	13% {
+		content: "Welcome back, "
+	}
+	14% {
+		content: "Welcome back, "
+	}
+	86% {
+		content: "Welcome back, "
+	}
+	87% {
+		content: "Welcome back"
+	}
+	88% {
+		content: "Welcome back"
+	}
+	89% {
+		content: "Welcome bac"
+	}
+	90% {
+		content: "Welcome ba"
+	}
+	91% {
+		content: "Welcome b"
+	}
+	92% {
+		content: "Welcome "
+	}
+	93% {
+		content: "Welcome"
+	}
+	94% {
+		content: "Welcom"
+	}
+	95% {
+		content: "Welco"
+	}
+	96% {
+		content: "Welc"
+	}
+	97% {
+		content: "Wel"
+	}
+	98% {
+		content: "We"
+	}
+	99% {
+		content: "W"
+	}
+	100% {
+		content: ""
+	}
+}
