@@ -3092,3 +3092,8 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.embedTitleLink-1Zla9e.embedLink-1G
     top: 0px;
     left: 0px;
 }
+
+
+.powercord-toast {
+	animation: none !important;
+}
