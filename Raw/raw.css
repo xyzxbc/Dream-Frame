@@ -3135,6 +3135,51 @@ a.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.embedTitleLink-1Zla9e.embedLink-1G
 
 
 
+section.searchResultsWrap-3-pOjs {
+    background: var(--bg-element);
+    border-radius: var(--br);
+    margin: 20px;
+    backdrop-filter: var(--bg-blur);
+    box-shadow: none;
+}
+.channelSeparator-dTqJ4K:before {
+    display: none;
+}
+span.channelName-wvgELL {
+    background: transparent;
+}
+.searchResult-2N9RV4:before {
+    display: none
+}
+.searchResult-2N9RV4:after {
+    display: none;
+}
+.searchResultMessage-30QnSN.hit-1CXhXT {
+    box-shadow: none;
+    border-radius: var(--br);
+    background: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.styleFlexible-wGDiIL {
+    background-color: var(--bg-element);
+    backdrop-filter: var(--bg-blur);
+    border-radius: var(--br);
+}
+.wrapper-3_530D {
+    display: none;
+}
 
 
 
