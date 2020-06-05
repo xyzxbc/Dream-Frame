@@ -49,7 +49,7 @@
     --tag-bg: transparent url(https://media2.giphy.com/media/1dJWnCZBCE7gcFwLvk/source.gif) center;
 }
 
-.avatar-1BDn8e[src*="273169968202252289"] + h2 > span.timestamp-3ZCmNB::before { /* Korbs */
+.avatar-1BDn8e[src*="707043684889133117"] + h2 > span.timestamp-3ZCmNB::before { /* Korbs */
     --tag-text: 'Dream Frame Developer';
 }
 
@@ -67,6 +67,10 @@
 }
 
 .avatar-1BDn8e[src*="102541888376020992"] + h2 > span.timestamp-3ZCmNB::before { /* Plox */
+    --tag-text: 'Donator';
+}
+
+.avatar-1BDn8e[src*="126053182748098567"] + h2 > span.timestamp-3ZCmNB::before { /* Plox */
     --tag-text: 'Donator';
 }
 
