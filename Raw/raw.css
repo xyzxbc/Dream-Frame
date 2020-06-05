@@ -687,8 +687,8 @@ svg.icon-WnO6o2 {
 /* Unread Indicator */
 .unread-3zKkbm {
     background: var(--accentcolor);
-    width: 221px;
-    left: 9px;
+    width: 224px;
+    left: 8px;
     top: 5px;
     height: 32px;
     border-radius: var(--br);
@@ -1098,7 +1098,7 @@ a.react-datepicker__navigation.react-datepicker__navigation--next {
     border-radius: var(--br);
     backdrop-filter: var(--bg-blur);
 }
-header.categoryWrapper-UZ5YNj {
+.categoryWrapper-UZ5YNj {
     background: transparent;
 }
 .inspector-sdLnLS.inspector-3LQtX9 {
