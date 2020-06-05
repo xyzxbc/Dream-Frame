@@ -647,6 +647,12 @@ span.content-1o0f9g {
     bottom: 10px;
     border-radius: var(--br);
     padding: 0px;
+    opacity: 0;
+    transition: 0.4s opacity;
+}
+.videoControls-2kcYic:hover {
+    opacity: 1;
+    transition: 0.4s opacity;
 }
 /* Top */
 
