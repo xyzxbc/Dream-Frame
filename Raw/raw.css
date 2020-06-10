@@ -1,14 +1,12 @@
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url('https://dream-frame.github.io/fallback/fallback.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
-
 /* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame v4.02";
+    content: "Dream Frame v4.03 (in-progress)";
     color: white;
     font-size: 12px !important;
 }
-
 .theme-dark {
     --background-tertiary: transparent !important;
     --header-primary: white;
@@ -22,12 +20,10 @@
     --interactive-muted: rgba(255, 255, 255, 0.5);
     --elevation-low: none !important;
 }
-
 /** Tags **/
 :root {
     --tag-bg: var(--accentcolor);
 }
-
 .avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
     content: var(--tag-text);
     color: var(--accenttext) !important;
@@ -42,52 +38,53 @@
     margin-right: .50rem;
     margin-left: -.25rem;
 }
-
 /* Dream Frame Team */
 .avatar-1BDn8e[src*="597905003717459968"] + h2 > span.timestamp-3ZCmNB::before { /* creatable#0123 */
     --tag-text: 'look at my discrim peasant';
     --tag-bg: transparent url(https://media2.giphy.com/media/1dJWnCZBCE7gcFwLvk/source.gif) center;
 }
-
 .avatar-1BDn8e[src*="707043684889133117"] + h2 > span.timestamp-3ZCmNB::before { /* Korbs */
     --tag-text: 'Dream Frame Developer';
 }
-
 /* Donators */
 .avatar-1BDn8e[src*="126053182748098567"] + h2 > span.timestamp-3ZCmNB::before { /* ! Siage */
     --tag-text: 'Donator';
 }
-
 .avatar-1BDn8e[src*="224193802187833344"] + h2 > span.timestamp-3ZCmNB::before { /* Winter */
     --tag-text: 'Donator';
 }
-
 .avatar-1BDn8e[src*="383345807228928010"] + h2 > span.timestamp-3ZCmNB::before { /* Bryce */
     --tag-text: 'Donator';
 }
-
 .avatar-1BDn8e[src*="102541888376020992"] + h2 > span.timestamp-3ZCmNB::before { /* Plox */
     --tag-text: 'Donator';
 }
-
 .avatar-1BDn8e[src*="126053182748098567"] + h2 > span.timestamp-3ZCmNB::before { /* Plox */
     --tag-text: 'Donator';
 }
-
-.bg-h5JY_x::before {
-    content: "#BlackLivesMatter";
+div#app-mount::before {
+    content: "";
     position: fixed;
-    bottom: 0px;
-    right: 0px;
-    z-index: 5;
-    color: white;
-    font-weight: bold;
-    background: black;
-    padding: 30px 80px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px 0px black;
-    margin: 30px;
-    pointer-events: none;
-    opacity: 0;
-    animation: 5s fadeOut ease;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background: var(--custombackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.4);
+}
+div#app-mount, .app-2rEoOp, .sidebar-2K8pFh, .chat-3bRxxu, section.title-3qD0b-.container-1r6BKw.themed-ANHk51, .scroller-2FKFPG.messages-3amgkR.scroller-3sQKXg, .scroller-2FKFPG.members-1998pB, nav.container-PNkimc, section.panels-j1Uci_, nav.privateChannels-1nO12o, .scroller-2FKFPG.scroller-1JbKMe, section.container-1r6BKw.themed-ANHk51, .container-1D34oG, .nowPlayingColumn-2sl4cE, .theme-dark .container-1D34oG {
+    background: transparent !important;
+}
+.form-2fGMdU:before, .children-19S4PO:after {
+    display: none;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-color: transparent;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border: none;
 }
