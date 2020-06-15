@@ -17,12 +17,11 @@ Dream Frame offers customization like custom background, colors, fonts, and blur
 ## Discord Mod Support
 BetterDiscord: https://betterdiscord.net/
 
-Powercord: https://Powercord.dev
+Powercord(Official): https://Powercord.dev
 
+Powercord for Discord Stable(Unofficial): https://korbsstudio.com/DreamFrame/powercord-for-discord-stable/
 
-Powercord for Discord Stable: https://korbsstudio.com/DreamFrame/powercord-for-discord-stable/
-
-Powercord for Discord PTB: https://github.com/dream-frame/powercord-for-discord-ptb
+Powercord for Discord PTB(Unofficial): https://korbsstudio.com/DreamFrame/powercord-for-discord-ptb/
 
 ## Support
 Join [Black Box](https://discord.gg/TeRQEPb) for support.
