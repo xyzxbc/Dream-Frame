@@ -19,10 +19,6 @@ BetterDiscord: https://betterdiscord.net/
 
 Powercord(Official): https://Powercord.dev
 
-Powercord for Discord Stable(Unofficial): https://korbsstudio.com/DreamFrame/powercord-for-discord-stable/
-
-Powercord for Discord PTB(Unofficial): https://korbsstudio.com/DreamFrame/powercord-for-discord-ptb/
-
 ## Support
 Join [Black Box](https://discord.gg/TeRQEPb) for support.
 
