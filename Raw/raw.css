@@ -2,6 +2,10 @@
 @import url('https://dream-frame.github.io/fallback/fallback.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 :root {
+    --glasscord-win-blur: blurbehind;
+    --glasscord-macos-vibrancy: fullscreen-ui;
+    --glasscord-linux-blur: true;
+    --glasscord-titlebar: osx;
     --usrbg-modal-x-offset:-34px;
     --usrbg-modal-y-offset:-20px;
     --usrbg-modal-width:600px;
