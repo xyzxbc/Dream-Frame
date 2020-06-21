@@ -1,0 +1,11 @@
+#splash::before {
+    content: "Dream Frame v4.03";
+    position: fixed;
+    z-index: 5;
+    color: white;
+    font-family: whitney;
+    font-weight: 100;
+    font-size: 16px;
+    font-style: italic;
+    bottom: 40px;
+}
