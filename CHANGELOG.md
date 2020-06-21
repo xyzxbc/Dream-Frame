@@ -1,3 +1,7 @@
+# v4.03 - In progress and this is the current version out for everyone
+ - New splash screen customization, which requires Powercord, and must download the new splash file and update the manifest file
+# v4.02
+ - Bug fixes
 # v4.01
  - [New editor by Gibbu](https://gibbu.me/editor/dreamframe)
  - When adding a role to a user, the pop up should appear in the correct position
