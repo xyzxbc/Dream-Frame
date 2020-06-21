@@ -7,6 +7,9 @@
 Dream Frame offers customization like custom background, colors, fonts, and blur adjustments. One of the best translucent themes out there for Powercord and BetterDiscord.
 
 ## Features
+ ### Custom Splash Screen
+ The [custom splash screen](https://cdn.discordapp.com/attachments/449175562573840386/724088850540003398/unknown.png) is new in Dream Frame v4.03, where you can add a custom background to the splash screen when Discord is booting up.
+ This is ONLY possible in [Powercord](https://Powercord.dev).
  ### Custom Background
  Use an image URL from popular image providers to set whatever background you want that fill the whole screen. Set blur, opacity, rotation, and other adjustments to the background.
  ### Custom Colors
