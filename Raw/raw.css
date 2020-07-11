@@ -12,7 +12,7 @@
     --usrbg-modal-height:360px;
 }
 /* Version of DF */
-.info-1VyQPT::before {content: "Dream Frame v4.03 (in-progress)";color: white;font-size: 12px !important;}
+.info-1VyQPT::before {content: "Dream Frame v4.03";color: white;font-size: 12px !important;}
 .theme-dark {
     --background-tertiary: transparent !important;
     --header-primary: white;
@@ -25,6 +25,7 @@
     --interactive-active: white;
     --interactive-muted: rgba(255, 255, 255, 0.5);
     --elevation-low: none !important;
+    --scrollbar-thin-thumb: var(--ScrollbarColor);
 }
 .theme-light {
     --background-tertiary: transparent !important;
@@ -38,6 +39,7 @@
     --interactive-active: white;
     --interactive-muted: rgba(255, 255, 255, 0.5);
     --elevation-low: none !important;
+    --scrollbar-thin-thumb: var(--ScrollbarColor);
 }
 /** Tags **/
 :root {--tag-bg: var(--accentcolor);}
@@ -140,7 +142,7 @@ svg.icon-22AiRD, .wordmarkWindows-1v0lYD, .theme-dark .text-GwUZgS, .theme-dark 
 }
 .scroller-2FKFPG::-webkit-scrollbar {width: 8px;}
 .rolesList-22qj2L {margin: 0px !important;}
-.content-3at_AU, button, .messagesPopoutWrap-1MQ1bW, .container-enaOkj, .messageContainer-gbhlwo, .cardPrimary-1Hv-to, .theme-dark .everyonePopout-nEbJY3, .emptyCard-1RJw8n, .animatedContainer-1pJv5C, .emojiPicker-3PwZFl, .theme-dark .autocomplete-1vrmpx, .card-1yV8cG.completed-utEvtk, .wrapper-35wsBm, input, .newMessagesBar-mujexs.barBase-39XTcM, .userInfoViewing-16kqK3.cardPrimary-1Hv-to.card-3Qj_Yx, .jumpToPresentBar-9P20AM.barBase-39XTcM, .embedWrapper-lXpS3L.embedFull-2tM8--.embed-IeVjo6.markup-2BOw-j, .styleFlexible-wGDiIL, .contentWrapper-SvZHNd, .theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z, .item-1tOPte, .layout-2DM8Md, .embed-IeVjo6, .embedImage-2W1cML img, .embedImage-2W1cML video, .embedThumbnail-2Y84-K img, .embedThumbnail-2Y84-K video, .embedVideo-3nf0O9 img, .embedVideo-3nf0O9 video, code.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs.bash, .styleFixed-sX-yHV {
+.content-3at_AU, button, .powercord-snippet-apply:not(.applied) div:hover, .userLimit-64AFxe, .folder-21wGz3, .folderIconWrapper-226oVY svg, .theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z, .unread-3zKkbm, .newMessagesBar-mujexs.barBase-39XTcM, .messagesPopoutWrap-1MQ1bW, .container-enaOkj, .messageContainer-gbhlwo, .cardPrimary-1Hv-to, .theme-dark .everyonePopout-nEbJY3, .emptyCard-1RJw8n, .animatedContainer-1pJv5C, .emojiPicker-3PwZFl, .theme-dark .autocomplete-1vrmpx, .card-1yV8cG.completed-utEvtk, .wrapper-35wsBm, input, .newMessagesBar-mujexs.barBase-39XTcM, .userInfoViewing-16kqK3.cardPrimary-1Hv-to.card-3Qj_Yx, .jumpToPresentBar-9P20AM.barBase-39XTcM, .embedWrapper-lXpS3L.embedFull-2tM8--.embed-IeVjo6.markup-2BOw-j, .styleFlexible-wGDiIL, .contentWrapper-SvZHNd, .theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z, .item-1tOPte, .layout-2DM8Md, .embed-IeVjo6, .embedImage-2W1cML img, .embedImage-2W1cML video, .embedThumbnail-2Y84-K img, .embedThumbnail-2Y84-K video, .embedVideo-3nf0O9 img, .embedVideo-3nf0O9 video, code.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9.hljs.bash, .styleFixed-sX-yHV {
     border-radius: var(--br) !important;
 }
 .icon-3Gkjwa {width: 15px;height: 15px;}
@@ -154,6 +156,8 @@ svg.icon-22AiRD, .wordmarkWindows-1v0lYD, .theme-dark .text-GwUZgS, .theme-dark 
 .contentWrapper-SvZHNd, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU:hover, .messageContainer-gbhlwo, .container-enaOkj, .messagesPopoutWrap-1MQ1bW, .cardPrimary-1Hv-to, .theme-dark .everyonePopout-nEbJY3, .theme-dark .invite-18yqGF, .emptyCard-1RJw8n, .userPopout-3XzG_A, .emojiPicker-3PwZFl, .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.root-SR8cQa, .theme-dark .autocomplete-1vrmpx, .card-1yV8cG.completed-utEvtk, .wrapper-35wsBm, .embedWrapper-lXpS3L.embedFull-2tM8--.embed-IeVjo6.markup-2BOw-j, .userInfoViewing-16kqK3.cardPrimary-1Hv-to.card-3Qj_Yx {
     backdrop-filter: var(--bg-blur) !important;
 }
+* {font-family: var(--font)}
+
 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {color: transparent !important;}
 .rolesList-22qj2L {overflow-y: auto;overflow-x: hidden;max-height: 175px;}
 .rolesList-22qj2L::-webkit-scrollbar {width: 5px;height: 14px;}
@@ -174,3 +178,4 @@ span.users-i_3-kL::before {content: "/";margin-left: 16.5px;position: absolute;f
 .wrapper-1-Fsb8.header-ywPcAE, .channelHeader-3Gd2xq {position: relative;}
 .titleName-3RLGx4 p {text-align: left;}
 .colorHeaderPrimary-26Jzh-.size32-o_H79z.titleName-3RLGx4 {position: absolute;left: 70px;top: 110px;}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-thumb {border-color: var(--ScrollbarColor);}
