@@ -177,5 +177,5 @@ span.users-i_3-kL::before {content: "/";margin-left: 16.5px;position: absolute;f
 .headerPlaying-j0WQBV.header-2BwW8b.size16-14cGz5::before {content: "";position: absolute;top: 0px;left: 0px;background: var(--accentcolor);width: -webkit-fill-available;height: -webkit-fill-available;opacity: 0.2;border-radius: var(--br);}
 .wrapper-1-Fsb8.header-ywPcAE, .channelHeader-3Gd2xq {position: relative;}
 .titleName-3RLGx4 p {text-align: left;}
-.colorHeaderPrimary-26Jzh-.size32-o_H79z.titleName-3RLGx4 {position: absolute;left: 70px;top: 110px;}
+.colorHeaderPrimary-26Jzh-.size32-o_H79z.titleName-3RLGx4 {width: max-content;}
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-thumb {border-color: var(--ScrollbarColor);}
