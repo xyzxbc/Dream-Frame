@@ -57,7 +57,7 @@
 }
 
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignEnd-1D6PQi.noWrap-3jynv6.listeningActionsProfile-1fYwru {
-    top: 9px;
+    top: -2px;
 }
 
 .contentImagesProfile-1Mz07W.content-3JfFJh {
@@ -289,16 +289,22 @@
 }
 
 .root-SR8cQa .profileBadges-2vWUYb {
-    position:absolute;
-    bottom:0;
-    left:0;
-    margin:24px 18px;
-    width:calc(100% - 90px);
+    position: absolute;
+    bottom: -310px;
+    left: -80px;
+    margin: 24px 18px;
+    width: calc(100% - 90px);
 }
 
 .root-SR8cQa .profileBadge-2BqF-Z {
     width:18px;
     height:18px;
+}
+
+.activityProfile-2bJRaP.activity-1ythUs {
+    position: absolute;
+    width: 700px;
+    background: #1d1d1d;
 }
 
 .root-SR8cQa .additionalActionsIcon-1FoUlE {
@@ -596,3 +602,14 @@
 .contentGameImageProfile-WTVbI0 {
     margin-bottom:0;
 }
+
+
+
+
+
+.infoScroller-3EYYns.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {
+    height: 190px;
+    position: absolute;
+    bottom: 0px;
+}
+
