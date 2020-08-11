@@ -1,5 +1,3 @@
-<h3 style="color: red" align="center">Dream Frame is currently being restored due to recent Discord update</h3>
-
 # Dream Frame
 <img src="https://i.imgur.com/g9Us8jt.png" data-canonical-src="https://i.imgur.com/g9Us8jt.png" width="200"/>
 
