@@ -1,4 +1,9 @@
-# v4.03 - In progress and this is the current version out for everyone
+# v4.1
+ - The new thread feature has been themed
+ - The new reply feature has been themed
+ - Text alignment was fixed at the beginning of a channel
+ - Server rings are back, well fixed
+# v4.03
  - New splash screen customization, which requires Powercord, and must download the new splash file and update the manifest file
 # v4.02
  - Bug fixes
