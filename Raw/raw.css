@@ -202,9 +202,6 @@ span.users-i_3-kL::before {content: "/";margin-left: 16.5px;position: absolute;f
 .unread-3zKkbm::before {content: "";background: var(--accentcolor);width: 222px;height: 29px;position: absolute;top: -11px;left: 9px;border-radius: var(--br);opacity: 0.3;backdrop-filter: blur(10px);}
 .unread-3zKkbm {height: 0px;}
 
-nav.wrapper-1Rf91z.guilds-1SWlCJ, .pill-31IEus.wrapper-sa6paO, .unreadMentionsIndicatorTop-gA6RCh, .unreadMentionsIndicatorBottom-BXS58x, .listItem-2P_4kh {
-    width: 100px;
-}
 img.icon-27yU2q {
     border-radius: 50px !important;
 }
